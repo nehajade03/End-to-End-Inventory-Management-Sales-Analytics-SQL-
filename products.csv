@@ -1,0 +1,5001 @@
+product_id,product_name,category,price,reorder_level
+1,Gym Bag,Sports,99.24,25
+2,Printer Paper,Office Supplies,275.05,42
+3,Bluetooth Headphones,Electronics,417.73,15
+4,Football,Sports,190.97,42
+5,Belt,Clothing,212.78,49
+6,Basketball Hoop,Sports,229.53,37
+7,Belt,Clothing,239.03,28
+8,Hat,Clothing,70.39,28
+9,Ink Cartridge,Office Supplies,491.86,43
+10,Television,Electronics,79.78,49
+11,Jeans,Clothing,190.76,11
+12,Sofa,Furniture,133.5,37
+13,T-Shirt,Clothing,134.56,25
+14,Gaming Console,Electronics,141.27,34
+15,Bookshelf,Furniture,259.07,14
+16,Wardrobe,Furniture,246.23,17
+17,Running Shoes,Sports,79.02,37
+18,Office Chair,Furniture,363.72,31
+19,Office Chair,Furniture,156.84,38
+20,Running Shoes,Sports,237.62,25
+21,Hat,Clothing,48.55,11
+22,Smartphone,Electronics,446.02,43
+23,Smartwatch,Electronics,190.57,26
+24,Hat,Clothing,381.54,13
+25,Bluetooth Headphones,Electronics,86.62,27
+26,Smartwatch,Electronics,83.95,31
+27,Sneakers,Clothing,258.53,34
+28,File Folder,Office Supplies,482.9,28
+29,Laptop,Electronics,217.03,33
+30,Television,Electronics,499.68,50
+31,Dining Table,Furniture,10.23,22
+32,Ink Cartridge,Office Supplies,372.36,19
+33,Office Chair,Furniture,273.26,43
+34,Notebook,Office Supplies,392.21,36
+35,Pen,Office Supplies,358.6,15
+36,Laptop,Electronics,290.9,17
+37,Bluetooth Headphones,Electronics,476.36,33
+38,Football,Sports,432.62,11
+39,Bookshelf,Furniture,66.09,45
+40,Pen,Office Supplies,435.58,47
+41,Dining Table,Furniture,93.48,31
+42,Notebook,Office Supplies,246.74,10
+43,Running Shoes,Sports,189.76,30
+44,Digital Camera,Electronics,144.78,16
+45,Desk Organizer,Office Supplies,439.83,11
+46,Dining Table,Furniture,236.05,30
+47,Laptop,Electronics,265.86,35
+48,Bookshelf,Furniture,218.4,47
+49,Bookshelf,Furniture,477.01,41
+50,Laptop,Electronics,170.2,50
+51,Notebook,Office Supplies,172,44
+52,T-Shirt,Clothing,257.13,35
+53,Ink Cartridge,Office Supplies,394.89,45
+54,Hat,Clothing,8.56,47
+55,Ink Cartridge,Office Supplies,385.15,43
+56,Bookshelf,Furniture,458.34,12
+57,Desk Organizer,Office Supplies,340.75,35
+58,Whiteboard,Office Supplies,458.26,31
+59,Bicycle,Sports,285.79,14
+60,Pen,Office Supplies,268.9,39
+61,Printer Paper,Office Supplies,34.21,23
+62,Jeans,Clothing,292.51,34
+63,Bicycle,Sports,425.07,14
+64,Hat,Clothing,362.32,33
+65,Smartwatch,Electronics,331.63,30
+66,T-Shirt,Clothing,307.99,18
+67,Stapler,Office Supplies,495.55,22
+68,TV Stand,Furniture,406.1,40
+69,Sneakers,Clothing,266.77,29
+70,Yoga Mat,Sports,190.16,48
+71,Yoga Mat,Sports,223.81,11
+72,Smartwatch,Electronics,16.38,32
+73,Ink Cartridge,Office Supplies,77.27,31
+74,Smartwatch,Electronics,212.97,13
+75,Stapler,Office Supplies,222.18,39
+76,Jeans,Clothing,150.94,43
+77,Dress,Clothing,285.74,50
+78,TV Stand,Furniture,272.6,39
+79,Dress,Clothing,49.16,43
+80,Dining Table,Furniture,447.43,48
+81,Jeans,Clothing,293.25,14
+82,Dress,Clothing,103.12,14
+83,Printer Paper,Office Supplies,283.56,33
+84,Printer Paper,Office Supplies,241.56,14
+85,Hat,Clothing,308.02,16
+86,Jacket,Clothing,209.27,42
+87,Jeans,Clothing,470.76,23
+88,Desk Organizer,Office Supplies,196.16,48
+89,Jacket,Clothing,479.41,22
+90,Gaming Console,Electronics,208.07,35
+91,Running Shoes,Sports,359.39,49
+92,Dining Table,Furniture,71.2,40
+93,Belt,Clothing,192.94,38
+94,Gym Bag,Sports,97.15,16
+95,Power Bank,Electronics,301.54,25
+96,T-Shirt,Clothing,364.21,49
+97,Office Chair,Furniture,423.86,43
+98,Whiteboard,Office Supplies,242.01,47
+99,Dumbbell,Sports,371.08,20
+100,Jeans,Clothing,306.43,47
+101,Basketball Hoop,Sports,311.68,48
+102,Digital Camera,Electronics,163.45,10
+103,Jacket,Clothing,427.52,49
+104,T-Shirt,Clothing,326.66,35
+105,Bookshelf,Furniture,456.99,24
+106,TV Stand,Furniture,67.99,27
+107,Smartwatch,Electronics,361.73,15
+108,Hat,Clothing,205.07,42
+109,File Folder,Office Supplies,169.32,37
+110,Tennis Racket,Sports,15.5,43
+111,Desk Organizer,Office Supplies,359.7,13
+112,Office Chair,Furniture,14.92,30
+113,Sofa,Furniture,145.21,28
+114,File Folder,Office Supplies,207.96,47
+115,Dumbbell,Sports,116.32,17
+116,Football,Sports,294.93,48
+117,Dress,Clothing,208.69,42
+118,Office Chair,Furniture,240.83,44
+119,Sneakers,Clothing,234.67,20
+120,Coffee Table,Furniture,481.69,14
+121,Sneakers,Clothing,116.41,41
+122,Printer Paper,Office Supplies,467.2,37
+123,T-Shirt,Clothing,150.3,30
+124,Ink Cartridge,Office Supplies,452.55,25
+125,Wardrobe,Furniture,431.9,10
+126,Jacket,Clothing,154.75,39
+127,Pen,Office Supplies,457.16,45
+128,Jeans,Clothing,258.59,34
+129,Desk Organizer,Office Supplies,401.49,11
+130,Television,Electronics,402.27,13
+131,Bookshelf,Furniture,128.83,26
+132,Belt,Clothing,15.78,39
+133,Whiteboard,Office Supplies,372.21,32
+134,Whiteboard,Office Supplies,23.1,30
+135,Dining Table,Furniture,393.74,15
+136,Ink Cartridge,Office Supplies,45.34,16
+137,Television,Electronics,272.57,50
+138,Digital Camera,Electronics,377.84,31
+139,Hat,Clothing,415.23,50
+140,Running Shoes,Sports,128.04,37
+141,Running Shoes,Sports,139.45,20
+142,Coffee Table,Furniture,269.52,15
+143,Sneakers,Clothing,348.09,23
+144,Running Shoes,Sports,229.82,27
+145,Office Chair,Furniture,268.85,19
+146,Dining Table,Furniture,268.43,20
+147,Hoodie,Clothing,149.54,30
+148,Dress,Clothing,306.87,23
+149,Sofa,Furniture,171.09,49
+150,Television,Electronics,412.31,31
+151,Basketball Hoop,Sports,259.87,11
+152,Power Bank,Electronics,124.18,28
+153,Dress,Clothing,407,21
+154,Basketball Hoop,Sports,216.73,30
+155,Bluetooth Headphones,Electronics,363.41,42
+156,Belt,Clothing,215.58,18
+157,Gym Bag,Sports,181.46,22
+158,Running Shoes,Sports,65.23,45
+159,Laptop,Electronics,45.32,31
+160,Football,Sports,249.88,18
+161,File Folder,Office Supplies,43.14,36
+162,TV Stand,Furniture,56.9,18
+163,Dress,Clothing,371.05,39
+164,Yoga Mat,Sports,226.29,37
+165,Jeans,Clothing,172.87,32
+166,Ink Cartridge,Office Supplies,366.41,11
+167,Television,Electronics,57.43,27
+168,Office Chair,Furniture,133.44,50
+169,Pen,Office Supplies,263.09,44
+170,Bed,Furniture,268.78,23
+171,Basketball Hoop,Sports,69.75,11
+172,Hat,Clothing,195.75,11
+173,Ink Cartridge,Office Supplies,23.65,33
+174,Notebook,Office Supplies,480.81,34
+175,Bicycle,Sports,326.2,43
+176,Bicycle,Sports,284.3,19
+177,Running Shoes,Sports,68.34,14
+178,Bookshelf,Furniture,69.79,34
+179,Bed,Furniture,291.88,14
+180,Jacket,Clothing,430.66,20
+181,Bed,Furniture,131.94,15
+182,Smartphone,Electronics,265.62,19
+183,Football,Sports,77.06,18
+184,Sofa,Furniture,382,49
+185,Gym Bag,Sports,119.33,39
+186,Sofa,Furniture,464.96,40
+187,Football,Sports,192.94,50
+188,Yoga Mat,Sports,308.1,39
+189,Gym Bag,Sports,189.8,32
+190,Bookshelf,Furniture,290.39,13
+191,Basketball Hoop,Sports,313.58,15
+192,Dining Table,Furniture,157.32,35
+193,Notebook,Office Supplies,460,21
+194,Desk Organizer,Office Supplies,151.43,29
+195,Bed,Furniture,282.52,35
+196,Sofa,Furniture,386.68,10
+197,Hoodie,Clothing,452.47,36
+198,Jacket,Clothing,296.78,46
+199,Power Bank,Electronics,366.22,42
+200,Hat,Clothing,150.97,36
+201,Printer Paper,Office Supplies,314.16,35
+202,Hat,Clothing,41.25,37
+203,Stapler,Office Supplies,376.38,10
+204,Tennis Racket,Sports,420.53,14
+205,Jacket,Clothing,336.27,37
+206,Bed,Furniture,63.95,16
+207,Basketball Hoop,Sports,50.88,15
+208,Hoodie,Clothing,16.54,37
+209,Printer Paper,Office Supplies,344.19,16
+210,Whiteboard,Office Supplies,255.96,32
+211,Notebook,Office Supplies,59.96,50
+212,Stapler,Office Supplies,324.55,32
+213,Basketball Hoop,Sports,384.85,41
+214,Football,Sports,170.97,40
+215,Gym Bag,Sports,391.36,21
+216,Coffee Table,Furniture,111.18,40
+217,Pen,Office Supplies,72.43,38
+218,Laptop,Electronics,88.06,39
+219,File Folder,Office Supplies,287.6,17
+220,Power Bank,Electronics,55.05,26
+221,Laptop,Electronics,226.14,26
+222,Dining Table,Furniture,212.8,33
+223,Bookshelf,Furniture,496,47
+224,Ink Cartridge,Office Supplies,438.82,11
+225,Basketball Hoop,Sports,86.21,34
+226,Tennis Racket,Sports,408.07,38
+227,Bicycle,Sports,483.36,45
+228,Hat,Clothing,20.1,43
+229,Smartphone,Electronics,283.73,48
+230,Belt,Clothing,32.63,12
+231,Power Bank,Electronics,350.01,26
+232,Pen,Office Supplies,451.1,37
+233,Television,Electronics,434.46,16
+234,Dress,Clothing,467.51,29
+235,TV Stand,Furniture,241.23,20
+236,File Folder,Office Supplies,218.77,24
+237,Yoga Mat,Sports,158.72,30
+238,Office Chair,Furniture,474.71,50
+239,Jeans,Clothing,149.77,27
+240,Office Chair,Furniture,247.3,38
+241,Printer Paper,Office Supplies,486.13,13
+242,Dress,Clothing,170.53,19
+243,Office Chair,Furniture,283.26,38
+244,Football,Sports,347.74,11
+245,File Folder,Office Supplies,91.28,29
+246,Printer Paper,Office Supplies,249.57,29
+247,Running Shoes,Sports,6.29,46
+248,Belt,Clothing,118.89,25
+249,Laptop,Electronics,301.04,47
+250,Tennis Racket,Sports,476.34,19
+251,Hat,Clothing,76.44,20
+252,Running Shoes,Sports,184.97,42
+253,Sneakers,Clothing,299.77,18
+254,Sofa,Furniture,156.41,13
+255,T-Shirt,Clothing,338.58,26
+256,Power Bank,Electronics,495.86,22
+257,Dumbbell,Sports,321.28,33
+258,Tennis Racket,Sports,484.79,20
+259,Smartphone,Electronics,418.14,39
+260,Gaming Console,Electronics,177.18,11
+261,Smartwatch,Electronics,426.05,12
+262,Desk Organizer,Office Supplies,322.34,49
+263,Bicycle,Sports,452.01,28
+264,Stapler,Office Supplies,309.92,32
+265,Smartwatch,Electronics,401.91,29
+266,Smartphone,Electronics,41.21,17
+267,Gym Bag,Sports,172.11,18
+268,Stapler,Office Supplies,234.62,12
+269,Bicycle,Sports,374.49,50
+270,Laptop,Electronics,142.22,45
+271,Running Shoes,Sports,324.65,34
+272,Basketball Hoop,Sports,438.77,11
+273,Dumbbell,Sports,207.02,42
+274,File Folder,Office Supplies,234,19
+275,Bed,Furniture,44.01,24
+276,Pen,Office Supplies,415.87,47
+277,Dress,Clothing,449.6,29
+278,Gym Bag,Sports,435.62,10
+279,Printer Paper,Office Supplies,90.52,30
+280,Bluetooth Headphones,Electronics,444,15
+281,T-Shirt,Clothing,195.4,42
+282,File Folder,Office Supplies,58.82,47
+283,Pen,Office Supplies,252.47,12
+284,Jeans,Clothing,493.03,40
+285,Laptop,Electronics,165.94,23
+286,Coffee Table,Furniture,297.98,36
+287,Ink Cartridge,Office Supplies,356.74,37
+288,Notebook,Office Supplies,87.4,12
+289,Whiteboard,Office Supplies,234.7,44
+290,Football,Sports,168.47,28
+291,Sneakers,Clothing,479.55,49
+292,Bed,Furniture,172.34,38
+293,Smartphone,Electronics,210.22,49
+294,Bookshelf,Furniture,208.34,13
+295,Television,Electronics,386.87,34
+296,Television,Electronics,198.79,32
+297,Pen,Office Supplies,236.93,11
+298,Power Bank,Electronics,417.28,17
+299,Desk Organizer,Office Supplies,324.83,48
+300,Bookshelf,Furniture,399.89,42
+301,Office Chair,Furniture,91.66,12
+302,File Folder,Office Supplies,157.01,38
+303,Football,Sports,57.53,50
+304,Jacket,Clothing,243.22,22
+305,Sofa,Furniture,429.42,17
+306,File Folder,Office Supplies,460.98,12
+307,Notebook,Office Supplies,206.7,37
+308,Whiteboard,Office Supplies,407.12,11
+309,Hat,Clothing,363,38
+310,Bed,Furniture,138.19,45
+311,Dumbbell,Sports,160.71,48
+312,Hoodie,Clothing,382.01,41
+313,Bookshelf,Furniture,391.36,41
+314,Television,Electronics,196.03,22
+315,Bed,Furniture,132.3,33
+316,Ink Cartridge,Office Supplies,403.12,10
+317,Hat,Clothing,38.44,12
+318,Power Bank,Electronics,178.68,32
+319,Football,Sports,25.99,14
+320,Pen,Office Supplies,135.23,49
+321,Running Shoes,Sports,148.03,42
+322,Dumbbell,Sports,453.71,11
+323,T-Shirt,Clothing,80.05,21
+324,Jacket,Clothing,298.49,45
+325,Belt,Clothing,388.01,25
+326,Dumbbell,Sports,495.27,46
+327,Dumbbell,Sports,187.07,12
+328,Hoodie,Clothing,432.35,46
+329,Yoga Mat,Sports,200.58,27
+330,Basketball Hoop,Sports,109.63,41
+331,Stapler,Office Supplies,383.3,36
+332,Hoodie,Clothing,363.74,28
+333,Ink Cartridge,Office Supplies,99.4,40
+334,Desk Organizer,Office Supplies,51.61,44
+335,Smartphone,Electronics,103.55,18
+336,Bluetooth Headphones,Electronics,154.24,32
+337,Laptop,Electronics,21.79,37
+338,Sneakers,Clothing,377.55,47
+339,Bookshelf,Furniture,256.82,17
+340,Yoga Mat,Sports,229.11,44
+341,Television,Electronics,226.03,14
+342,Bed,Furniture,43.79,25
+343,Gym Bag,Sports,438.65,48
+344,Hoodie,Clothing,95.79,11
+345,Pen,Office Supplies,93.01,16
+346,Football,Sports,423.81,11
+347,Bluetooth Headphones,Electronics,412.58,26
+348,Sofa,Furniture,350.11,50
+349,File Folder,Office Supplies,101.22,17
+350,Wardrobe,Furniture,359,13
+351,Hat,Clothing,453.91,33
+352,Bicycle,Sports,349.57,15
+353,Hoodie,Clothing,394.89,35
+354,Television,Electronics,210.06,41
+355,Tennis Racket,Sports,100.41,19
+356,Sofa,Furniture,306.72,17
+357,Laptop,Electronics,96.92,48
+358,Bookshelf,Furniture,24.84,11
+359,Dining Table,Furniture,229.31,21
+360,Sneakers,Clothing,489.67,18
+361,Ink Cartridge,Office Supplies,144.85,45
+362,Television,Electronics,462.18,45
+363,Hat,Clothing,87.63,45
+364,Printer Paper,Office Supplies,255.37,26
+365,Television,Electronics,446.06,32
+366,Gaming Console,Electronics,221.79,31
+367,Hoodie,Clothing,137.47,14
+368,Sneakers,Clothing,437.35,12
+369,Dining Table,Furniture,145.75,23
+370,Bicycle,Sports,289.61,46
+371,Television,Electronics,64.99,37
+372,Notebook,Office Supplies,185.3,22
+373,Wardrobe,Furniture,456.7,26
+374,Notebook,Office Supplies,318.48,20
+375,Jacket,Clothing,219.71,45
+376,Yoga Mat,Sports,371.21,18
+377,Office Chair,Furniture,366.99,31
+378,T-Shirt,Clothing,366.41,25
+379,Desk Organizer,Office Supplies,173.28,13
+380,Laptop,Electronics,319.92,24
+381,File Folder,Office Supplies,325.82,12
+382,Basketball Hoop,Sports,114.05,38
+383,Sneakers,Clothing,210.65,29
+384,Jeans,Clothing,343.62,46
+385,Gaming Console,Electronics,222.31,27
+386,Bicycle,Sports,99.05,39
+387,Television,Electronics,228.83,33
+388,Bluetooth Headphones,Electronics,319.91,44
+389,Television,Electronics,406.97,33
+390,TV Stand,Furniture,82.54,46
+391,Smartwatch,Electronics,432.48,16
+392,Tennis Racket,Sports,283.75,34
+393,Pen,Office Supplies,476.72,26
+394,Sofa,Furniture,322.62,46
+395,Notebook,Office Supplies,286.8,40
+396,Digital Camera,Electronics,387.8,50
+397,Notebook,Office Supplies,423.18,37
+398,Tennis Racket,Sports,341.15,30
+399,Hoodie,Clothing,100.17,34
+400,Laptop,Electronics,457.35,12
+401,Ink Cartridge,Office Supplies,65.66,21
+402,Laptop,Electronics,330.81,47
+403,Yoga Mat,Sports,191.53,38
+404,Stapler,Office Supplies,487.7,30
+405,Bluetooth Headphones,Electronics,476.06,36
+406,Sneakers,Clothing,142.65,12
+407,Digital Camera,Electronics,192.74,10
+408,Jeans,Clothing,110.05,14
+409,Running Shoes,Sports,133.58,48
+410,Jeans,Clothing,157.83,38
+411,Stapler,Office Supplies,314.71,34
+412,Smartwatch,Electronics,192.03,40
+413,Jacket,Clothing,251.09,36
+414,Hat,Clothing,340.86,41
+415,Jeans,Clothing,198.52,36
+416,Desk Organizer,Office Supplies,428.66,42
+417,Basketball Hoop,Sports,428.43,36
+418,Ink Cartridge,Office Supplies,15.01,37
+419,Tennis Racket,Sports,258.94,25
+420,File Folder,Office Supplies,465.05,42
+421,Smartwatch,Electronics,341.54,13
+422,TV Stand,Furniture,433.16,18
+423,Tennis Racket,Sports,302.52,42
+424,Yoga Mat,Sports,45.09,33
+425,Wardrobe,Furniture,310.75,12
+426,Belt,Clothing,42.42,18
+427,Stapler,Office Supplies,201.98,41
+428,TV Stand,Furniture,465.19,25
+429,Sneakers,Clothing,30.16,30
+430,Dining Table,Furniture,201.83,48
+431,Gaming Console,Electronics,25.89,40
+432,Smartphone,Electronics,208.73,35
+433,Jeans,Clothing,26.27,20
+434,Basketball Hoop,Sports,394.96,18
+435,Gaming Console,Electronics,323.03,24
+436,Hoodie,Clothing,405.43,35
+437,Gaming Console,Electronics,379.11,49
+438,Bicycle,Sports,218.25,18
+439,Sneakers,Clothing,232.27,45
+440,Hat,Clothing,343.02,48
+441,Whiteboard,Office Supplies,78.42,22
+442,Wardrobe,Furniture,331.03,37
+443,Dumbbell,Sports,46.65,41
+444,Gym Bag,Sports,418.5,34
+445,TV Stand,Furniture,349.57,39
+446,Sneakers,Clothing,405.25,20
+447,Jeans,Clothing,233.68,10
+448,Laptop,Electronics,171.5,32
+449,Gaming Console,Electronics,226.63,38
+450,TV Stand,Furniture,451.52,26
+451,Running Shoes,Sports,464.51,27
+452,Wardrobe,Furniture,37.64,19
+453,Bicycle,Sports,480.82,16
+454,Jacket,Clothing,136.45,43
+455,Notebook,Office Supplies,246.33,37
+456,Television,Electronics,395.23,35
+457,Football,Sports,209.95,26
+458,Television,Electronics,126.91,38
+459,Hat,Clothing,347.98,36
+460,Notebook,Office Supplies,210.65,17
+461,Smartwatch,Electronics,66.38,11
+462,Gaming Console,Electronics,227.62,45
+463,Desk Organizer,Office Supplies,10.7,46
+464,Jeans,Clothing,299.26,33
+465,Printer Paper,Office Supplies,317.12,26
+466,T-Shirt,Clothing,94.54,25
+467,Notebook,Office Supplies,31.93,16
+468,Desk Organizer,Office Supplies,115.65,41
+469,File Folder,Office Supplies,136.32,26
+470,Coffee Table,Furniture,11.52,14
+471,Belt,Clothing,200.09,19
+472,Laptop,Electronics,315.08,32
+473,Running Shoes,Sports,146.25,30
+474,Printer Paper,Office Supplies,353.01,28
+475,Digital Camera,Electronics,122.94,19
+476,Stapler,Office Supplies,358.91,12
+477,Stapler,Office Supplies,316.61,48
+478,Ink Cartridge,Office Supplies,106.85,41
+479,Hat,Clothing,227.71,13
+480,Coffee Table,Furniture,269.44,35
+481,Dumbbell,Sports,28.96,47
+482,Television,Electronics,437.52,20
+483,Stapler,Office Supplies,496.35,49
+484,Office Chair,Furniture,155.58,21
+485,Running Shoes,Sports,147.25,40
+486,Printer Paper,Office Supplies,205.04,20
+487,Yoga Mat,Sports,99.58,50
+488,Coffee Table,Furniture,230.38,23
+489,TV Stand,Furniture,54.22,28
+490,Hoodie,Clothing,106.3,19
+491,Television,Electronics,11.51,19
+492,Sofa,Furniture,443.32,22
+493,Yoga Mat,Sports,176.82,39
+494,Whiteboard,Office Supplies,370.39,19
+495,Power Bank,Electronics,401.27,47
+496,Bluetooth Headphones,Electronics,296.29,22
+497,Office Chair,Furniture,235.09,40
+498,Football,Sports,190.59,35
+499,Pen,Office Supplies,320.24,23
+500,Wardrobe,Furniture,475.37,11
+501,Jeans,Clothing,184.7,37
+502,Printer Paper,Office Supplies,209.98,24
+503,Dress,Clothing,448.71,16
+504,Belt,Clothing,125.25,50
+505,Gym Bag,Sports,132.81,35
+506,Power Bank,Electronics,189.96,12
+507,Printer Paper,Office Supplies,248.48,33
+508,Hoodie,Clothing,366.72,24
+509,Ink Cartridge,Office Supplies,486.82,49
+510,Sneakers,Clothing,491.69,44
+511,Dumbbell,Sports,427.38,42
+512,Bookshelf,Furniture,261.52,46
+513,Wardrobe,Furniture,76.56,18
+514,Ink Cartridge,Office Supplies,358.83,27
+515,Basketball Hoop,Sports,73.52,18
+516,Jeans,Clothing,194.98,50
+517,Smartphone,Electronics,293.16,20
+518,Yoga Mat,Sports,69.82,21
+519,Running Shoes,Sports,277.53,50
+520,Bookshelf,Furniture,173.77,20
+521,Bicycle,Sports,215.72,30
+522,Football,Sports,213.28,22
+523,Jacket,Clothing,227.61,37
+524,Jeans,Clothing,52.61,12
+525,Tennis Racket,Sports,52.57,49
+526,Printer Paper,Office Supplies,9.6,14
+527,Dress,Clothing,456.48,13
+528,Smartwatch,Electronics,130.93,12
+529,Bookshelf,Furniture,254.99,42
+530,Hoodie,Clothing,411.65,30
+531,T-Shirt,Clothing,455.67,18
+532,Pen,Office Supplies,355.5,31
+533,Sofa,Furniture,209.04,22
+534,Bookshelf,Furniture,212.69,43
+535,Sofa,Furniture,346.24,34
+536,Bookshelf,Furniture,310.91,26
+537,Pen,Office Supplies,150.94,37
+538,Dress,Clothing,185.97,15
+539,Printer Paper,Office Supplies,138.09,21
+540,Pen,Office Supplies,285.76,24
+541,Gaming Console,Electronics,345.61,26
+542,Smartphone,Electronics,19.34,10
+543,Wardrobe,Furniture,183.39,23
+544,File Folder,Office Supplies,268.07,32
+545,Belt,Clothing,13.91,27
+546,File Folder,Office Supplies,119.65,12
+547,Stapler,Office Supplies,467.13,30
+548,Laptop,Electronics,242.58,11
+549,Belt,Clothing,243.51,41
+550,Hoodie,Clothing,289.06,30
+551,Running Shoes,Sports,331.42,20
+552,Wardrobe,Furniture,118.61,40
+553,Smartwatch,Electronics,179.14,44
+554,Printer Paper,Office Supplies,406.01,49
+555,Gaming Console,Electronics,34.56,50
+556,Wardrobe,Furniture,293.14,32
+557,Tennis Racket,Sports,375.86,22
+558,Dining Table,Furniture,453.33,35
+559,Bed,Furniture,415.85,12
+560,Digital Camera,Electronics,171.37,46
+561,Hat,Clothing,157.98,50
+562,Bed,Furniture,356.85,42
+563,Sneakers,Clothing,189.78,22
+564,Pen,Office Supplies,298.74,24
+565,Sofa,Furniture,254.25,17
+566,Wardrobe,Furniture,205.57,16
+567,Hoodie,Clothing,143.27,27
+568,Digital Camera,Electronics,141.79,11
+569,Gym Bag,Sports,13.62,45
+570,Desk Organizer,Office Supplies,125.2,24
+571,Dumbbell,Sports,487.06,44
+572,Laptop,Electronics,450.96,47
+573,Hat,Clothing,273.41,40
+574,Dining Table,Furniture,99.15,41
+575,Wardrobe,Furniture,345.37,31
+576,Hoodie,Clothing,327.05,47
+577,Gym Bag,Sports,178.13,30
+578,File Folder,Office Supplies,415.64,11
+579,Jacket,Clothing,314.37,24
+580,Yoga Mat,Sports,18.31,21
+581,Bluetooth Headphones,Electronics,213.91,39
+582,Whiteboard,Office Supplies,290.76,38
+583,Stapler,Office Supplies,273.64,47
+584,Printer Paper,Office Supplies,266.86,47
+585,TV Stand,Furniture,420.02,35
+586,Running Shoes,Sports,375.64,28
+587,Football,Sports,70.27,13
+588,Hat,Clothing,482.79,17
+589,File Folder,Office Supplies,308.76,33
+590,Wardrobe,Furniture,465.68,36
+591,Jacket,Clothing,440.88,48
+592,Tennis Racket,Sports,428.06,11
+593,Bed,Furniture,157.35,41
+594,Smartphone,Electronics,481.83,15
+595,Ink Cartridge,Office Supplies,249.84,26
+596,Jacket,Clothing,424.92,40
+597,Jeans,Clothing,171.79,17
+598,Smartwatch,Electronics,232.42,49
+599,Bluetooth Headphones,Electronics,387.02,13
+600,Laptop,Electronics,373.82,18
+601,Power Bank,Electronics,407.69,26
+602,Notebook,Office Supplies,252.38,23
+603,Pen,Office Supplies,33.86,37
+604,Yoga Mat,Sports,219.69,26
+605,Sofa,Furniture,348.61,34
+606,Gym Bag,Sports,333.46,18
+607,TV Stand,Furniture,398.53,19
+608,Smartwatch,Electronics,478.48,32
+609,Hat,Clothing,399.41,10
+610,Ink Cartridge,Office Supplies,21.41,37
+611,Gaming Console,Electronics,133.76,31
+612,Yoga Mat,Sports,161.98,15
+613,Ink Cartridge,Office Supplies,239.24,27
+614,Basketball Hoop,Sports,284.64,26
+615,Football,Sports,131.65,16
+616,Tennis Racket,Sports,292.51,24
+617,Coffee Table,Furniture,348.04,48
+618,Sneakers,Clothing,40.6,38
+619,File Folder,Office Supplies,469.18,46
+620,Bed,Furniture,354.34,40
+621,Tennis Racket,Sports,189.18,37
+622,Football,Sports,227.87,39
+623,Yoga Mat,Sports,473.88,10
+624,Jacket,Clothing,405.66,14
+625,Bookshelf,Furniture,14.84,18
+626,File Folder,Office Supplies,402.28,42
+627,Digital Camera,Electronics,489.42,31
+628,Gym Bag,Sports,416.39,16
+629,Wardrobe,Furniture,467.11,32
+630,Yoga Mat,Sports,171.48,40
+631,Jeans,Clothing,443.65,37
+632,Dining Table,Furniture,339.42,45
+633,Whiteboard,Office Supplies,362.29,41
+634,Dress,Clothing,402.13,25
+635,Jeans,Clothing,136.18,27
+636,Bed,Furniture,369.36,18
+637,Jacket,Clothing,29.13,29
+638,T-Shirt,Clothing,74.58,48
+639,Gym Bag,Sports,442.98,50
+640,Office Chair,Furniture,75.4,31
+641,Whiteboard,Office Supplies,407.99,14
+642,Football,Sports,439.07,48
+643,Stapler,Office Supplies,441.43,47
+644,Jacket,Clothing,177.04,37
+645,Jacket,Clothing,147.78,36
+646,Running Shoes,Sports,343.43,20
+647,Bicycle,Sports,412.62,24
+648,Yoga Mat,Sports,215.28,18
+649,Gym Bag,Sports,278.33,25
+650,Dumbbell,Sports,98.68,37
+651,Tennis Racket,Sports,484.57,26
+652,Laptop,Electronics,419.64,27
+653,Jacket,Clothing,426.42,37
+654,Tennis Racket,Sports,209.44,37
+655,Gym Bag,Sports,316.61,14
+656,Dress,Clothing,161.58,33
+657,Coffee Table,Furniture,473.16,28
+658,Sofa,Furniture,30.59,11
+659,Bicycle,Sports,151.91,24
+660,Bicycle,Sports,303.41,36
+661,Stapler,Office Supplies,77.55,41
+662,Stapler,Office Supplies,411.68,20
+663,Power Bank,Electronics,172.36,23
+664,Ink Cartridge,Office Supplies,326.54,19
+665,Digital Camera,Electronics,191.86,42
+666,T-Shirt,Clothing,305.37,35
+667,Bed,Furniture,472.6,29
+668,Tennis Racket,Sports,444.9,30
+669,Sofa,Furniture,247.39,16
+670,Laptop,Electronics,312.97,23
+671,Dining Table,Furniture,472.84,48
+672,File Folder,Office Supplies,478.4,46
+673,Jeans,Clothing,165.61,41
+674,Stapler,Office Supplies,435.18,28
+675,Desk Organizer,Office Supplies,471.36,42
+676,Basketball Hoop,Sports,91.48,16
+677,Jacket,Clothing,319.47,41
+678,Belt,Clothing,438.07,43
+679,Printer Paper,Office Supplies,41.03,46
+680,Gym Bag,Sports,419.7,19
+681,Smartphone,Electronics,79.86,40
+682,Whiteboard,Office Supplies,324.75,11
+683,Wardrobe,Furniture,190.07,34
+684,Bluetooth Headphones,Electronics,152.35,29
+685,TV Stand,Furniture,224.84,10
+686,Gym Bag,Sports,372.55,35
+687,Whiteboard,Office Supplies,61.82,37
+688,Coffee Table,Furniture,46.29,35
+689,Power Bank,Electronics,70.67,13
+690,Basketball Hoop,Sports,256.12,19
+691,Jeans,Clothing,219.39,17
+692,Hoodie,Clothing,306.58,50
+693,Gaming Console,Electronics,91.49,41
+694,Pen,Office Supplies,386.59,50
+695,Desk Organizer,Office Supplies,342.54,50
+696,Office Chair,Furniture,325.12,31
+697,Desk Organizer,Office Supplies,339.34,39
+698,Hoodie,Clothing,128.87,12
+699,Pen,Office Supplies,176.16,10
+700,Coffee Table,Furniture,203.9,24
+701,Digital Camera,Electronics,235.16,15
+702,Jacket,Clothing,286.34,34
+703,Jacket,Clothing,309.24,16
+704,Yoga Mat,Sports,293.92,34
+705,Pen,Office Supplies,270.31,23
+706,Wardrobe,Furniture,31.62,37
+707,Coffee Table,Furniture,252.39,37
+708,Digital Camera,Electronics,427.84,35
+709,Desk Organizer,Office Supplies,123.65,11
+710,Yoga Mat,Sports,214.78,45
+711,Yoga Mat,Sports,21.19,45
+712,Hat,Clothing,72.19,42
+713,Digital Camera,Electronics,170.93,18
+714,Desk Organizer,Office Supplies,196.54,34
+715,Gym Bag,Sports,56.88,18
+716,Dumbbell,Sports,250.48,29
+717,Dining Table,Furniture,320.89,48
+718,Pen,Office Supplies,125.9,12
+719,Running Shoes,Sports,286.13,40
+720,Desk Organizer,Office Supplies,320.64,10
+721,Running Shoes,Sports,421.89,41
+722,File Folder,Office Supplies,194.74,39
+723,T-Shirt,Clothing,201.16,25
+724,Pen,Office Supplies,279.67,14
+725,Wardrobe,Furniture,242.2,39
+726,Dining Table,Furniture,397.45,32
+727,Gym Bag,Sports,43.75,23
+728,Hat,Clothing,358.24,42
+729,Bookshelf,Furniture,12.23,27
+730,Smartphone,Electronics,128.59,49
+731,Desk Organizer,Office Supplies,70.93,17
+732,Bookshelf,Furniture,426.87,11
+733,Desk Organizer,Office Supplies,16.43,30
+734,Dumbbell,Sports,162.52,30
+735,Jeans,Clothing,78.3,34
+736,Dumbbell,Sports,217.88,41
+737,Coffee Table,Furniture,269.1,28
+738,Running Shoes,Sports,188.18,10
+739,Whiteboard,Office Supplies,76.81,18
+740,Running Shoes,Sports,218.79,46
+741,Power Bank,Electronics,215.19,48
+742,File Folder,Office Supplies,453.64,17
+743,Running Shoes,Sports,298.22,10
+744,Belt,Clothing,119.63,10
+745,Stapler,Office Supplies,276.57,45
+746,Notebook,Office Supplies,293.27,28
+747,Desk Organizer,Office Supplies,15.9,46
+748,Stapler,Office Supplies,217.85,44
+749,Bluetooth Headphones,Electronics,278.62,41
+750,Bookshelf,Furniture,407.13,44
+751,Wardrobe,Furniture,58.27,42
+752,Gaming Console,Electronics,278.55,35
+753,Belt,Clothing,181.53,31
+754,Laptop,Electronics,174.48,36
+755,Dining Table,Furniture,37.08,49
+756,Pen,Office Supplies,360.74,46
+757,Football,Sports,163.66,11
+758,File Folder,Office Supplies,244.13,48
+759,File Folder,Office Supplies,343.43,25
+760,Sofa,Furniture,274.34,36
+761,Hoodie,Clothing,151.29,36
+762,Dining Table,Furniture,496.35,46
+763,Bed,Furniture,252.58,23
+764,Bookshelf,Furniture,417.25,29
+765,Tennis Racket,Sports,222.58,48
+766,Coffee Table,Furniture,298.25,32
+767,Coffee Table,Furniture,401.48,47
+768,Stapler,Office Supplies,136.93,28
+769,Office Chair,Furniture,73.96,48
+770,Desk Organizer,Office Supplies,282,21
+771,Pen,Office Supplies,464.12,36
+772,Coffee Table,Furniture,475.4,24
+773,Bookshelf,Furniture,451.39,14
+774,T-Shirt,Clothing,339.16,26
+775,Laptop,Electronics,125,22
+776,Laptop,Electronics,380.76,42
+777,Television,Electronics,359.6,39
+778,Belt,Clothing,397.42,11
+779,Laptop,Electronics,47.67,39
+780,Jacket,Clothing,194.61,15
+781,Smartphone,Electronics,20.28,12
+782,Laptop,Electronics,247.4,36
+783,Jeans,Clothing,121.39,11
+784,Sneakers,Clothing,164.73,30
+785,T-Shirt,Clothing,39.62,26
+786,Wardrobe,Furniture,153.11,34
+787,Smartwatch,Electronics,441.47,38
+788,Bluetooth Headphones,Electronics,288.47,10
+789,Dining Table,Furniture,377.39,16
+790,Jacket,Clothing,205.71,24
+791,T-Shirt,Clothing,314.65,12
+792,Jeans,Clothing,169.49,38
+793,Hat,Clothing,367.84,48
+794,Football,Sports,227.17,23
+795,Jacket,Clothing,371.81,37
+796,Gaming Console,Electronics,59.71,46
+797,Smartphone,Electronics,66.78,29
+798,Pen,Office Supplies,330.16,45
+799,Basketball Hoop,Sports,28.39,18
+800,Tennis Racket,Sports,372.91,18
+801,Ink Cartridge,Office Supplies,256.92,34
+802,Pen,Office Supplies,126.1,37
+803,Whiteboard,Office Supplies,499.47,11
+804,Pen,Office Supplies,287.45,43
+805,Jeans,Clothing,440.25,25
+806,Power Bank,Electronics,461.98,32
+807,Dining Table,Furniture,475.2,47
+808,Ink Cartridge,Office Supplies,8.52,15
+809,TV Stand,Furniture,239,49
+810,Power Bank,Electronics,100.46,33
+811,Belt,Clothing,440.38,14
+812,TV Stand,Furniture,88.72,20
+813,Whiteboard,Office Supplies,42.92,22
+814,Sofa,Furniture,373.51,50
+815,Dumbbell,Sports,390.08,21
+816,Dining Table,Furniture,476.82,44
+817,TV Stand,Furniture,155.14,24
+818,Stapler,Office Supplies,13.17,40
+819,Stapler,Office Supplies,178.51,34
+820,Sofa,Furniture,428.76,16
+821,Printer Paper,Office Supplies,151.01,48
+822,Stapler,Office Supplies,389.15,32
+823,T-Shirt,Clothing,257.7,46
+824,Bicycle,Sports,132.77,22
+825,Gaming Console,Electronics,316.25,38
+826,Gym Bag,Sports,436.97,22
+827,Bookshelf,Furniture,156.72,32
+828,Gaming Console,Electronics,397.54,29
+829,Stapler,Office Supplies,50.13,39
+830,Belt,Clothing,243.62,38
+831,Running Shoes,Sports,336.8,31
+832,Sneakers,Clothing,221.3,22
+833,Football,Sports,132.95,38
+834,Belt,Clothing,278.01,24
+835,Laptop,Electronics,449.09,13
+836,Television,Electronics,124.45,10
+837,Bicycle,Sports,62.99,30
+838,Belt,Clothing,305.36,29
+839,Pen,Office Supplies,172.5,36
+840,Bicycle,Sports,238.84,13
+841,Ink Cartridge,Office Supplies,440.81,35
+842,Whiteboard,Office Supplies,85.79,38
+843,Hat,Clothing,387.95,40
+844,File Folder,Office Supplies,409.98,29
+845,Yoga Mat,Sports,170.88,20
+846,Printer Paper,Office Supplies,134.96,34
+847,Office Chair,Furniture,345.04,47
+848,Hoodie,Clothing,32.57,24
+849,T-Shirt,Clothing,245.74,42
+850,Basketball Hoop,Sports,382.35,41
+851,Desk Organizer,Office Supplies,189.6,42
+852,Wardrobe,Furniture,205.59,13
+853,Jeans,Clothing,32.75,14
+854,Sofa,Furniture,80.94,28
+855,Wardrobe,Furniture,334.47,16
+856,Belt,Clothing,167.87,35
+857,Jacket,Clothing,433.6,30
+858,T-Shirt,Clothing,278,12
+859,Ink Cartridge,Office Supplies,167.59,17
+860,Ink Cartridge,Office Supplies,362.46,19
+861,Notebook,Office Supplies,106.1,13
+862,Tennis Racket,Sports,54.85,24
+863,Whiteboard,Office Supplies,5.57,32
+864,T-Shirt,Clothing,429.41,47
+865,TV Stand,Furniture,370.64,13
+866,TV Stand,Furniture,5.6,11
+867,Dress,Clothing,56.18,37
+868,Printer Paper,Office Supplies,206.51,30
+869,File Folder,Office Supplies,95.3,29
+870,Yoga Mat,Sports,492.6,26
+871,Gym Bag,Sports,254.9,16
+872,Bed,Furniture,495.04,34
+873,Football,Sports,175.86,10
+874,TV Stand,Furniture,397.73,42
+875,T-Shirt,Clothing,163.66,23
+876,Dumbbell,Sports,254.66,26
+877,Dress,Clothing,482.18,34
+878,Stapler,Office Supplies,372.6,15
+879,Yoga Mat,Sports,323.1,49
+880,Television,Electronics,317.09,20
+881,Whiteboard,Office Supplies,40.76,32
+882,Stapler,Office Supplies,359.8,24
+883,Tennis Racket,Sports,374.64,35
+884,Whiteboard,Office Supplies,97.31,48
+885,Office Chair,Furniture,265.98,12
+886,Hoodie,Clothing,344.76,12
+887,TV Stand,Furniture,404.76,23
+888,Belt,Clothing,32.46,27
+889,Running Shoes,Sports,95.17,44
+890,Hoodie,Clothing,37.24,21
+891,Desk Organizer,Office Supplies,421.74,33
+892,Printer Paper,Office Supplies,448.42,46
+893,Gaming Console,Electronics,77.5,36
+894,Desk Organizer,Office Supplies,138.77,34
+895,Gaming Console,Electronics,316.71,29
+896,File Folder,Office Supplies,131.46,31
+897,Dumbbell,Sports,188.59,14
+898,Running Shoes,Sports,394.51,28
+899,Hoodie,Clothing,145.02,15
+900,Stapler,Office Supplies,436.42,36
+901,Digital Camera,Electronics,379.18,22
+902,Wardrobe,Furniture,377.75,40
+903,Jeans,Clothing,89.18,36
+904,Office Chair,Furniture,100.88,28
+905,Gym Bag,Sports,401.62,12
+906,T-Shirt,Clothing,211.2,48
+907,Bicycle,Sports,455.5,49
+908,File Folder,Office Supplies,390.98,29
+909,T-Shirt,Clothing,207.29,44
+910,Pen,Office Supplies,26.7,21
+911,File Folder,Office Supplies,129.16,42
+912,Hat,Clothing,345.76,45
+913,Wardrobe,Furniture,116.92,44
+914,Desk Organizer,Office Supplies,224.56,13
+915,Wardrobe,Furniture,265.42,47
+916,Hat,Clothing,151.36,35
+917,Pen,Office Supplies,499.14,42
+918,Pen,Office Supplies,299.86,28
+919,Dining Table,Furniture,14.27,35
+920,Printer Paper,Office Supplies,307.87,14
+921,Office Chair,Furniture,111.75,38
+922,Jeans,Clothing,157.85,31
+923,File Folder,Office Supplies,150.81,22
+924,Coffee Table,Furniture,376.5,26
+925,Pen,Office Supplies,429.76,43
+926,Printer Paper,Office Supplies,52.16,10
+927,Desk Organizer,Office Supplies,130.38,37
+928,Ink Cartridge,Office Supplies,284.32,45
+929,Hat,Clothing,158.92,16
+930,Dress,Clothing,135.76,48
+931,Dumbbell,Sports,499.5,13
+932,Printer Paper,Office Supplies,61.05,17
+933,Dumbbell,Sports,234.02,39
+934,Bookshelf,Furniture,46.03,48
+935,Hat,Clothing,439.62,13
+936,Coffee Table,Furniture,91.47,20
+937,Football,Sports,240.41,19
+938,TV Stand,Furniture,101.71,10
+939,Sneakers,Clothing,480.13,47
+940,Smartphone,Electronics,155.96,50
+941,Pen,Office Supplies,401.58,31
+942,Stapler,Office Supplies,330.66,45
+943,Jeans,Clothing,126.95,38
+944,File Folder,Office Supplies,467.29,17
+945,Jeans,Clothing,488.66,50
+946,Bluetooth Headphones,Electronics,384.9,49
+947,Television,Electronics,287.85,12
+948,Printer Paper,Office Supplies,318.06,16
+949,T-Shirt,Clothing,305.08,42
+950,Basketball Hoop,Sports,495.2,36
+951,Pen,Office Supplies,183.47,10
+952,Laptop,Electronics,347.7,43
+953,TV Stand,Furniture,166.94,47
+954,Bookshelf,Furniture,62.74,42
+955,Dress,Clothing,80.08,18
+956,Television,Electronics,68.19,11
+957,Dress,Clothing,54.06,12
+958,Digital Camera,Electronics,34.8,45
+959,Printer Paper,Office Supplies,48.38,36
+960,Dress,Clothing,170.99,30
+961,Dining Table,Furniture,82.65,47
+962,Dress,Clothing,140.16,41
+963,Gaming Console,Electronics,487.01,41
+964,Dress,Clothing,416.67,24
+965,Yoga Mat,Sports,162.92,47
+966,Belt,Clothing,143,38
+967,Pen,Office Supplies,468.44,42
+968,Bluetooth Headphones,Electronics,458.85,10
+969,Printer Paper,Office Supplies,269.17,32
+970,Dumbbell,Sports,51.52,42
+971,Hoodie,Clothing,343.85,35
+972,Digital Camera,Electronics,75.63,40
+973,Gaming Console,Electronics,444.37,31
+974,Office Chair,Furniture,360.23,29
+975,Laptop,Electronics,73.72,13
+976,Yoga Mat,Sports,100.5,18
+977,Sofa,Furniture,26.97,10
+978,Sneakers,Clothing,264.75,30
+979,Pen,Office Supplies,466.86,19
+980,T-Shirt,Clothing,401.87,40
+981,Power Bank,Electronics,492.62,44
+982,Gaming Console,Electronics,409.14,46
+983,Wardrobe,Furniture,494.32,43
+984,Smartphone,Electronics,82.52,35
+985,Office Chair,Furniture,408.95,26
+986,Coffee Table,Furniture,136.82,12
+987,Laptop,Electronics,202.73,18
+988,Pen,Office Supplies,161.87,33
+989,T-Shirt,Clothing,122.73,11
+990,Football,Sports,446.78,21
+991,Dress,Clothing,142.9,20
+992,Smartphone,Electronics,94.43,47
+993,Coffee Table,Furniture,99.62,42
+994,Smartphone,Electronics,30.49,47
+995,Gym Bag,Sports,133.86,16
+996,Sneakers,Clothing,342.16,14
+997,Digital Camera,Electronics,119.13,19
+998,Coffee Table,Furniture,455.97,29
+999,Belt,Clothing,146.07,30
+1000,Hat,Clothing,247.46,13
+1001,T-Shirt,Clothing,432.15,13
+1002,Whiteboard,Office Supplies,481.06,17
+1003,Bluetooth Headphones,Electronics,193.22,10
+1004,Dumbbell,Sports,246.47,49
+1005,Stapler,Office Supplies,248.2,45
+1006,Gym Bag,Sports,255.52,43
+1007,Belt,Clothing,111.92,19
+1008,Pen,Office Supplies,444.25,41
+1009,Power Bank,Electronics,229.29,37
+1010,Sneakers,Clothing,99.67,22
+1011,Digital Camera,Electronics,378.12,35
+1012,Office Chair,Furniture,397.62,47
+1013,Sofa,Furniture,282.62,45
+1014,Whiteboard,Office Supplies,485.96,25
+1015,Whiteboard,Office Supplies,373.21,21
+1016,Office Chair,Furniture,105.49,31
+1017,Sneakers,Clothing,448.96,36
+1018,Bookshelf,Furniture,179.57,41
+1019,Notebook,Office Supplies,63.42,48
+1020,Dress,Clothing,41.24,28
+1021,Sneakers,Clothing,282.02,46
+1022,Gaming Console,Electronics,474.88,23
+1023,Bluetooth Headphones,Electronics,165.58,22
+1024,Bed,Furniture,42.04,37
+1025,Gym Bag,Sports,98.71,22
+1026,Pen,Office Supplies,145.8,32
+1027,Bookshelf,Furniture,59.73,45
+1028,Digital Camera,Electronics,168.01,14
+1029,Laptop,Electronics,336.51,21
+1030,Dress,Clothing,172.25,47
+1031,Office Chair,Furniture,149.52,50
+1032,Jacket,Clothing,124.7,36
+1033,Wardrobe,Furniture,145.51,37
+1034,Bookshelf,Furniture,119.73,50
+1035,Pen,Office Supplies,421.01,42
+1036,Running Shoes,Sports,479.96,22
+1037,Whiteboard,Office Supplies,83.85,20
+1038,Belt,Clothing,359.07,40
+1039,Jacket,Clothing,249.12,48
+1040,Ink Cartridge,Office Supplies,442.51,49
+1041,Jeans,Clothing,410.42,17
+1042,Basketball Hoop,Sports,73.74,19
+1043,Belt,Clothing,408.68,11
+1044,File Folder,Office Supplies,477.04,14
+1045,TV Stand,Furniture,108.47,40
+1046,Stapler,Office Supplies,419.42,19
+1047,Gym Bag,Sports,290.73,33
+1048,Television,Electronics,431.2,37
+1049,Sneakers,Clothing,413.72,13
+1050,Notebook,Office Supplies,22.63,26
+1051,Desk Organizer,Office Supplies,88.02,32
+1052,Hoodie,Clothing,252.38,48
+1053,Bicycle,Sports,419.73,31
+1054,Printer Paper,Office Supplies,215.77,15
+1055,Basketball Hoop,Sports,438.18,13
+1056,Basketball Hoop,Sports,491.82,31
+1057,Laptop,Electronics,269.62,26
+1058,Smartwatch,Electronics,97.7,33
+1059,Smartphone,Electronics,210.25,41
+1060,Running Shoes,Sports,411.15,22
+1061,File Folder,Office Supplies,247.31,18
+1062,Hoodie,Clothing,342.91,15
+1063,Sneakers,Clothing,69.11,21
+1064,Jeans,Clothing,366.95,20
+1065,Pen,Office Supplies,132.26,44
+1066,Desk Organizer,Office Supplies,340.19,34
+1067,Whiteboard,Office Supplies,234.13,46
+1068,Dumbbell,Sports,273.16,29
+1069,Belt,Clothing,106.12,25
+1070,Jacket,Clothing,118.88,28
+1071,Whiteboard,Office Supplies,15.47,21
+1072,File Folder,Office Supplies,404.29,35
+1073,Yoga Mat,Sports,210.59,25
+1074,T-Shirt,Clothing,243.32,11
+1075,Laptop,Electronics,353.2,38
+1076,Dining Table,Furniture,85.19,49
+1077,Sneakers,Clothing,206.98,42
+1078,Gym Bag,Sports,392.57,49
+1079,Laptop,Electronics,348.72,49
+1080,Pen,Office Supplies,295.57,37
+1081,Wardrobe,Furniture,258.16,18
+1082,Dining Table,Furniture,344.05,22
+1083,Printer Paper,Office Supplies,257.23,26
+1084,Digital Camera,Electronics,229.27,24
+1085,Bed,Furniture,379.83,31
+1086,Bicycle,Sports,141.25,37
+1087,Dress,Clothing,443.26,44
+1088,File Folder,Office Supplies,27.63,15
+1089,Football,Sports,346.32,31
+1090,Bluetooth Headphones,Electronics,400.27,31
+1091,Office Chair,Furniture,92.08,18
+1092,Hoodie,Clothing,241.48,14
+1093,Smartwatch,Electronics,152.3,45
+1094,Whiteboard,Office Supplies,256.34,35
+1095,Running Shoes,Sports,282.91,21
+1096,Jeans,Clothing,371.18,20
+1097,Hat,Clothing,65.48,33
+1098,Office Chair,Furniture,389.79,33
+1099,Digital Camera,Electronics,162.73,48
+1100,Pen,Office Supplies,34.41,40
+1101,Football,Sports,148.73,23
+1102,Hat,Clothing,260.89,43
+1103,Tennis Racket,Sports,447.39,27
+1104,Power Bank,Electronics,304.66,43
+1105,Power Bank,Electronics,106.64,30
+1106,Digital Camera,Electronics,53.16,28
+1107,Hat,Clothing,179.79,31
+1108,Dining Table,Furniture,60.52,16
+1109,Gaming Console,Electronics,370.13,47
+1110,Coffee Table,Furniture,209.83,25
+1111,Basketball Hoop,Sports,166.54,17
+1112,Jacket,Clothing,192.6,14
+1113,Whiteboard,Office Supplies,67.11,24
+1114,Laptop,Electronics,351.02,16
+1115,Ink Cartridge,Office Supplies,292.79,29
+1116,Hat,Clothing,112.64,47
+1117,Pen,Office Supplies,194.74,17
+1118,Smartphone,Electronics,180.78,40
+1119,Yoga Mat,Sports,404.07,50
+1120,Sofa,Furniture,366.23,33
+1121,Notebook,Office Supplies,231.69,34
+1122,Ink Cartridge,Office Supplies,224.63,42
+1123,Bluetooth Headphones,Electronics,429.82,42
+1124,Digital Camera,Electronics,260.94,14
+1125,Coffee Table,Furniture,446.14,14
+1126,Hoodie,Clothing,237.49,18
+1127,Dumbbell,Sports,12,23
+1128,T-Shirt,Clothing,180.09,48
+1129,Desk Organizer,Office Supplies,491.48,50
+1130,Dress,Clothing,285.32,26
+1131,Gym Bag,Sports,318.48,34
+1132,Coffee Table,Furniture,89.89,24
+1133,Dumbbell,Sports,188.11,13
+1134,Bluetooth Headphones,Electronics,339.14,44
+1135,Jacket,Clothing,203.63,33
+1136,Television,Electronics,277.52,38
+1137,Sneakers,Clothing,490.4,23
+1138,Dress,Clothing,76.57,15
+1139,Pen,Office Supplies,155.77,41
+1140,Belt,Clothing,173.63,20
+1141,Gaming Console,Electronics,165.49,19
+1142,Gaming Console,Electronics,397.44,10
+1143,Bluetooth Headphones,Electronics,281.8,31
+1144,Jeans,Clothing,310.7,13
+1145,Tennis Racket,Sports,163,27
+1146,Gaming Console,Electronics,95.03,34
+1147,Bed,Furniture,196.71,45
+1148,Running Shoes,Sports,406.51,41
+1149,Desk Organizer,Office Supplies,296.98,24
+1150,Television,Electronics,403.19,30
+1151,Hoodie,Clothing,425.44,40
+1152,Pen,Office Supplies,122.27,49
+1153,Dress,Clothing,468.94,33
+1154,Dumbbell,Sports,10.04,18
+1155,Desk Organizer,Office Supplies,116.3,42
+1156,Sofa,Furniture,16.72,25
+1157,Football,Sports,218.23,26
+1158,Football,Sports,86.21,43
+1159,Bookshelf,Furniture,134.25,28
+1160,Bookshelf,Furniture,123.17,47
+1161,Pen,Office Supplies,8.25,20
+1162,Jeans,Clothing,398.96,19
+1163,Ink Cartridge,Office Supplies,104.83,30
+1164,Dress,Clothing,426.04,50
+1165,Yoga Mat,Sports,54.11,11
+1166,Bookshelf,Furniture,219.5,42
+1167,Stapler,Office Supplies,436.74,30
+1168,Bed,Furniture,303.91,32
+1169,Laptop,Electronics,387.86,36
+1170,Bicycle,Sports,348.61,50
+1171,Hat,Clothing,353.11,16
+1172,Bed,Furniture,399.38,45
+1173,Sneakers,Clothing,323.51,17
+1174,Whiteboard,Office Supplies,312.36,18
+1175,Gaming Console,Electronics,498.18,40
+1176,Hoodie,Clothing,242.24,14
+1177,Jacket,Clothing,380.82,38
+1178,File Folder,Office Supplies,225.41,40
+1179,Wardrobe,Furniture,83.69,32
+1180,Bluetooth Headphones,Electronics,492.94,33
+1181,Running Shoes,Sports,55.31,10
+1182,Gaming Console,Electronics,392.48,31
+1183,File Folder,Office Supplies,297,17
+1184,Television,Electronics,67.62,35
+1185,Hoodie,Clothing,370.04,33
+1186,Gaming Console,Electronics,329.43,18
+1187,File Folder,Office Supplies,291.32,34
+1188,Yoga Mat,Sports,250.66,29
+1189,Hat,Clothing,130.88,11
+1190,Bluetooth Headphones,Electronics,10.2,21
+1191,Coffee Table,Furniture,39.63,20
+1192,Office Chair,Furniture,79.06,41
+1193,Running Shoes,Sports,422.26,46
+1194,Stapler,Office Supplies,413.41,13
+1195,Ink Cartridge,Office Supplies,19.36,24
+1196,File Folder,Office Supplies,306.35,30
+1197,Hat,Clothing,36.07,31
+1198,Smartphone,Electronics,488.79,44
+1199,Tennis Racket,Sports,451.51,44
+1200,Digital Camera,Electronics,229.14,32
+1201,Football,Sports,330.16,47
+1202,Digital Camera,Electronics,83.15,10
+1203,Gym Bag,Sports,71.94,19
+1204,Sneakers,Clothing,184.15,11
+1205,Basketball Hoop,Sports,441.14,36
+1206,Basketball Hoop,Sports,165.27,44
+1207,Notebook,Office Supplies,348.3,42
+1208,Power Bank,Electronics,365.47,49
+1209,Wardrobe,Furniture,38.47,16
+1210,Hoodie,Clothing,308.92,45
+1211,Wardrobe,Furniture,168.54,22
+1212,Whiteboard,Office Supplies,401.72,45
+1213,Office Chair,Furniture,203.64,16
+1214,Jacket,Clothing,391.03,35
+1215,Gaming Console,Electronics,99.61,18
+1216,Dress,Clothing,207.73,44
+1217,Power Bank,Electronics,402.29,21
+1218,Digital Camera,Electronics,155.93,11
+1219,Bluetooth Headphones,Electronics,197.85,35
+1220,Smartwatch,Electronics,338.55,11
+1221,Smartphone,Electronics,282.83,19
+1222,Jeans,Clothing,282.2,20
+1223,Bed,Furniture,153.33,10
+1224,TV Stand,Furniture,133.04,32
+1225,Tennis Racket,Sports,112.23,47
+1226,Power Bank,Electronics,239.94,36
+1227,Television,Electronics,359.61,43
+1228,Stapler,Office Supplies,488.59,12
+1229,Sofa,Furniture,264.52,15
+1230,Belt,Clothing,490.06,22
+1231,Belt,Clothing,388.87,49
+1232,TV Stand,Furniture,455.04,21
+1233,Smartphone,Electronics,346.26,29
+1234,Printer Paper,Office Supplies,86.45,50
+1235,Basketball Hoop,Sports,52.45,29
+1236,Tennis Racket,Sports,402.79,32
+1237,Hoodie,Clothing,249.35,49
+1238,Dress,Clothing,57.85,23
+1239,Yoga Mat,Sports,105.97,10
+1240,Smartwatch,Electronics,349.7,30
+1241,Television,Electronics,130.07,42
+1242,Stapler,Office Supplies,312.18,25
+1243,Bed,Furniture,105.14,14
+1244,Running Shoes,Sports,69.52,18
+1245,Power Bank,Electronics,240.07,31
+1246,Sneakers,Clothing,168.83,17
+1247,Coffee Table,Furniture,388.05,47
+1248,Whiteboard,Office Supplies,161.57,10
+1249,Tennis Racket,Sports,116.24,21
+1250,Jeans,Clothing,475.89,47
+1251,Hat,Clothing,85.94,49
+1252,Laptop,Electronics,334.04,28
+1253,Digital Camera,Electronics,343.45,44
+1254,Tennis Racket,Sports,385.17,24
+1255,Wardrobe,Furniture,137.09,42
+1256,Ink Cartridge,Office Supplies,108.18,13
+1257,TV Stand,Furniture,473.34,33
+1258,T-Shirt,Clothing,81.41,31
+1259,Notebook,Office Supplies,472.44,16
+1260,Office Chair,Furniture,433.09,22
+1261,Football,Sports,319.65,50
+1262,Tennis Racket,Sports,381.16,38
+1263,Smartphone,Electronics,215.1,24
+1264,Ink Cartridge,Office Supplies,286.07,32
+1265,Jacket,Clothing,446.85,26
+1266,Pen,Office Supplies,439.14,19
+1267,TV Stand,Furniture,75.26,38
+1268,Wardrobe,Furniture,173.06,48
+1269,Notebook,Office Supplies,262.8,12
+1270,Belt,Clothing,466.56,26
+1271,Television,Electronics,138.08,28
+1272,Stapler,Office Supplies,237.54,15
+1273,Jacket,Clothing,433.66,16
+1274,Power Bank,Electronics,295.12,10
+1275,TV Stand,Furniture,363.16,27
+1276,Desk Organizer,Office Supplies,410.83,24
+1277,Ink Cartridge,Office Supplies,464.62,36
+1278,Printer Paper,Office Supplies,124.01,14
+1279,Television,Electronics,368.25,17
+1280,Smartphone,Electronics,435.21,21
+1281,Sneakers,Clothing,356.26,24
+1282,Belt,Clothing,382.97,28
+1283,Ink Cartridge,Office Supplies,305.92,16
+1284,Hat,Clothing,354.34,40
+1285,Hat,Clothing,102.07,19
+1286,Hat,Clothing,432.76,21
+1287,Bluetooth Headphones,Electronics,154.5,49
+1288,Office Chair,Furniture,31.82,46
+1289,Notebook,Office Supplies,191.17,37
+1290,Bluetooth Headphones,Electronics,70.45,11
+1291,Ink Cartridge,Office Supplies,283.53,50
+1292,Whiteboard,Office Supplies,198.14,44
+1293,Sofa,Furniture,449.58,33
+1294,Running Shoes,Sports,204.53,37
+1295,Digital Camera,Electronics,294.46,40
+1296,Power Bank,Electronics,195.61,26
+1297,Stapler,Office Supplies,297.7,30
+1298,Bicycle,Sports,489.88,14
+1299,File Folder,Office Supplies,18.17,12
+1300,Smartwatch,Electronics,101.8,17
+1301,Pen,Office Supplies,19.32,48
+1302,Dumbbell,Sports,487.12,46
+1303,Ink Cartridge,Office Supplies,133.26,31
+1304,Bicycle,Sports,14.81,11
+1305,Notebook,Office Supplies,301.48,44
+1306,Whiteboard,Office Supplies,130.16,21
+1307,Smartphone,Electronics,151.98,50
+1308,Printer Paper,Office Supplies,323.81,20
+1309,Smartwatch,Electronics,266.94,12
+1310,Basketball Hoop,Sports,346.78,34
+1311,Gym Bag,Sports,204.73,19
+1312,T-Shirt,Clothing,238.6,43
+1313,Wardrobe,Furniture,489.99,43
+1314,Notebook,Office Supplies,273.38,26
+1315,Yoga Mat,Sports,122.24,26
+1316,Yoga Mat,Sports,320.55,21
+1317,File Folder,Office Supplies,469.85,36
+1318,Basketball Hoop,Sports,362.85,27
+1319,Bookshelf,Furniture,16.77,31
+1320,Dumbbell,Sports,410.42,12
+1321,Sofa,Furniture,498.99,31
+1322,Power Bank,Electronics,344.23,25
+1323,Dress,Clothing,150.55,42
+1324,File Folder,Office Supplies,186.39,36
+1325,Dumbbell,Sports,467.32,34
+1326,Bicycle,Sports,21.76,24
+1327,Power Bank,Electronics,69.77,24
+1328,T-Shirt,Clothing,227.06,42
+1329,Desk Organizer,Office Supplies,12.03,22
+1330,Football,Sports,239.3,19
+1331,Laptop,Electronics,17.96,29
+1332,Laptop,Electronics,172.39,31
+1333,T-Shirt,Clothing,357.52,33
+1334,Dining Table,Furniture,168.98,38
+1335,Coffee Table,Furniture,314.49,14
+1336,Football,Sports,162.94,15
+1337,Football,Sports,19.62,23
+1338,Digital Camera,Electronics,244.57,47
+1339,Whiteboard,Office Supplies,431.81,40
+1340,Wardrobe,Furniture,330.83,31
+1341,File Folder,Office Supplies,143.73,16
+1342,Sneakers,Clothing,312.7,12
+1343,T-Shirt,Clothing,198.78,26
+1344,Bed,Furniture,160.9,44
+1345,Dining Table,Furniture,56.26,46
+1346,Hat,Clothing,151.44,49
+1347,Smartwatch,Electronics,90.79,41
+1348,Jeans,Clothing,479.84,22
+1349,Dining Table,Furniture,427.91,15
+1350,Hoodie,Clothing,407.06,45
+1351,Stapler,Office Supplies,39.05,29
+1352,Bookshelf,Furniture,69.04,35
+1353,Wardrobe,Furniture,461.43,34
+1354,Dumbbell,Sports,197.29,13
+1355,Bookshelf,Furniture,61.45,50
+1356,T-Shirt,Clothing,246.23,15
+1357,Pen,Office Supplies,296.82,24
+1358,Bluetooth Headphones,Electronics,221.3,11
+1359,Notebook,Office Supplies,494.5,38
+1360,Whiteboard,Office Supplies,192.44,30
+1361,Coffee Table,Furniture,279.91,23
+1362,Coffee Table,Furniture,97.56,49
+1363,Hoodie,Clothing,385.83,17
+1364,Bluetooth Headphones,Electronics,84.17,46
+1365,Television,Electronics,105.88,50
+1366,Pen,Office Supplies,122.74,17
+1367,Basketball Hoop,Sports,374.86,12
+1368,Football,Sports,150.61,37
+1369,Sneakers,Clothing,62.84,38
+1370,Bluetooth Headphones,Electronics,298.6,28
+1371,Smartwatch,Electronics,124.15,46
+1372,Whiteboard,Office Supplies,114.04,40
+1373,Smartwatch,Electronics,156.1,49
+1374,Smartphone,Electronics,311.37,38
+1375,Football,Sports,195.93,15
+1376,Dining Table,Furniture,131.25,31
+1377,TV Stand,Furniture,490.34,22
+1378,Coffee Table,Furniture,403.46,49
+1379,Belt,Clothing,130.98,41
+1380,Notebook,Office Supplies,453.53,40
+1381,Hat,Clothing,361.95,36
+1382,File Folder,Office Supplies,219.31,10
+1383,Dress,Clothing,350.36,36
+1384,Jeans,Clothing,178.89,44
+1385,Dining Table,Furniture,437.64,37
+1386,Desk Organizer,Office Supplies,173.26,46
+1387,Running Shoes,Sports,470.28,27
+1388,Digital Camera,Electronics,339.85,44
+1389,Printer Paper,Office Supplies,491.1,11
+1390,T-Shirt,Clothing,140.23,32
+1391,Hat,Clothing,450.62,21
+1392,Smartwatch,Electronics,163.74,50
+1393,Jacket,Clothing,380.2,31
+1394,Tennis Racket,Sports,255.83,30
+1395,Digital Camera,Electronics,214.33,46
+1396,Bicycle,Sports,473.3,19
+1397,Television,Electronics,183.28,33
+1398,Power Bank,Electronics,453.65,24
+1399,Laptop,Electronics,345.9,37
+1400,Gym Bag,Sports,125.03,40
+1401,Printer Paper,Office Supplies,450.63,35
+1402,Digital Camera,Electronics,158.24,29
+1403,Stapler,Office Supplies,414.09,34
+1404,File Folder,Office Supplies,172.26,44
+1405,Printer Paper,Office Supplies,233.22,46
+1406,Dining Table,Furniture,309,12
+1407,Yoga Mat,Sports,490.79,30
+1408,Television,Electronics,414.72,40
+1409,Bookshelf,Furniture,351.62,10
+1410,Football,Sports,453.74,23
+1411,Dumbbell,Sports,157.57,26
+1412,Pen,Office Supplies,306.14,49
+1413,Gaming Console,Electronics,359.18,37
+1414,Football,Sports,430.18,19
+1415,Bed,Furniture,325.56,45
+1416,Ink Cartridge,Office Supplies,441.9,48
+1417,Smartwatch,Electronics,468.02,42
+1418,Bed,Furniture,389.01,14
+1419,Football,Sports,263.39,48
+1420,Printer Paper,Office Supplies,301.29,34
+1421,T-Shirt,Clothing,79.6,40
+1422,Basketball Hoop,Sports,416.18,31
+1423,Digital Camera,Electronics,155.16,42
+1424,Laptop,Electronics,474.12,42
+1425,Wardrobe,Furniture,263.86,50
+1426,Dress,Clothing,330.69,16
+1427,Wardrobe,Furniture,175.63,34
+1428,Basketball Hoop,Sports,30.22,18
+1429,Desk Organizer,Office Supplies,85.59,22
+1430,Belt,Clothing,438.83,40
+1431,Ink Cartridge,Office Supplies,375.56,27
+1432,Hat,Clothing,389.86,23
+1433,Jacket,Clothing,461.21,14
+1434,Basketball Hoop,Sports,483.7,50
+1435,Smartphone,Electronics,418.84,35
+1436,Ink Cartridge,Office Supplies,437.01,49
+1437,Coffee Table,Furniture,461.78,25
+1438,Football,Sports,313.23,15
+1439,Jeans,Clothing,348.97,36
+1440,Belt,Clothing,458.24,37
+1441,Smartwatch,Electronics,369.82,48
+1442,Notebook,Office Supplies,349.57,47
+1443,Jeans,Clothing,86.32,35
+1444,File Folder,Office Supplies,496.68,14
+1445,Digital Camera,Electronics,314.82,27
+1446,Dress,Clothing,16.93,44
+1447,Dress,Clothing,195.25,10
+1448,Wardrobe,Furniture,400.84,32
+1449,Belt,Clothing,195.13,20
+1450,Bluetooth Headphones,Electronics,331.66,48
+1451,Dress,Clothing,447.98,21
+1452,Jeans,Clothing,446.52,50
+1453,Television,Electronics,238.72,23
+1454,Hat,Clothing,53.65,34
+1455,Dumbbell,Sports,82.74,12
+1456,Bed,Furniture,85.66,36
+1457,Dumbbell,Sports,381.45,29
+1458,Sofa,Furniture,305.42,19
+1459,Gym Bag,Sports,289.33,31
+1460,Sneakers,Clothing,201.79,48
+1461,Digital Camera,Electronics,493.98,10
+1462,Football,Sports,213.78,10
+1463,Dress,Clothing,408.23,45
+1464,Smartwatch,Electronics,443.54,31
+1465,Notebook,Office Supplies,437.57,19
+1466,Running Shoes,Sports,126.2,46
+1467,T-Shirt,Clothing,483.14,22
+1468,Desk Organizer,Office Supplies,242.79,33
+1469,Smartphone,Electronics,370.74,13
+1470,Gym Bag,Sports,62.09,10
+1471,Ink Cartridge,Office Supplies,260.27,43
+1472,Hoodie,Clothing,342.74,31
+1473,Hat,Clothing,141.68,14
+1474,Digital Camera,Electronics,452.98,31
+1475,Belt,Clothing,88.46,33
+1476,Coffee Table,Furniture,268.68,25
+1477,Basketball Hoop,Sports,318.61,38
+1478,Dress,Clothing,132.51,11
+1479,Jacket,Clothing,149.55,45
+1480,Tennis Racket,Sports,213.18,31
+1481,Smartwatch,Electronics,268.78,14
+1482,Power Bank,Electronics,164.93,34
+1483,File Folder,Office Supplies,490.26,36
+1484,Running Shoes,Sports,303.59,22
+1485,Coffee Table,Furniture,309.1,42
+1486,Office Chair,Furniture,275.7,43
+1487,Television,Electronics,136.77,22
+1488,Dress,Clothing,385.46,21
+1489,Smartwatch,Electronics,177.31,20
+1490,Belt,Clothing,192.66,22
+1491,TV Stand,Furniture,283.77,31
+1492,Belt,Clothing,18.82,20
+1493,Coffee Table,Furniture,404.83,21
+1494,Bluetooth Headphones,Electronics,489.88,15
+1495,Sofa,Furniture,455.13,36
+1496,Hoodie,Clothing,271.65,31
+1497,Sofa,Furniture,55.8,24
+1498,Office Chair,Furniture,345.7,29
+1499,Bed,Furniture,376.88,24
+1500,File Folder,Office Supplies,208.66,31
+1501,Hoodie,Clothing,158.11,34
+1502,Notebook,Office Supplies,84.01,41
+1503,Sneakers,Clothing,342.88,10
+1504,Basketball Hoop,Sports,314.91,45
+1505,Bluetooth Headphones,Electronics,151.35,47
+1506,Notebook,Office Supplies,351.62,13
+1507,Digital Camera,Electronics,51.59,34
+1508,Gym Bag,Sports,29.62,36
+1509,Stapler,Office Supplies,368.22,11
+1510,Television,Electronics,317.03,11
+1511,Bookshelf,Furniture,67.8,13
+1512,Jacket,Clothing,7.59,10
+1513,Sofa,Furniture,355.58,36
+1514,Tennis Racket,Sports,162.78,49
+1515,File Folder,Office Supplies,265.45,41
+1516,Pen,Office Supplies,44.89,26
+1517,Jeans,Clothing,126.98,47
+1518,Wardrobe,Furniture,485.19,16
+1519,Football,Sports,116.44,20
+1520,Sneakers,Clothing,172.99,48
+1521,Jacket,Clothing,438.32,17
+1522,Bluetooth Headphones,Electronics,421.6,45
+1523,Basketball Hoop,Sports,24.26,15
+1524,Sneakers,Clothing,23,11
+1525,Office Chair,Furniture,429.27,28
+1526,Hat,Clothing,432.85,19
+1527,T-Shirt,Clothing,458.56,12
+1528,Running Shoes,Sports,436.11,22
+1529,Smartphone,Electronics,332.26,30
+1530,Jacket,Clothing,143.56,10
+1531,Digital Camera,Electronics,317.04,47
+1532,Dining Table,Furniture,416.57,39
+1533,Television,Electronics,316,20
+1534,Smartwatch,Electronics,400.07,14
+1535,Football,Sports,413.46,17
+1536,Digital Camera,Electronics,294.29,42
+1537,T-Shirt,Clothing,297.78,50
+1538,Bed,Furniture,256.75,12
+1539,Dining Table,Furniture,385.56,42
+1540,Bicycle,Sports,172.13,27
+1541,Bluetooth Headphones,Electronics,385.86,25
+1542,T-Shirt,Clothing,302.26,27
+1543,Stapler,Office Supplies,295.66,17
+1544,Hat,Clothing,136.64,42
+1545,Bicycle,Sports,145.18,33
+1546,Dress,Clothing,355.9,20
+1547,Sneakers,Clothing,19.91,14
+1548,Hat,Clothing,493.29,15
+1549,Bluetooth Headphones,Electronics,411.93,49
+1550,Football,Sports,178.44,42
+1551,Dumbbell,Sports,207.37,17
+1552,Tennis Racket,Sports,483.46,33
+1553,Ink Cartridge,Office Supplies,417.99,23
+1554,Bookshelf,Furniture,156.53,10
+1555,Running Shoes,Sports,114.83,14
+1556,Bed,Furniture,312.5,39
+1557,Football,Sports,302.02,29
+1558,Dining Table,Furniture,456.86,40
+1559,Bed,Furniture,258.63,35
+1560,Football,Sports,90.98,15
+1561,Laptop,Electronics,26.08,23
+1562,Sofa,Furniture,97.98,48
+1563,Television,Electronics,119.79,21
+1564,Stapler,Office Supplies,188.89,38
+1565,Dumbbell,Sports,254.54,13
+1566,Printer Paper,Office Supplies,249.24,36
+1567,Dress,Clothing,424.28,26
+1568,Football,Sports,259.2,30
+1569,Gym Bag,Sports,78.49,32
+1570,Belt,Clothing,223.16,34
+1571,Whiteboard,Office Supplies,22.27,17
+1572,Pen,Office Supplies,64.21,45
+1573,Dumbbell,Sports,150,12
+1574,Wardrobe,Furniture,292.58,12
+1575,Desk Organizer,Office Supplies,298.75,33
+1576,Notebook,Office Supplies,112.31,49
+1577,Dumbbell,Sports,330.87,25
+1578,Power Bank,Electronics,407.2,40
+1579,Pen,Office Supplies,71.2,50
+1580,TV Stand,Furniture,487.44,25
+1581,Office Chair,Furniture,75.37,12
+1582,Bluetooth Headphones,Electronics,69.1,22
+1583,File Folder,Office Supplies,430.24,14
+1584,Dumbbell,Sports,121.62,47
+1585,Wardrobe,Furniture,304.66,48
+1586,Notebook,Office Supplies,493.1,23
+1587,Jeans,Clothing,96.43,11
+1588,Printer Paper,Office Supplies,474.32,17
+1589,Coffee Table,Furniture,307.68,33
+1590,Basketball Hoop,Sports,233.13,22
+1591,Sofa,Furniture,58.7,28
+1592,Bed,Furniture,482.69,50
+1593,Bookshelf,Furniture,133.71,17
+1594,Jacket,Clothing,186.92,10
+1595,Television,Electronics,479.88,23
+1596,Pen,Office Supplies,69.49,42
+1597,Jacket,Clothing,153.46,36
+1598,Dress,Clothing,119.83,41
+1599,Sneakers,Clothing,251.26,45
+1600,Smartphone,Electronics,320.02,26
+1601,Notebook,Office Supplies,38.68,49
+1602,Pen,Office Supplies,454.69,47
+1603,Running Shoes,Sports,64.34,23
+1604,Dumbbell,Sports,383.91,27
+1605,Stapler,Office Supplies,40.62,25
+1606,Football,Sports,299.15,32
+1607,File Folder,Office Supplies,17.73,31
+1608,Running Shoes,Sports,446.67,38
+1609,Gaming Console,Electronics,497.96,21
+1610,Gaming Console,Electronics,183.23,39
+1611,Yoga Mat,Sports,353.05,22
+1612,Notebook,Office Supplies,313.22,27
+1613,Bicycle,Sports,107.95,18
+1614,Notebook,Office Supplies,433.08,16
+1615,Pen,Office Supplies,118.38,37
+1616,Dress,Clothing,446.71,50
+1617,Wardrobe,Furniture,281.19,44
+1618,File Folder,Office Supplies,372.23,26
+1619,Sneakers,Clothing,335.8,39
+1620,Whiteboard,Office Supplies,336.47,19
+1621,Jeans,Clothing,55.86,49
+1622,Sofa,Furniture,109.98,38
+1623,Pen,Office Supplies,289.1,17
+1624,Gym Bag,Sports,272.17,15
+1625,Jacket,Clothing,43.17,30
+1626,Printer Paper,Office Supplies,99.35,20
+1627,Hoodie,Clothing,287.78,27
+1628,Power Bank,Electronics,336.94,25
+1629,Sneakers,Clothing,24.34,14
+1630,Dumbbell,Sports,420.15,47
+1631,Running Shoes,Sports,323.88,44
+1632,File Folder,Office Supplies,355.74,19
+1633,Desk Organizer,Office Supplies,193.5,42
+1634,Running Shoes,Sports,405.82,31
+1635,Jeans,Clothing,54.14,24
+1636,Football,Sports,139.54,21
+1637,Bookshelf,Furniture,352.36,37
+1638,Running Shoes,Sports,115.7,45
+1639,Smartphone,Electronics,69.82,16
+1640,Dining Table,Furniture,34.15,20
+1641,Coffee Table,Furniture,371.21,20
+1642,Yoga Mat,Sports,305.7,19
+1643,File Folder,Office Supplies,360.36,41
+1644,Hat,Clothing,233.9,10
+1645,Belt,Clothing,327.69,26
+1646,Office Chair,Furniture,136.53,40
+1647,Sofa,Furniture,70.32,37
+1648,Gaming Console,Electronics,179.77,23
+1649,Sofa,Furniture,236.88,39
+1650,Stapler,Office Supplies,44.88,20
+1651,Dining Table,Furniture,100.37,20
+1652,Coffee Table,Furniture,10.3,28
+1653,Sofa,Furniture,106.93,26
+1654,Gaming Console,Electronics,356.37,27
+1655,Sneakers,Clothing,166.98,44
+1656,Dress,Clothing,12.22,10
+1657,Running Shoes,Sports,403.76,44
+1658,TV Stand,Furniture,232.54,47
+1659,Bluetooth Headphones,Electronics,32.39,11
+1660,Wardrobe,Furniture,175.35,37
+1661,Running Shoes,Sports,142.95,32
+1662,Yoga Mat,Sports,98.71,49
+1663,T-Shirt,Clothing,11.2,16
+1664,Wardrobe,Furniture,353.24,16
+1665,Hat,Clothing,210.53,27
+1666,T-Shirt,Clothing,316.98,32
+1667,Gaming Console,Electronics,194.87,33
+1668,Dress,Clothing,205.61,11
+1669,Notebook,Office Supplies,246.41,28
+1670,Smartwatch,Electronics,277.86,41
+1671,Notebook,Office Supplies,300.43,13
+1672,Jeans,Clothing,66.18,21
+1673,Yoga Mat,Sports,194.18,11
+1674,TV Stand,Furniture,328.6,12
+1675,Laptop,Electronics,493.89,41
+1676,Jeans,Clothing,149.78,16
+1677,Running Shoes,Sports,213.7,41
+1678,Yoga Mat,Sports,151.31,19
+1679,Bed,Furniture,337.69,32
+1680,Office Chair,Furniture,61.88,15
+1681,Gym Bag,Sports,150.02,25
+1682,T-Shirt,Clothing,233.63,15
+1683,Coffee Table,Furniture,311.12,32
+1684,Pen,Office Supplies,11.41,33
+1685,Jacket,Clothing,219.86,29
+1686,Desk Organizer,Office Supplies,346.82,36
+1687,Pen,Office Supplies,142.47,26
+1688,Dumbbell,Sports,231.02,20
+1689,Hoodie,Clothing,459.92,39
+1690,Running Shoes,Sports,209.18,40
+1691,Printer Paper,Office Supplies,24.43,21
+1692,Notebook,Office Supplies,481.18,50
+1693,Running Shoes,Sports,400.8,28
+1694,Bookshelf,Furniture,54.92,12
+1695,Running Shoes,Sports,34.91,36
+1696,Jeans,Clothing,476.42,35
+1697,Whiteboard,Office Supplies,53.89,28
+1698,Gaming Console,Electronics,140.22,43
+1699,File Folder,Office Supplies,176.2,19
+1700,Notebook,Office Supplies,65.82,34
+1701,Dining Table,Furniture,109.68,42
+1702,Notebook,Office Supplies,410.03,38
+1703,Yoga Mat,Sports,280.34,12
+1704,Bed,Furniture,468.48,24
+1705,Ink Cartridge,Office Supplies,239.09,13
+1706,Television,Electronics,350.61,46
+1707,Notebook,Office Supplies,52.03,25
+1708,Wardrobe,Furniture,110.79,29
+1709,Power Bank,Electronics,379.34,15
+1710,Dumbbell,Sports,396.54,23
+1711,TV Stand,Furniture,90.68,40
+1712,Office Chair,Furniture,50.83,40
+1713,Pen,Office Supplies,228.78,17
+1714,Bluetooth Headphones,Electronics,279.66,34
+1715,Dumbbell,Sports,75.31,29
+1716,Television,Electronics,391.98,24
+1717,File Folder,Office Supplies,425.94,40
+1718,Bed,Furniture,183.11,34
+1719,File Folder,Office Supplies,24.24,46
+1720,Hat,Clothing,183.1,47
+1721,Bluetooth Headphones,Electronics,403.56,13
+1722,Bluetooth Headphones,Electronics,452.56,26
+1723,Dumbbell,Sports,407.55,25
+1724,Dining Table,Furniture,290.08,23
+1725,Hat,Clothing,248.26,35
+1726,Desk Organizer,Office Supplies,120.96,21
+1727,Smartphone,Electronics,398.06,31
+1728,Hat,Clothing,266.21,40
+1729,Bed,Furniture,451.04,42
+1730,Basketball Hoop,Sports,462.61,37
+1731,Sneakers,Clothing,58.53,19
+1732,Bluetooth Headphones,Electronics,59.55,47
+1733,Office Chair,Furniture,270.64,47
+1734,Jeans,Clothing,114.16,45
+1735,Running Shoes,Sports,345.47,20
+1736,Hoodie,Clothing,163.4,17
+1737,Basketball Hoop,Sports,387.36,10
+1738,Hat,Clothing,184.99,33
+1739,Gaming Console,Electronics,443.88,39
+1740,Tennis Racket,Sports,465.23,30
+1741,File Folder,Office Supplies,227.95,28
+1742,Hoodie,Clothing,383.94,37
+1743,Smartphone,Electronics,313.7,47
+1744,Desk Organizer,Office Supplies,484.89,41
+1745,Dress,Clothing,380.58,30
+1746,Stapler,Office Supplies,148.1,19
+1747,Ink Cartridge,Office Supplies,108.96,15
+1748,Hoodie,Clothing,435.82,41
+1749,Stapler,Office Supplies,363.83,15
+1750,Sofa,Furniture,470.65,46
+1751,Pen,Office Supplies,314.91,48
+1752,Bed,Furniture,15.25,37
+1753,Television,Electronics,20.09,16
+1754,Bookshelf,Furniture,10,33
+1755,Digital Camera,Electronics,414.11,49
+1756,Smartwatch,Electronics,436.78,21
+1757,Power Bank,Electronics,388,35
+1758,Jeans,Clothing,341.81,44
+1759,Coffee Table,Furniture,49.54,16
+1760,Hoodie,Clothing,411.61,44
+1761,Wardrobe,Furniture,361.29,49
+1762,Gaming Console,Electronics,367.05,17
+1763,Basketball Hoop,Sports,362.07,12
+1764,Basketball Hoop,Sports,497.82,33
+1765,Hoodie,Clothing,163.92,49
+1766,Laptop,Electronics,171.71,42
+1767,Sneakers,Clothing,356.76,48
+1768,Bluetooth Headphones,Electronics,48.32,42
+1769,Running Shoes,Sports,5.6,10
+1770,Printer Paper,Office Supplies,123.06,24
+1771,Hat,Clothing,105.28,15
+1772,Smartphone,Electronics,286.5,26
+1773,Television,Electronics,282.38,16
+1774,Jacket,Clothing,492.86,44
+1775,Bluetooth Headphones,Electronics,200.08,26
+1776,Desk Organizer,Office Supplies,245.33,47
+1777,Yoga Mat,Sports,194.01,50
+1778,Dining Table,Furniture,282.17,11
+1779,Wardrobe,Furniture,253.77,42
+1780,Smartphone,Electronics,128.39,18
+1781,Coffee Table,Furniture,294.48,41
+1782,Sneakers,Clothing,272.59,40
+1783,Television,Electronics,312.2,44
+1784,Belt,Clothing,425.43,23
+1785,Dumbbell,Sports,206.8,23
+1786,Jacket,Clothing,239.58,18
+1787,Stapler,Office Supplies,148.45,21
+1788,Stapler,Office Supplies,46.18,39
+1789,File Folder,Office Supplies,254.88,35
+1790,Hat,Clothing,50.79,47
+1791,Smartphone,Electronics,221.39,45
+1792,TV Stand,Furniture,470.8,37
+1793,Notebook,Office Supplies,141.16,18
+1794,Printer Paper,Office Supplies,31.99,43
+1795,Printer Paper,Office Supplies,437.93,10
+1796,Bicycle,Sports,244.65,12
+1797,Smartwatch,Electronics,325.62,49
+1798,Smartphone,Electronics,203.89,49
+1799,Stapler,Office Supplies,391.43,36
+1800,Digital Camera,Electronics,143.95,34
+1801,Football,Sports,493.54,50
+1802,Dumbbell,Sports,58.38,45
+1803,Hat,Clothing,59.14,11
+1804,Desk Organizer,Office Supplies,155.13,28
+1805,Dress,Clothing,379.96,38
+1806,Football,Sports,190.38,17
+1807,Jeans,Clothing,10.06,33
+1808,Jeans,Clothing,28.33,11
+1809,TV Stand,Furniture,259.45,20
+1810,Bicycle,Sports,214.23,48
+1811,File Folder,Office Supplies,465.53,15
+1812,Wardrobe,Furniture,28.58,10
+1813,Notebook,Office Supplies,31.03,33
+1814,Smartwatch,Electronics,374.54,44
+1815,Dumbbell,Sports,414.88,14
+1816,Sneakers,Clothing,12.54,26
+1817,Dumbbell,Sports,254.06,43
+1818,Smartphone,Electronics,209.02,33
+1819,Hoodie,Clothing,262.06,15
+1820,Notebook,Office Supplies,221.74,45
+1821,Bookshelf,Furniture,399.71,23
+1822,Belt,Clothing,363.19,48
+1823,Belt,Clothing,402.36,22
+1824,Bluetooth Headphones,Electronics,426.88,46
+1825,Tennis Racket,Sports,115.55,30
+1826,Hat,Clothing,44.44,14
+1827,File Folder,Office Supplies,296.3,14
+1828,Gaming Console,Electronics,422.02,30
+1829,Football,Sports,95.33,45
+1830,Whiteboard,Office Supplies,32.55,25
+1831,Gaming Console,Electronics,162.75,30
+1832,Belt,Clothing,268.72,42
+1833,Bookshelf,Furniture,148.19,36
+1834,Digital Camera,Electronics,474.74,12
+1835,Stapler,Office Supplies,194.13,14
+1836,Coffee Table,Furniture,218.1,37
+1837,Bicycle,Sports,50.15,42
+1838,Tennis Racket,Sports,364.14,47
+1839,Belt,Clothing,296.33,25
+1840,Hoodie,Clothing,356.73,45
+1841,Tennis Racket,Sports,60.3,48
+1842,Desk Organizer,Office Supplies,335.35,14
+1843,File Folder,Office Supplies,228.48,23
+1844,Desk Organizer,Office Supplies,253.3,11
+1845,Desk Organizer,Office Supplies,427.46,30
+1846,Smartphone,Electronics,271.91,47
+1847,Ink Cartridge,Office Supplies,55.76,41
+1848,Belt,Clothing,37.53,15
+1849,Dumbbell,Sports,23.43,37
+1850,File Folder,Office Supplies,300.61,13
+1851,Smartphone,Electronics,53.93,48
+1852,Hoodie,Clothing,332.98,30
+1853,Gym Bag,Sports,464.26,17
+1854,Laptop,Electronics,56.38,16
+1855,Football,Sports,35.95,36
+1856,Dining Table,Furniture,443.96,26
+1857,Television,Electronics,214.14,28
+1858,Sofa,Furniture,451.33,18
+1859,Tennis Racket,Sports,197.21,24
+1860,Gym Bag,Sports,445.08,11
+1861,Notebook,Office Supplies,267.65,34
+1862,File Folder,Office Supplies,209.68,40
+1863,Jeans,Clothing,320.39,17
+1864,Basketball Hoop,Sports,15.16,15
+1865,Office Chair,Furniture,31.87,43
+1866,Dining Table,Furniture,366.84,19
+1867,Jacket,Clothing,115.16,24
+1868,Sneakers,Clothing,320.3,35
+1869,Notebook,Office Supplies,255.88,32
+1870,Gym Bag,Sports,167.21,42
+1871,Wardrobe,Furniture,88.17,15
+1872,Jeans,Clothing,272.66,29
+1873,Digital Camera,Electronics,147.99,36
+1874,Ink Cartridge,Office Supplies,307.1,10
+1875,Bluetooth Headphones,Electronics,214.01,10
+1876,Basketball Hoop,Sports,44.34,21
+1877,Office Chair,Furniture,453.99,23
+1878,Gym Bag,Sports,12.57,43
+1879,Digital Camera,Electronics,175.81,35
+1880,Basketball Hoop,Sports,343.89,42
+1881,T-Shirt,Clothing,113.42,41
+1882,Tennis Racket,Sports,444.9,48
+1883,Sofa,Furniture,47.77,31
+1884,Sneakers,Clothing,414.94,21
+1885,Hoodie,Clothing,460.9,41
+1886,Printer Paper,Office Supplies,31.78,41
+1887,Bluetooth Headphones,Electronics,332.42,29
+1888,Football,Sports,145.98,42
+1889,Gym Bag,Sports,426.52,29
+1890,Printer Paper,Office Supplies,104.08,10
+1891,Pen,Office Supplies,97.35,27
+1892,Jeans,Clothing,111.07,38
+1893,Hat,Clothing,381.46,13
+1894,Printer Paper,Office Supplies,269.18,15
+1895,Office Chair,Furniture,209.52,30
+1896,Stapler,Office Supplies,11.29,39
+1897,Printer Paper,Office Supplies,451.56,35
+1898,T-Shirt,Clothing,148.77,15
+1899,Stapler,Office Supplies,389.03,21
+1900,Stapler,Office Supplies,486.44,47
+1901,Smartwatch,Electronics,294,28
+1902,Dumbbell,Sports,313.5,41
+1903,Digital Camera,Electronics,140.04,22
+1904,Dining Table,Furniture,339.47,38
+1905,Television,Electronics,16.65,17
+1906,T-Shirt,Clothing,316.27,24
+1907,Bookshelf,Furniture,137.32,11
+1908,Gaming Console,Electronics,115.19,36
+1909,Wardrobe,Furniture,452.54,40
+1910,Smartphone,Electronics,379.45,12
+1911,Television,Electronics,142.58,12
+1912,Office Chair,Furniture,13.04,25
+1913,Football,Sports,148.76,34
+1914,Hat,Clothing,71.16,16
+1915,Desk Organizer,Office Supplies,56.58,38
+1916,Bookshelf,Furniture,61.69,38
+1917,Dress,Clothing,351.69,39
+1918,Bluetooth Headphones,Electronics,160.8,44
+1919,Whiteboard,Office Supplies,421.4,31
+1920,Ink Cartridge,Office Supplies,141.66,33
+1921,Dumbbell,Sports,239.59,46
+1922,Bed,Furniture,115.26,40
+1923,Smartphone,Electronics,486.88,29
+1924,Ink Cartridge,Office Supplies,56.5,40
+1925,Dining Table,Furniture,290.62,24
+1926,Dumbbell,Sports,111.66,41
+1927,Gym Bag,Sports,18.85,31
+1928,Gym Bag,Sports,367.94,38
+1929,Jeans,Clothing,325.55,22
+1930,Gym Bag,Sports,159.08,24
+1931,Bookshelf,Furniture,434.47,10
+1932,Dining Table,Furniture,208.06,26
+1933,Jacket,Clothing,381.98,36
+1934,Bed,Furniture,494.82,13
+1935,Bluetooth Headphones,Electronics,459.88,31
+1936,Bed,Furniture,38.13,27
+1937,Bluetooth Headphones,Electronics,44.51,35
+1938,Basketball Hoop,Sports,206.32,40
+1939,Smartphone,Electronics,135.65,35
+1940,Sofa,Furniture,298.43,28
+1941,Bed,Furniture,332.9,21
+1942,Jacket,Clothing,368.54,26
+1943,Running Shoes,Sports,111.11,27
+1944,Hoodie,Clothing,79.2,30
+1945,Belt,Clothing,282.95,27
+1946,Desk Organizer,Office Supplies,49.2,18
+1947,Whiteboard,Office Supplies,231.38,33
+1948,Television,Electronics,134,38
+1949,Yoga Mat,Sports,394.57,44
+1950,Television,Electronics,261.6,22
+1951,Office Chair,Furniture,487.42,17
+1952,Desk Organizer,Office Supplies,160.24,29
+1953,Dining Table,Furniture,208.02,24
+1954,T-Shirt,Clothing,388.23,33
+1955,Jacket,Clothing,259.02,42
+1956,Desk Organizer,Office Supplies,9.56,13
+1957,Hoodie,Clothing,105.82,18
+1958,Dress,Clothing,101.74,30
+1959,Stapler,Office Supplies,172.96,36
+1960,Whiteboard,Office Supplies,216.16,34
+1961,Dress,Clothing,256.31,41
+1962,Smartphone,Electronics,458.61,50
+1963,Sneakers,Clothing,448.09,24
+1964,Pen,Office Supplies,485.35,43
+1965,Sneakers,Clothing,364.35,34
+1966,T-Shirt,Clothing,29.43,28
+1967,Ink Cartridge,Office Supplies,264.81,22
+1968,Dining Table,Furniture,307.5,27
+1969,T-Shirt,Clothing,438.51,17
+1970,Wardrobe,Furniture,71.36,25
+1971,Desk Organizer,Office Supplies,255.54,44
+1972,Laptop,Electronics,321.02,21
+1973,T-Shirt,Clothing,108.78,49
+1974,Digital Camera,Electronics,192.38,18
+1975,Bookshelf,Furniture,228.52,18
+1976,Wardrobe,Furniture,249.49,20
+1977,Sneakers,Clothing,384.91,12
+1978,Dumbbell,Sports,35.57,46
+1979,Belt,Clothing,59.71,29
+1980,Office Chair,Furniture,60.4,23
+1981,TV Stand,Furniture,151.54,50
+1982,Coffee Table,Furniture,37.5,29
+1983,Gaming Console,Electronics,196.96,41
+1984,Gaming Console,Electronics,277.85,31
+1985,Jacket,Clothing,211.54,43
+1986,Ink Cartridge,Office Supplies,359.94,38
+1987,Smartwatch,Electronics,362.96,30
+1988,Coffee Table,Furniture,396.29,48
+1989,Hat,Clothing,330.07,10
+1990,Wardrobe,Furniture,152.13,19
+1991,Digital Camera,Electronics,118.4,36
+1992,Office Chair,Furniture,152.07,26
+1993,Coffee Table,Furniture,432.53,25
+1994,Office Chair,Furniture,458.52,48
+1995,Coffee Table,Furniture,160.58,35
+1996,Digital Camera,Electronics,309.57,24
+1997,Jeans,Clothing,171.61,17
+1998,Ink Cartridge,Office Supplies,38.08,37
+1999,Power Bank,Electronics,482.11,11
+2000,Laptop,Electronics,444.15,44
+2001,Yoga Mat,Sports,470.83,32
+2002,Hoodie,Clothing,395.16,12
+2003,File Folder,Office Supplies,468.43,24
+2004,Hoodie,Clothing,155.34,14
+2005,Bookshelf,Furniture,383.85,29
+2006,Pen,Office Supplies,237.48,20
+2007,Television,Electronics,64.37,41
+2008,Bluetooth Headphones,Electronics,251.05,46
+2009,Bluetooth Headphones,Electronics,375.9,13
+2010,Laptop,Electronics,96.25,30
+2011,Smartwatch,Electronics,266.91,38
+2012,Jeans,Clothing,43.31,43
+2013,Ink Cartridge,Office Supplies,452.68,22
+2014,Gym Bag,Sports,256.14,43
+2015,Hoodie,Clothing,382.27,24
+2016,Football,Sports,145.36,26
+2017,Digital Camera,Electronics,256.14,16
+2018,TV Stand,Furniture,469.08,42
+2019,Hat,Clothing,213.05,21
+2020,Laptop,Electronics,499.53,22
+2021,T-Shirt,Clothing,12.4,24
+2022,Office Chair,Furniture,401.59,42
+2023,Power Bank,Electronics,484.71,44
+2024,Dress,Clothing,421.5,26
+2025,Football,Sports,165,25
+2026,Gym Bag,Sports,50.53,49
+2027,Smartwatch,Electronics,218.34,25
+2028,Running Shoes,Sports,233.56,25
+2029,Stapler,Office Supplies,408.23,33
+2030,Bluetooth Headphones,Electronics,498.2,30
+2031,Ink Cartridge,Office Supplies,280.78,50
+2032,Belt,Clothing,73.21,28
+2033,Pen,Office Supplies,160.21,42
+2034,Whiteboard,Office Supplies,25.91,20
+2035,T-Shirt,Clothing,349.64,33
+2036,Dumbbell,Sports,477.11,24
+2037,Laptop,Electronics,232.23,34
+2038,Whiteboard,Office Supplies,212.91,45
+2039,Football,Sports,30.15,15
+2040,Stapler,Office Supplies,28.05,33
+2041,Hat,Clothing,324.94,12
+2042,Laptop,Electronics,20.68,30
+2043,Hat,Clothing,488.21,41
+2044,Smartphone,Electronics,168.79,33
+2045,Bluetooth Headphones,Electronics,272.65,12
+2046,Smartwatch,Electronics,12.51,44
+2047,Sofa,Furniture,13.61,18
+2048,Running Shoes,Sports,382.36,32
+2049,Sofa,Furniture,180.99,44
+2050,Stapler,Office Supplies,32.1,33
+2051,Sofa,Furniture,98.63,17
+2052,Football,Sports,271.32,38
+2053,Ink Cartridge,Office Supplies,407.95,15
+2054,Smartphone,Electronics,437.49,15
+2055,Dumbbell,Sports,369.52,13
+2056,Football,Sports,481.47,44
+2057,Digital Camera,Electronics,349.99,11
+2058,Gaming Console,Electronics,86.23,15
+2059,Ink Cartridge,Office Supplies,301.37,23
+2060,Pen,Office Supplies,468.98,38
+2061,Wardrobe,Furniture,378.25,27
+2062,Stapler,Office Supplies,88.1,28
+2063,Bookshelf,Furniture,65.41,28
+2064,Television,Electronics,48.55,50
+2065,Wardrobe,Furniture,138.02,36
+2066,Desk Organizer,Office Supplies,417.26,14
+2067,Running Shoes,Sports,234.71,33
+2068,File Folder,Office Supplies,372.78,43
+2069,Jeans,Clothing,494.29,43
+2070,Power Bank,Electronics,62.31,23
+2071,Belt,Clothing,464.94,48
+2072,Jacket,Clothing,51.88,33
+2073,TV Stand,Furniture,106.65,18
+2074,Coffee Table,Furniture,62.15,27
+2075,Tennis Racket,Sports,128.59,23
+2076,Dress,Clothing,310.07,16
+2077,Jacket,Clothing,330.46,15
+2078,Yoga Mat,Sports,8.42,26
+2079,Bluetooth Headphones,Electronics,149.62,46
+2080,Bookshelf,Furniture,270.61,49
+2081,Football,Sports,227.53,49
+2082,Whiteboard,Office Supplies,426.95,23
+2083,Gym Bag,Sports,440.76,41
+2084,Jeans,Clothing,263.83,10
+2085,Stapler,Office Supplies,152.28,21
+2086,Laptop,Electronics,27.17,33
+2087,Dress,Clothing,470.16,13
+2088,Whiteboard,Office Supplies,180.8,38
+2089,Pen,Office Supplies,263.73,37
+2090,Whiteboard,Office Supplies,125.5,49
+2091,Basketball Hoop,Sports,23.12,33
+2092,Whiteboard,Office Supplies,130.66,31
+2093,Wardrobe,Furniture,392.89,42
+2094,Smartphone,Electronics,120.63,47
+2095,Dumbbell,Sports,471.85,45
+2096,Office Chair,Furniture,317.99,34
+2097,Bicycle,Sports,433.09,20
+2098,Stapler,Office Supplies,242.16,25
+2099,Power Bank,Electronics,83.29,11
+2100,Running Shoes,Sports,90.48,39
+2101,Bed,Furniture,126.93,49
+2102,Dumbbell,Sports,248.85,36
+2103,Pen,Office Supplies,449.37,45
+2104,Tennis Racket,Sports,150.34,30
+2105,Bluetooth Headphones,Electronics,369.32,21
+2106,Office Chair,Furniture,31.84,16
+2107,Hoodie,Clothing,296.69,19
+2108,Smartphone,Electronics,38.95,30
+2109,Power Bank,Electronics,41.41,11
+2110,Hoodie,Clothing,242.98,20
+2111,Football,Sports,417.87,42
+2112,Ink Cartridge,Office Supplies,462.6,30
+2113,Printer Paper,Office Supplies,283.42,34
+2114,File Folder,Office Supplies,33.18,39
+2115,Digital Camera,Electronics,364.58,47
+2116,Jeans,Clothing,339.27,45
+2117,Notebook,Office Supplies,287.61,10
+2118,Pen,Office Supplies,337.76,17
+2119,T-Shirt,Clothing,78.44,36
+2120,Gym Bag,Sports,16.45,49
+2121,Sofa,Furniture,79.22,21
+2122,Bicycle,Sports,185.44,42
+2123,Printer Paper,Office Supplies,455.73,45
+2124,Sneakers,Clothing,228.03,12
+2125,Notebook,Office Supplies,31.91,21
+2126,Printer Paper,Office Supplies,346.81,41
+2127,Bicycle,Sports,449.41,23
+2128,Gaming Console,Electronics,118.25,24
+2129,T-Shirt,Clothing,285.86,44
+2130,Belt,Clothing,395.15,19
+2131,Tennis Racket,Sports,408.97,43
+2132,Printer Paper,Office Supplies,21.49,27
+2133,Power Bank,Electronics,237.66,34
+2134,Wardrobe,Furniture,121.75,16
+2135,Digital Camera,Electronics,78.84,33
+2136,Dining Table,Furniture,412.08,12
+2137,Belt,Clothing,350.07,33
+2138,Notebook,Office Supplies,32.72,50
+2139,Tennis Racket,Sports,401.12,47
+2140,Running Shoes,Sports,157.9,28
+2141,Dining Table,Furniture,244.76,38
+2142,File Folder,Office Supplies,194.93,22
+2143,Gaming Console,Electronics,411.27,50
+2144,Power Bank,Electronics,26.74,28
+2145,Stapler,Office Supplies,188.98,22
+2146,Whiteboard,Office Supplies,18.31,47
+2147,Sneakers,Clothing,134.54,26
+2148,Football,Sports,145.31,44
+2149,Running Shoes,Sports,265.4,15
+2150,Smartwatch,Electronics,456.33,32
+2151,Gaming Console,Electronics,134.94,50
+2152,Tennis Racket,Sports,212.63,42
+2153,Television,Electronics,24.44,21
+2154,Office Chair,Furniture,45.36,17
+2155,Dining Table,Furniture,375.68,39
+2156,Belt,Clothing,208.8,26
+2157,Wardrobe,Furniture,264.64,21
+2158,Smartwatch,Electronics,336.1,28
+2159,Bed,Furniture,328.73,46
+2160,Gym Bag,Sports,271.59,20
+2161,Laptop,Electronics,470.67,40
+2162,Desk Organizer,Office Supplies,164.17,43
+2163,Jeans,Clothing,139.92,24
+2164,Pen,Office Supplies,251.5,44
+2165,Printer Paper,Office Supplies,227.59,23
+2166,Stapler,Office Supplies,401.65,43
+2167,Bed,Furniture,262.47,23
+2168,Dumbbell,Sports,219.57,35
+2169,Jeans,Clothing,387.44,28
+2170,Whiteboard,Office Supplies,353.44,26
+2171,Television,Electronics,320.83,41
+2172,Bicycle,Sports,473.36,17
+2173,Laptop,Electronics,120.83,10
+2174,Football,Sports,495.22,30
+2175,Printer Paper,Office Supplies,472.47,26
+2176,Television,Electronics,357.42,45
+2177,Coffee Table,Furniture,49.08,48
+2178,TV Stand,Furniture,497.33,11
+2179,Football,Sports,29.28,37
+2180,Gaming Console,Electronics,482.38,33
+2181,Dining Table,Furniture,351.31,32
+2182,Printer Paper,Office Supplies,26.08,10
+2183,Jeans,Clothing,92.97,42
+2184,Yoga Mat,Sports,166.92,36
+2185,Jeans,Clothing,14.46,11
+2186,Sneakers,Clothing,428.19,38
+2187,Bed,Furniture,421.51,43
+2188,Bicycle,Sports,321.69,49
+2189,Jeans,Clothing,468.08,50
+2190,Sofa,Furniture,420.17,14
+2191,Laptop,Electronics,260.24,15
+2192,Jeans,Clothing,162.87,46
+2193,Whiteboard,Office Supplies,392.43,19
+2194,Ink Cartridge,Office Supplies,181.24,16
+2195,Smartphone,Electronics,119.73,15
+2196,Smartphone,Electronics,220.83,35
+2197,Gaming Console,Electronics,434.29,42
+2198,Power Bank,Electronics,306.91,11
+2199,Gaming Console,Electronics,52.16,35
+2200,Notebook,Office Supplies,471.43,37
+2201,Wardrobe,Furniture,454.93,17
+2202,Football,Sports,456.84,31
+2203,Desk Organizer,Office Supplies,429.14,41
+2204,Yoga Mat,Sports,66.03,43
+2205,Jacket,Clothing,11.16,12
+2206,Tennis Racket,Sports,121.37,26
+2207,Coffee Table,Furniture,103.18,28
+2208,Belt,Clothing,130.14,38
+2209,Bluetooth Headphones,Electronics,320.29,38
+2210,Whiteboard,Office Supplies,345.58,40
+2211,Gym Bag,Sports,59.71,48
+2212,File Folder,Office Supplies,157.77,37
+2213,Gym Bag,Sports,141.48,35
+2214,Notebook,Office Supplies,228.98,39
+2215,Jeans,Clothing,328.74,32
+2216,Basketball Hoop,Sports,156.4,49
+2217,Bed,Furniture,315.03,23
+2218,Digital Camera,Electronics,69.81,50
+2219,Bluetooth Headphones,Electronics,193.99,42
+2220,Pen,Office Supplies,473.63,33
+2221,Bed,Furniture,386.08,21
+2222,Laptop,Electronics,472.03,37
+2223,Hat,Clothing,290.94,12
+2224,Printer Paper,Office Supplies,82.75,48
+2225,Laptop,Electronics,449.09,32
+2226,Wardrobe,Furniture,438.74,27
+2227,Wardrobe,Furniture,113.31,49
+2228,Printer Paper,Office Supplies,36.31,36
+2229,Sofa,Furniture,211.1,49
+2230,Bookshelf,Furniture,443.46,14
+2231,Desk Organizer,Office Supplies,250.73,33
+2232,Television,Electronics,201.83,46
+2233,Wardrobe,Furniture,497.15,48
+2234,Tennis Racket,Sports,301.44,12
+2235,Whiteboard,Office Supplies,382.57,24
+2236,T-Shirt,Clothing,483.41,36
+2237,T-Shirt,Clothing,273.27,16
+2238,Yoga Mat,Sports,416.28,41
+2239,Tennis Racket,Sports,29.84,20
+2240,Notebook,Office Supplies,384.48,12
+2241,Bluetooth Headphones,Electronics,336.42,15
+2242,Bookshelf,Furniture,57.59,49
+2243,Coffee Table,Furniture,219.9,34
+2244,TV Stand,Furniture,123.22,43
+2245,Dress,Clothing,64.8,47
+2246,Digital Camera,Electronics,384.86,45
+2247,Hoodie,Clothing,239.66,22
+2248,Whiteboard,Office Supplies,175.72,41
+2249,Pen,Office Supplies,484.86,11
+2250,Laptop,Electronics,270.07,37
+2251,Running Shoes,Sports,376.43,16
+2252,Football,Sports,406.8,26
+2253,Sofa,Furniture,69.5,25
+2254,Wardrobe,Furniture,32.73,28
+2255,Dress,Clothing,234.92,42
+2256,File Folder,Office Supplies,47.99,19
+2257,Dress,Clothing,95.86,25
+2258,Sofa,Furniture,255.26,43
+2259,Laptop,Electronics,329.87,40
+2260,Jacket,Clothing,96.55,13
+2261,Coffee Table,Furniture,380.52,13
+2262,File Folder,Office Supplies,467.28,12
+2263,Bluetooth Headphones,Electronics,172.73,42
+2264,TV Stand,Furniture,212.88,40
+2265,Smartwatch,Electronics,492.14,28
+2266,Power Bank,Electronics,279.35,29
+2267,File Folder,Office Supplies,324.23,28
+2268,Bookshelf,Furniture,458.14,38
+2269,Sofa,Furniture,353.74,20
+2270,Coffee Table,Furniture,83.74,49
+2271,Jeans,Clothing,459.89,28
+2272,Wardrobe,Furniture,146.02,17
+2273,Hoodie,Clothing,493.02,32
+2274,Gaming Console,Electronics,211.24,33
+2275,Power Bank,Electronics,136.54,43
+2276,Gaming Console,Electronics,276.89,47
+2277,Bluetooth Headphones,Electronics,271.03,36
+2278,Wardrobe,Furniture,61.84,12
+2279,Jeans,Clothing,100.07,48
+2280,Pen,Office Supplies,63.8,23
+2281,Hoodie,Clothing,138.12,27
+2282,Basketball Hoop,Sports,119.32,36
+2283,Tennis Racket,Sports,156.97,12
+2284,Dress,Clothing,73.61,47
+2285,Pen,Office Supplies,362.02,20
+2286,Notebook,Office Supplies,167.3,26
+2287,Gaming Console,Electronics,408.44,10
+2288,Laptop,Electronics,382.43,50
+2289,Jacket,Clothing,19,11
+2290,Laptop,Electronics,129.53,36
+2291,Television,Electronics,304.45,25
+2292,Belt,Clothing,402.64,20
+2293,File Folder,Office Supplies,141.95,12
+2294,Sofa,Furniture,219.99,31
+2295,Tennis Racket,Sports,204.61,12
+2296,Bookshelf,Furniture,473.56,17
+2297,Smartwatch,Electronics,255.46,39
+2298,Coffee Table,Furniture,430.12,45
+2299,Dress,Clothing,456.99,37
+2300,Jacket,Clothing,147.37,37
+2301,T-Shirt,Clothing,401.93,20
+2302,Digital Camera,Electronics,71.2,18
+2303,Hat,Clothing,115.81,47
+2304,Television,Electronics,22.76,11
+2305,Dress,Clothing,443.36,38
+2306,TV Stand,Furniture,186.98,19
+2307,Printer Paper,Office Supplies,303.27,20
+2308,Football,Sports,334.96,48
+2309,Hoodie,Clothing,175.43,44
+2310,Smartphone,Electronics,477.49,25
+2311,T-Shirt,Clothing,474.12,50
+2312,Dumbbell,Sports,190.03,47
+2313,Hoodie,Clothing,345.23,42
+2314,Desk Organizer,Office Supplies,342.91,12
+2315,File Folder,Office Supplies,453.87,32
+2316,Power Bank,Electronics,40.68,29
+2317,TV Stand,Furniture,362.64,33
+2318,Ink Cartridge,Office Supplies,177.23,44
+2319,Television,Electronics,291.09,50
+2320,Belt,Clothing,445.64,36
+2321,Belt,Clothing,158.67,16
+2322,Running Shoes,Sports,431.81,25
+2323,Ink Cartridge,Office Supplies,92.01,27
+2324,Jacket,Clothing,203.92,46
+2325,Digital Camera,Electronics,361.98,45
+2326,Basketball Hoop,Sports,137.88,39
+2327,Tennis Racket,Sports,132.56,25
+2328,Smartwatch,Electronics,497.86,24
+2329,TV Stand,Furniture,477.17,45
+2330,Jeans,Clothing,256.74,15
+2331,Power Bank,Electronics,181.11,29
+2332,Gaming Console,Electronics,134.58,26
+2333,Running Shoes,Sports,218.59,38
+2334,Hat,Clothing,146.14,47
+2335,Gym Bag,Sports,9.5,19
+2336,Basketball Hoop,Sports,6.64,48
+2337,Office Chair,Furniture,339.99,26
+2338,Printer Paper,Office Supplies,416.25,24
+2339,Tennis Racket,Sports,195.06,37
+2340,Yoga Mat,Sports,305.65,28
+2341,Stapler,Office Supplies,166.16,28
+2342,Stapler,Office Supplies,462.23,25
+2343,Bicycle,Sports,121.96,30
+2344,Sofa,Furniture,156.66,22
+2345,Television,Electronics,14.85,45
+2346,Dumbbell,Sports,96.38,39
+2347,Dress,Clothing,351.46,39
+2348,Digital Camera,Electronics,385.17,48
+2349,Office Chair,Furniture,271.32,45
+2350,TV Stand,Furniture,416.68,23
+2351,Smartphone,Electronics,453.87,21
+2352,Dress,Clothing,23.88,33
+2353,Office Chair,Furniture,50.59,39
+2354,Desk Organizer,Office Supplies,222.41,35
+2355,Stapler,Office Supplies,140.7,22
+2356,Basketball Hoop,Sports,448.26,39
+2357,Desk Organizer,Office Supplies,228.93,35
+2358,Desk Organizer,Office Supplies,117.3,12
+2359,Hat,Clothing,266.48,48
+2360,Running Shoes,Sports,239.52,20
+2361,Yoga Mat,Sports,436.47,37
+2362,Office Chair,Furniture,8.31,18
+2363,TV Stand,Furniture,88.61,36
+2364,Jacket,Clothing,404.04,30
+2365,T-Shirt,Clothing,193.07,22
+2366,Dumbbell,Sports,25.44,38
+2367,Basketball Hoop,Sports,390,22
+2368,Basketball Hoop,Sports,466.66,23
+2369,Stapler,Office Supplies,274.42,17
+2370,Dumbbell,Sports,177.03,32
+2371,Smartphone,Electronics,322.15,31
+2372,Jeans,Clothing,415.07,37
+2373,Coffee Table,Furniture,317.96,30
+2374,Stapler,Office Supplies,144.56,38
+2375,Smartphone,Electronics,267.08,18
+2376,Bookshelf,Furniture,443.12,50
+2377,Bicycle,Sports,435.57,17
+2378,Wardrobe,Furniture,34.89,21
+2379,Notebook,Office Supplies,150.35,49
+2380,Smartphone,Electronics,160.52,24
+2381,Belt,Clothing,125.61,25
+2382,Dress,Clothing,160.31,21
+2383,Wardrobe,Furniture,56.98,48
+2384,Stapler,Office Supplies,263.12,26
+2385,Stapler,Office Supplies,301.3,50
+2386,Football,Sports,90.14,22
+2387,Football,Sports,172.06,18
+2388,Gaming Console,Electronics,205.07,21
+2389,Bicycle,Sports,210.11,50
+2390,Belt,Clothing,368.98,33
+2391,Bicycle,Sports,273.23,29
+2392,Jacket,Clothing,495.2,14
+2393,Jacket,Clothing,471.44,15
+2394,Hat,Clothing,73.86,20
+2395,TV Stand,Furniture,189.83,28
+2396,Television,Electronics,271.81,43
+2397,Laptop,Electronics,375.15,33
+2398,Gaming Console,Electronics,472.53,46
+2399,Smartwatch,Electronics,41.89,12
+2400,Smartwatch,Electronics,177.63,41
+2401,Gaming Console,Electronics,110.65,45
+2402,Gaming Console,Electronics,13.69,11
+2403,Dining Table,Furniture,181.9,23
+2404,Running Shoes,Sports,70.44,28
+2405,Hat,Clothing,226.17,28
+2406,Jacket,Clothing,88.02,34
+2407,Jeans,Clothing,145.76,20
+2408,Gaming Console,Electronics,428.27,25
+2409,Whiteboard,Office Supplies,188.31,46
+2410,Whiteboard,Office Supplies,376.3,21
+2411,Bluetooth Headphones,Electronics,107.93,22
+2412,Football,Sports,101.25,32
+2413,Smartphone,Electronics,106.83,40
+2414,Bookshelf,Furniture,415.26,22
+2415,Power Bank,Electronics,366.73,26
+2416,Jacket,Clothing,339.47,35
+2417,Laptop,Electronics,24.82,13
+2418,Hat,Clothing,46.73,18
+2419,Hoodie,Clothing,477.23,37
+2420,Bluetooth Headphones,Electronics,469.71,32
+2421,Wardrobe,Furniture,371.97,27
+2422,Football,Sports,79.8,19
+2423,Football,Sports,382.43,40
+2424,Jacket,Clothing,13.86,31
+2425,Desk Organizer,Office Supplies,314.7,28
+2426,Gaming Console,Electronics,56.95,40
+2427,Coffee Table,Furniture,177.27,38
+2428,Coffee Table,Furniture,305.86,34
+2429,Sofa,Furniture,272.72,22
+2430,Belt,Clothing,419.31,24
+2431,Belt,Clothing,319.25,32
+2432,Desk Organizer,Office Supplies,374.5,12
+2433,Smartwatch,Electronics,326.57,19
+2434,Hat,Clothing,349.47,28
+2435,Bicycle,Sports,438.15,16
+2436,Yoga Mat,Sports,49.09,33
+2437,Whiteboard,Office Supplies,193.07,21
+2438,Whiteboard,Office Supplies,222.1,41
+2439,Jeans,Clothing,183.3,19
+2440,Whiteboard,Office Supplies,245.2,11
+2441,Gaming Console,Electronics,273.58,14
+2442,Printer Paper,Office Supplies,326.23,40
+2443,Jeans,Clothing,427.09,25
+2444,Dress,Clothing,359.01,12
+2445,T-Shirt,Clothing,339.85,46
+2446,Jeans,Clothing,99.5,22
+2447,Laptop,Electronics,147.35,12
+2448,Wardrobe,Furniture,317.08,40
+2449,Jacket,Clothing,423.75,40
+2450,Digital Camera,Electronics,417.78,26
+2451,Ink Cartridge,Office Supplies,390.56,47
+2452,TV Stand,Furniture,450.47,45
+2453,Yoga Mat,Sports,468.8,36
+2454,TV Stand,Furniture,280.4,47
+2455,Bicycle,Sports,444.81,28
+2456,Laptop,Electronics,412.49,36
+2457,Power Bank,Electronics,114.97,42
+2458,Yoga Mat,Sports,120.5,27
+2459,Bed,Furniture,169.96,47
+2460,TV Stand,Furniture,211.39,28
+2461,Gaming Console,Electronics,324.39,29
+2462,Jeans,Clothing,79.51,44
+2463,Office Chair,Furniture,257.52,25
+2464,Desk Organizer,Office Supplies,101.2,16
+2465,Bed,Furniture,60.65,49
+2466,Bicycle,Sports,51.58,15
+2467,Bookshelf,Furniture,6.61,16
+2468,T-Shirt,Clothing,366.13,14
+2469,Bookshelf,Furniture,131.74,45
+2470,Dining Table,Furniture,341.35,13
+2471,Bluetooth Headphones,Electronics,361.37,32
+2472,Pen,Office Supplies,62.77,10
+2473,Wardrobe,Furniture,467.5,47
+2474,Hoodie,Clothing,82.11,23
+2475,Running Shoes,Sports,202.49,38
+2476,Hat,Clothing,414.36,25
+2477,Sofa,Furniture,169.23,23
+2478,Bed,Furniture,262.21,39
+2479,Bicycle,Sports,145.17,34
+2480,T-Shirt,Clothing,188.91,43
+2481,Dining Table,Furniture,130.74,46
+2482,Smartphone,Electronics,392.65,28
+2483,Running Shoes,Sports,484.49,21
+2484,Notebook,Office Supplies,91.36,21
+2485,Bed,Furniture,197.23,42
+2486,Printer Paper,Office Supplies,21.01,38
+2487,Football,Sports,72.81,40
+2488,Pen,Office Supplies,97.19,46
+2489,Whiteboard,Office Supplies,381.74,45
+2490,Running Shoes,Sports,7.81,32
+2491,Bed,Furniture,77.49,48
+2492,TV Stand,Furniture,20,11
+2493,Bed,Furniture,204.28,18
+2494,Football,Sports,265.86,46
+2495,Power Bank,Electronics,146.86,15
+2496,Smartphone,Electronics,262.92,24
+2497,Bookshelf,Furniture,46.09,37
+2498,Power Bank,Electronics,398.51,37
+2499,Smartphone,Electronics,60.7,45
+2500,Running Shoes,Sports,18.19,29
+2501,Digital Camera,Electronics,490.79,27
+2502,Gym Bag,Sports,111.21,13
+2503,Smartwatch,Electronics,256.93,20
+2504,Tennis Racket,Sports,347.92,28
+2505,Gaming Console,Electronics,230.63,34
+2506,Laptop,Electronics,309.98,32
+2507,Laptop,Electronics,30.64,39
+2508,Jeans,Clothing,70.69,29
+2509,Smartphone,Electronics,427.17,25
+2510,Power Bank,Electronics,272.02,49
+2511,Bookshelf,Furniture,127.12,30
+2512,Smartphone,Electronics,462.9,46
+2513,Bicycle,Sports,186.43,26
+2514,Hat,Clothing,99.17,37
+2515,Football,Sports,118.58,12
+2516,Pen,Office Supplies,27.36,28
+2517,Pen,Office Supplies,278.47,41
+2518,Smartphone,Electronics,445.37,42
+2519,Desk Organizer,Office Supplies,293.43,42
+2520,Jacket,Clothing,479.59,50
+2521,Tennis Racket,Sports,322.83,30
+2522,Gaming Console,Electronics,70.84,23
+2523,Power Bank,Electronics,349.13,45
+2524,Football,Sports,295.87,41
+2525,File Folder,Office Supplies,289.99,40
+2526,Bed,Furniture,290.7,38
+2527,Notebook,Office Supplies,425.39,24
+2528,Hoodie,Clothing,388.69,10
+2529,Jeans,Clothing,200.84,10
+2530,Jacket,Clothing,367.88,34
+2531,Pen,Office Supplies,364.98,19
+2532,Power Bank,Electronics,181.3,12
+2533,Jeans,Clothing,111.31,50
+2534,Office Chair,Furniture,160.41,40
+2535,Ink Cartridge,Office Supplies,416.08,25
+2536,T-Shirt,Clothing,244.64,34
+2537,Dining Table,Furniture,242.42,44
+2538,Gaming Console,Electronics,184.58,29
+2539,Dining Table,Furniture,374.33,30
+2540,Bicycle,Sports,156.26,20
+2541,Sofa,Furniture,286.47,37
+2542,Pen,Office Supplies,70.66,16
+2543,Laptop,Electronics,326.22,45
+2544,Pen,Office Supplies,465.08,32
+2545,Office Chair,Furniture,474.57,37
+2546,T-Shirt,Clothing,423.64,32
+2547,File Folder,Office Supplies,164.27,21
+2548,Tennis Racket,Sports,292.52,40
+2549,Yoga Mat,Sports,332.31,43
+2550,Bicycle,Sports,351.12,37
+2551,Bicycle,Sports,47,49
+2552,Dress,Clothing,407.14,25
+2553,Jacket,Clothing,228.07,33
+2554,Hoodie,Clothing,55.35,46
+2555,Bookshelf,Furniture,150.76,39
+2556,Hoodie,Clothing,335.98,32
+2557,Dumbbell,Sports,228.83,43
+2558,Football,Sports,99.08,33
+2559,Sneakers,Clothing,23.47,28
+2560,Sofa,Furniture,372.42,17
+2561,Dress,Clothing,110.88,46
+2562,Football,Sports,369.6,48
+2563,Hat,Clothing,96.55,27
+2564,TV Stand,Furniture,309.27,37
+2565,Dumbbell,Sports,467.83,23
+2566,Bicycle,Sports,254.89,44
+2567,Pen,Office Supplies,327.31,11
+2568,Dumbbell,Sports,196.85,48
+2569,Basketball Hoop,Sports,62.98,18
+2570,Tennis Racket,Sports,6.95,10
+2571,Notebook,Office Supplies,298.63,38
+2572,Belt,Clothing,99.27,23
+2573,Hoodie,Clothing,45.67,18
+2574,Smartphone,Electronics,168.5,43
+2575,Ink Cartridge,Office Supplies,71.31,30
+2576,Tennis Racket,Sports,168.79,42
+2577,Jacket,Clothing,280.5,26
+2578,Belt,Clothing,81.59,41
+2579,Smartphone,Electronics,482.42,18
+2580,Wardrobe,Furniture,232.66,26
+2581,Ink Cartridge,Office Supplies,433.55,13
+2582,Power Bank,Electronics,295.19,12
+2583,Yoga Mat,Sports,367.47,29
+2584,Wardrobe,Furniture,301.36,22
+2585,Coffee Table,Furniture,36.88,40
+2586,Wardrobe,Furniture,102.19,33
+2587,Jacket,Clothing,174.73,33
+2588,TV Stand,Furniture,397.03,45
+2589,Hoodie,Clothing,487.01,27
+2590,Stapler,Office Supplies,461.32,15
+2591,Notebook,Office Supplies,318.31,25
+2592,Gym Bag,Sports,141.94,40
+2593,Gaming Console,Electronics,332.54,28
+2594,Basketball Hoop,Sports,301.43,35
+2595,Bed,Furniture,479.99,50
+2596,Television,Electronics,165.31,34
+2597,Tennis Racket,Sports,193.82,36
+2598,Printer Paper,Office Supplies,171.87,13
+2599,Notebook,Office Supplies,341.06,50
+2600,Football,Sports,420,43
+2601,Bicycle,Sports,354.96,21
+2602,Jeans,Clothing,347.63,27
+2603,Dumbbell,Sports,59.43,32
+2604,Office Chair,Furniture,315.73,49
+2605,Football,Sports,26.99,45
+2606,Yoga Mat,Sports,404.24,41
+2607,Sneakers,Clothing,339.79,42
+2608,Wardrobe,Furniture,115.85,35
+2609,Laptop,Electronics,131.77,47
+2610,Smartphone,Electronics,135.65,22
+2611,Yoga Mat,Sports,487.74,18
+2612,Dining Table,Furniture,247.13,26
+2613,Power Bank,Electronics,495.46,15
+2614,Dumbbell,Sports,46.97,23
+2615,Whiteboard,Office Supplies,87.1,37
+2616,TV Stand,Furniture,306.03,34
+2617,Office Chair,Furniture,71.08,23
+2618,Smartphone,Electronics,322.77,10
+2619,Hat,Clothing,321.24,25
+2620,Football,Sports,174.61,15
+2621,File Folder,Office Supplies,384.95,50
+2622,Tennis Racket,Sports,470.86,20
+2623,Gaming Console,Electronics,33.54,48
+2624,Tennis Racket,Sports,420.53,44
+2625,Belt,Clothing,303.66,28
+2626,Yoga Mat,Sports,8.1,17
+2627,Smartwatch,Electronics,117.81,12
+2628,Football,Sports,388.55,27
+2629,Dress,Clothing,86.39,25
+2630,Gaming Console,Electronics,125.54,44
+2631,Running Shoes,Sports,427.22,38
+2632,Desk Organizer,Office Supplies,265.78,17
+2633,Whiteboard,Office Supplies,410.47,48
+2634,Hat,Clothing,367.74,22
+2635,Dumbbell,Sports,320.85,16
+2636,Stapler,Office Supplies,14.67,18
+2637,Stapler,Office Supplies,309.33,14
+2638,Power Bank,Electronics,426.56,26
+2639,File Folder,Office Supplies,419.44,15
+2640,Digital Camera,Electronics,307.18,45
+2641,Football,Sports,21.17,10
+2642,Bookshelf,Furniture,68.32,45
+2643,Power Bank,Electronics,57.1,30
+2644,Bookshelf,Furniture,209.83,32
+2645,Bed,Furniture,261.87,43
+2646,Wardrobe,Furniture,271.64,23
+2647,Notebook,Office Supplies,298.91,12
+2648,Dining Table,Furniture,463.97,16
+2649,Bicycle,Sports,453.02,50
+2650,Yoga Mat,Sports,492.68,17
+2651,Smartphone,Electronics,344.11,15
+2652,Tennis Racket,Sports,448.83,39
+2653,Stapler,Office Supplies,442.45,10
+2654,Hat,Clothing,50.64,29
+2655,Jeans,Clothing,313.52,45
+2656,Coffee Table,Furniture,469.19,23
+2657,Yoga Mat,Sports,280.7,13
+2658,Office Chair,Furniture,421.42,49
+2659,Notebook,Office Supplies,214,29
+2660,Jeans,Clothing,99.18,20
+2661,Sofa,Furniture,360.15,35
+2662,Bookshelf,Furniture,101.45,11
+2663,Desk Organizer,Office Supplies,222.86,27
+2664,Coffee Table,Furniture,403.99,34
+2665,Printer Paper,Office Supplies,274.06,45
+2666,Jeans,Clothing,123.4,45
+2667,Power Bank,Electronics,271.22,30
+2668,Whiteboard,Office Supplies,134.87,35
+2669,Dumbbell,Sports,388.15,17
+2670,Hoodie,Clothing,194.03,31
+2671,File Folder,Office Supplies,467.64,26
+2672,Office Chair,Furniture,65.91,24
+2673,Coffee Table,Furniture,351.3,20
+2674,Notebook,Office Supplies,134.81,25
+2675,Sneakers,Clothing,16.94,48
+2676,Yoga Mat,Sports,401.07,27
+2677,Sneakers,Clothing,53.5,42
+2678,Bluetooth Headphones,Electronics,179.23,47
+2679,Coffee Table,Furniture,18.78,45
+2680,Smartwatch,Electronics,48.15,40
+2681,Television,Electronics,124.25,28
+2682,Notebook,Office Supplies,36.43,47
+2683,Jacket,Clothing,15.37,32
+2684,Coffee Table,Furniture,367.87,41
+2685,Office Chair,Furniture,315.34,23
+2686,Coffee Table,Furniture,332.11,40
+2687,Bluetooth Headphones,Electronics,391.73,45
+2688,Bicycle,Sports,489.85,12
+2689,Hat,Clothing,441.29,14
+2690,Yoga Mat,Sports,121.11,19
+2691,Basketball Hoop,Sports,99.54,20
+2692,Digital Camera,Electronics,309.46,38
+2693,Gaming Console,Electronics,491.05,40
+2694,Running Shoes,Sports,433.32,22
+2695,Bluetooth Headphones,Electronics,428.24,15
+2696,Bookshelf,Furniture,188.45,21
+2697,Whiteboard,Office Supplies,129.89,40
+2698,Basketball Hoop,Sports,91.75,10
+2699,Gym Bag,Sports,403.13,30
+2700,Belt,Clothing,367.32,50
+2701,Whiteboard,Office Supplies,55.48,20
+2702,Football,Sports,446.57,30
+2703,Hat,Clothing,296.59,24
+2704,Office Chair,Furniture,445.4,45
+2705,Tennis Racket,Sports,437.22,48
+2706,Dress,Clothing,224.55,33
+2707,Office Chair,Furniture,22.77,38
+2708,Television,Electronics,288.73,36
+2709,Smartphone,Electronics,160.53,13
+2710,Office Chair,Furniture,455.77,25
+2711,Dining Table,Furniture,371.26,49
+2712,Coffee Table,Furniture,412.2,46
+2713,Bluetooth Headphones,Electronics,7.67,43
+2714,Hoodie,Clothing,129.29,35
+2715,Notebook,Office Supplies,25.72,46
+2716,Television,Electronics,211.71,37
+2717,Bed,Furniture,438.58,47
+2718,Football,Sports,406.81,27
+2719,Television,Electronics,294.38,13
+2720,Bluetooth Headphones,Electronics,168.95,13
+2721,Hoodie,Clothing,53.68,20
+2722,File Folder,Office Supplies,431.38,12
+2723,Yoga Mat,Sports,75.46,43
+2724,Bookshelf,Furniture,273.72,35
+2725,Bed,Furniture,50.98,40
+2726,Office Chair,Furniture,121.81,12
+2727,Printer Paper,Office Supplies,24.2,49
+2728,Jeans,Clothing,35.81,16
+2729,Smartwatch,Electronics,312.23,45
+2730,Television,Electronics,431.02,43
+2731,Coffee Table,Furniture,13.06,18
+2732,Dining Table,Furniture,147.31,16
+2733,Wardrobe,Furniture,292.03,39
+2734,Jacket,Clothing,83.46,31
+2735,Coffee Table,Furniture,171.71,18
+2736,Sofa,Furniture,453.89,42
+2737,Printer Paper,Office Supplies,430.78,21
+2738,Smartwatch,Electronics,226.3,29
+2739,Yoga Mat,Sports,92.04,12
+2740,Notebook,Office Supplies,349.67,46
+2741,Notebook,Office Supplies,70.42,12
+2742,Television,Electronics,381.6,50
+2743,Printer Paper,Office Supplies,6.71,23
+2744,Digital Camera,Electronics,336.2,23
+2745,Bluetooth Headphones,Electronics,25.07,11
+2746,Stapler,Office Supplies,286.65,16
+2747,Ink Cartridge,Office Supplies,464.7,29
+2748,Jacket,Clothing,33.69,28
+2749,Digital Camera,Electronics,223.32,40
+2750,Ink Cartridge,Office Supplies,352.65,38
+2751,T-Shirt,Clothing,205.94,38
+2752,Laptop,Electronics,210.79,38
+2753,Bluetooth Headphones,Electronics,496.45,44
+2754,Sofa,Furniture,166.58,23
+2755,Bed,Furniture,25.95,10
+2756,TV Stand,Furniture,219.65,33
+2757,Tennis Racket,Sports,483.15,19
+2758,Jacket,Clothing,12.99,40
+2759,Bluetooth Headphones,Electronics,129.35,18
+2760,Digital Camera,Electronics,456.14,12
+2761,T-Shirt,Clothing,119.07,10
+2762,Sneakers,Clothing,241.93,24
+2763,Stapler,Office Supplies,297.95,12
+2764,Tennis Racket,Sports,67.68,44
+2765,Basketball Hoop,Sports,312.33,36
+2766,Jacket,Clothing,148.69,11
+2767,Power Bank,Electronics,499.13,32
+2768,Laptop,Electronics,216.63,43
+2769,Dress,Clothing,134.72,44
+2770,File Folder,Office Supplies,307.72,29
+2771,Yoga Mat,Sports,43.27,12
+2772,Bluetooth Headphones,Electronics,33.38,23
+2773,Sneakers,Clothing,171.78,22
+2774,Jeans,Clothing,70.45,31
+2775,Dress,Clothing,58.66,25
+2776,Belt,Clothing,59.15,40
+2777,Smartwatch,Electronics,68.95,42
+2778,TV Stand,Furniture,172.79,48
+2779,Desk Organizer,Office Supplies,466.99,12
+2780,Whiteboard,Office Supplies,238.92,50
+2781,Hoodie,Clothing,449.35,48
+2782,Hat,Clothing,144.24,32
+2783,Belt,Clothing,61.36,28
+2784,Printer Paper,Office Supplies,65.11,13
+2785,Dress,Clothing,474.56,15
+2786,Hat,Clothing,304.61,30
+2787,Hat,Clothing,26.64,47
+2788,Wardrobe,Furniture,40.67,12
+2789,Ink Cartridge,Office Supplies,200.94,16
+2790,Sneakers,Clothing,252.23,28
+2791,Smartwatch,Electronics,226.86,18
+2792,Digital Camera,Electronics,302.39,30
+2793,Stapler,Office Supplies,383.55,41
+2794,Football,Sports,423.43,14
+2795,Printer Paper,Office Supplies,429.93,23
+2796,Bicycle,Sports,98.12,49
+2797,Jacket,Clothing,54.98,33
+2798,T-Shirt,Clothing,49.97,11
+2799,Gaming Console,Electronics,325.51,29
+2800,Bookshelf,Furniture,499.33,10
+2801,Stapler,Office Supplies,263.93,21
+2802,Bookshelf,Furniture,90.71,47
+2803,Bicycle,Sports,170.5,21
+2804,Bicycle,Sports,31.7,12
+2805,Digital Camera,Electronics,52.63,41
+2806,Office Chair,Furniture,352.61,50
+2807,Digital Camera,Electronics,101.62,24
+2808,TV Stand,Furniture,330.17,12
+2809,Bluetooth Headphones,Electronics,315.91,47
+2810,Stapler,Office Supplies,28.46,19
+2811,Television,Electronics,174.5,13
+2812,Television,Electronics,459.51,11
+2813,Bluetooth Headphones,Electronics,230.7,44
+2814,Coffee Table,Furniture,107.51,22
+2815,Belt,Clothing,251.26,28
+2816,Dumbbell,Sports,460.09,47
+2817,Smartphone,Electronics,193.47,40
+2818,Smartphone,Electronics,16.17,40
+2819,Jeans,Clothing,340.63,47
+2820,Power Bank,Electronics,244.05,31
+2821,File Folder,Office Supplies,409.14,14
+2822,Ink Cartridge,Office Supplies,381.91,32
+2823,Basketball Hoop,Sports,65.27,48
+2824,Bed,Furniture,448.43,48
+2825,Gaming Console,Electronics,283,20
+2826,Digital Camera,Electronics,279.38,31
+2827,Running Shoes,Sports,20.19,22
+2828,T-Shirt,Clothing,204.14,49
+2829,Pen,Office Supplies,322.7,20
+2830,Pen,Office Supplies,384.73,30
+2831,Basketball Hoop,Sports,489.3,33
+2832,Smartwatch,Electronics,49,35
+2833,File Folder,Office Supplies,66.61,39
+2834,Gym Bag,Sports,123.49,37
+2835,File Folder,Office Supplies,173.39,46
+2836,TV Stand,Furniture,167.46,42
+2837,Bluetooth Headphones,Electronics,22.88,10
+2838,File Folder,Office Supplies,266.21,15
+2839,Bluetooth Headphones,Electronics,455.59,32
+2840,Pen,Office Supplies,204.81,27
+2841,Ink Cartridge,Office Supplies,205.32,28
+2842,Television,Electronics,238.2,47
+2843,Smartwatch,Electronics,368.54,14
+2844,Ink Cartridge,Office Supplies,293.56,41
+2845,Laptop,Electronics,418.63,39
+2846,Laptop,Electronics,335.41,10
+2847,Bicycle,Sports,293.38,12
+2848,Bed,Furniture,115.37,23
+2849,Sofa,Furniture,145.2,40
+2850,Television,Electronics,486.23,34
+2851,Dining Table,Furniture,109.23,23
+2852,Notebook,Office Supplies,111.53,34
+2853,Stapler,Office Supplies,477.49,30
+2854,Smartwatch,Electronics,290.86,44
+2855,Sneakers,Clothing,235.61,10
+2856,Stapler,Office Supplies,288.96,40
+2857,Stapler,Office Supplies,443.92,12
+2858,Dining Table,Furniture,369.85,38
+2859,T-Shirt,Clothing,139.57,37
+2860,Hat,Clothing,243,50
+2861,Printer Paper,Office Supplies,94.08,13
+2862,Notebook,Office Supplies,193.12,20
+2863,Football,Sports,384.38,46
+2864,Television,Electronics,489.94,23
+2865,Sofa,Furniture,277.42,35
+2866,Gym Bag,Sports,479.88,15
+2867,Smartphone,Electronics,232.31,49
+2868,Bluetooth Headphones,Electronics,454.44,27
+2869,Gym Bag,Sports,221.86,30
+2870,Bicycle,Sports,146.29,45
+2871,Tennis Racket,Sports,480.88,32
+2872,Laptop,Electronics,112.08,44
+2873,File Folder,Office Supplies,309.05,33
+2874,Stapler,Office Supplies,248.3,11
+2875,Dining Table,Furniture,300.21,32
+2876,Printer Paper,Office Supplies,99.7,19
+2877,Dress,Clothing,315.62,47
+2878,Bicycle,Sports,385.47,44
+2879,Hoodie,Clothing,98.72,23
+2880,TV Stand,Furniture,219.96,16
+2881,Football,Sports,243.1,35
+2882,Stapler,Office Supplies,182.23,15
+2883,Jacket,Clothing,270.31,17
+2884,Laptop,Electronics,165.95,35
+2885,Laptop,Electronics,326.11,29
+2886,Whiteboard,Office Supplies,436.57,44
+2887,Gaming Console,Electronics,281.29,33
+2888,Ink Cartridge,Office Supplies,406.46,31
+2889,Power Bank,Electronics,319.24,45
+2890,Ink Cartridge,Office Supplies,106.4,19
+2891,Stapler,Office Supplies,303.83,19
+2892,Sofa,Furniture,381.93,20
+2893,Hoodie,Clothing,12.83,32
+2894,Office Chair,Furniture,201.77,36
+2895,Sneakers,Clothing,299.08,24
+2896,Sneakers,Clothing,173.64,43
+2897,Smartphone,Electronics,426,15
+2898,Ink Cartridge,Office Supplies,432.24,46
+2899,Hat,Clothing,282.73,48
+2900,Jeans,Clothing,196.06,19
+2901,Laptop,Electronics,342.47,41
+2902,Sneakers,Clothing,118.08,32
+2903,Stapler,Office Supplies,84.77,44
+2904,Gym Bag,Sports,384.81,42
+2905,Ink Cartridge,Office Supplies,302.82,15
+2906,Hat,Clothing,233.5,33
+2907,TV Stand,Furniture,194.49,43
+2908,Belt,Clothing,487.77,30
+2909,Belt,Clothing,286.02,40
+2910,Gaming Console,Electronics,378.97,47
+2911,Dumbbell,Sports,421.15,23
+2912,Coffee Table,Furniture,170.35,30
+2913,Gaming Console,Electronics,473.82,17
+2914,TV Stand,Furniture,137.52,16
+2915,Dumbbell,Sports,265.69,30
+2916,Laptop,Electronics,450.81,48
+2917,Belt,Clothing,90.2,46
+2918,Bicycle,Sports,100.12,14
+2919,Yoga Mat,Sports,163.25,29
+2920,Pen,Office Supplies,484.27,11
+2921,Bicycle,Sports,464.45,22
+2922,Running Shoes,Sports,246.3,31
+2923,Bookshelf,Furniture,121.28,44
+2924,Dress,Clothing,35.1,28
+2925,Dress,Clothing,48.46,17
+2926,Belt,Clothing,182.17,19
+2927,Whiteboard,Office Supplies,371.9,10
+2928,File Folder,Office Supplies,463.79,26
+2929,Belt,Clothing,86.63,13
+2930,Laptop,Electronics,394.67,16
+2931,Notebook,Office Supplies,472.06,35
+2932,Hoodie,Clothing,148.32,33
+2933,File Folder,Office Supplies,412.09,14
+2934,Smartwatch,Electronics,171.47,32
+2935,Gym Bag,Sports,369.41,45
+2936,Stapler,Office Supplies,385.96,34
+2937,Notebook,Office Supplies,451.96,20
+2938,Smartphone,Electronics,229.93,23
+2939,Jacket,Clothing,456.64,43
+2940,Whiteboard,Office Supplies,425.16,33
+2941,Smartphone,Electronics,139.69,42
+2942,File Folder,Office Supplies,128.77,46
+2943,Wardrobe,Furniture,98.21,44
+2944,Jeans,Clothing,467.84,43
+2945,Jacket,Clothing,202.37,41
+2946,Tennis Racket,Sports,131.93,43
+2947,Dumbbell,Sports,237.53,39
+2948,Whiteboard,Office Supplies,178.76,15
+2949,Smartwatch,Electronics,495.69,27
+2950,Bed,Furniture,27.6,48
+2951,Football,Sports,145.47,38
+2952,Hoodie,Clothing,16.67,30
+2953,Jeans,Clothing,240.01,36
+2954,Dining Table,Furniture,139.46,17
+2955,Sneakers,Clothing,65.03,35
+2956,Wardrobe,Furniture,28.91,33
+2957,Digital Camera,Electronics,76.07,20
+2958,Belt,Clothing,488.12,10
+2959,Stapler,Office Supplies,252.01,15
+2960,Office Chair,Furniture,186.51,35
+2961,Tennis Racket,Sports,300.39,41
+2962,Bicycle,Sports,391.21,37
+2963,Stapler,Office Supplies,428.84,25
+2964,Yoga Mat,Sports,181.33,41
+2965,Running Shoes,Sports,437.82,27
+2966,Ink Cartridge,Office Supplies,45.71,26
+2967,Gym Bag,Sports,267.32,46
+2968,Sofa,Furniture,56.15,25
+2969,Whiteboard,Office Supplies,260.95,21
+2970,Ink Cartridge,Office Supplies,497.41,23
+2971,Running Shoes,Sports,372.91,26
+2972,Bed,Furniture,312.64,22
+2973,Laptop,Electronics,113.2,12
+2974,T-Shirt,Clothing,171.9,47
+2975,Jeans,Clothing,347.52,22
+2976,Pen,Office Supplies,198.86,10
+2977,Smartphone,Electronics,219.64,45
+2978,Coffee Table,Furniture,439.29,10
+2979,Wardrobe,Furniture,456.58,20
+2980,Dining Table,Furniture,202.62,11
+2981,Pen,Office Supplies,40.72,38
+2982,TV Stand,Furniture,399.26,44
+2983,Dress,Clothing,142.75,39
+2984,Laptop,Electronics,356.43,43
+2985,Belt,Clothing,267.2,32
+2986,Laptop,Electronics,474.27,26
+2987,Bluetooth Headphones,Electronics,376.88,41
+2988,Dining Table,Furniture,107.67,19
+2989,Jacket,Clothing,144.14,28
+2990,Yoga Mat,Sports,204.06,47
+2991,Whiteboard,Office Supplies,468.26,35
+2992,Gym Bag,Sports,96.96,36
+2993,Hat,Clothing,128.54,12
+2994,Printer Paper,Office Supplies,12.16,29
+2995,Notebook,Office Supplies,211.86,36
+2996,Notebook,Office Supplies,351.14,36
+2997,Printer Paper,Office Supplies,80.58,18
+2998,Hat,Clothing,486.67,18
+2999,Television,Electronics,267.34,49
+3000,Bicycle,Sports,412.16,45
+3001,Jeans,Clothing,326.78,48
+3002,File Folder,Office Supplies,149.24,45
+3003,Tennis Racket,Sports,71.71,19
+3004,Smartwatch,Electronics,456.77,15
+3005,Jacket,Clothing,216.07,27
+3006,Dining Table,Furniture,437.6,48
+3007,Gym Bag,Sports,176.42,29
+3008,Running Shoes,Sports,38.54,27
+3009,Coffee Table,Furniture,129.4,10
+3010,Bluetooth Headphones,Electronics,260.23,37
+3011,T-Shirt,Clothing,38.69,15
+3012,Stapler,Office Supplies,89.2,23
+3013,Notebook,Office Supplies,117.53,39
+3014,Digital Camera,Electronics,494.75,31
+3015,Hoodie,Clothing,151.15,34
+3016,Printer Paper,Office Supplies,448.68,42
+3017,Stapler,Office Supplies,407.53,14
+3018,Bluetooth Headphones,Electronics,169.95,16
+3019,File Folder,Office Supplies,271.94,40
+3020,Basketball Hoop,Sports,166.95,44
+3021,T-Shirt,Clothing,413.75,21
+3022,Sneakers,Clothing,246.35,23
+3023,Pen,Office Supplies,274.25,46
+3024,Dress,Clothing,124.52,36
+3025,Stapler,Office Supplies,14.78,24
+3026,Tennis Racket,Sports,127.44,37
+3027,Coffee Table,Furniture,292.38,12
+3028,Hat,Clothing,465.12,12
+3029,Sofa,Furniture,123.85,49
+3030,Jacket,Clothing,486.67,27
+3031,Dress,Clothing,193.44,23
+3032,Smartwatch,Electronics,216.04,20
+3033,Printer Paper,Office Supplies,479.26,28
+3034,Pen,Office Supplies,163.57,23
+3035,Hat,Clothing,331.77,29
+3036,Dining Table,Furniture,266.88,32
+3037,File Folder,Office Supplies,21.36,42
+3038,Dumbbell,Sports,276.43,40
+3039,Sofa,Furniture,76.77,31
+3040,Yoga Mat,Sports,32.19,12
+3041,TV Stand,Furniture,326.4,42
+3042,Notebook,Office Supplies,285.16,49
+3043,Running Shoes,Sports,444.7,44
+3044,Pen,Office Supplies,353.62,24
+3045,Notebook,Office Supplies,293.14,27
+3046,Sneakers,Clothing,368.42,15
+3047,Office Chair,Furniture,417.62,22
+3048,Bluetooth Headphones,Electronics,375.25,32
+3049,Belt,Clothing,88.17,45
+3050,Wardrobe,Furniture,337.77,39
+3051,Gaming Console,Electronics,244.19,33
+3052,Television,Electronics,145.95,42
+3053,TV Stand,Furniture,488.8,34
+3054,Sneakers,Clothing,132.19,11
+3055,Office Chair,Furniture,315.24,31
+3056,Whiteboard,Office Supplies,416.21,49
+3057,Gaming Console,Electronics,123.39,27
+3058,Dress,Clothing,466.66,44
+3059,Tennis Racket,Sports,66.59,20
+3060,Dress,Clothing,182.63,24
+3061,Gaming Console,Electronics,120.49,19
+3062,Bed,Furniture,443.59,26
+3063,Office Chair,Furniture,110.59,47
+3064,File Folder,Office Supplies,282.56,44
+3065,Power Bank,Electronics,264.21,36
+3066,Sneakers,Clothing,340.04,23
+3067,Bluetooth Headphones,Electronics,474,44
+3068,Running Shoes,Sports,280.26,45
+3069,Tennis Racket,Sports,473.46,20
+3070,Power Bank,Electronics,145.71,19
+3071,Ink Cartridge,Office Supplies,73.67,31
+3072,Sofa,Furniture,383.73,46
+3073,Coffee Table,Furniture,135.28,29
+3074,Television,Electronics,45.01,49
+3075,T-Shirt,Clothing,425.21,21
+3076,Television,Electronics,287.12,15
+3077,Running Shoes,Sports,40.55,36
+3078,Bluetooth Headphones,Electronics,186.77,28
+3079,Sofa,Furniture,147.85,44
+3080,Coffee Table,Furniture,272.81,32
+3081,Ink Cartridge,Office Supplies,47.43,45
+3082,Laptop,Electronics,189.36,12
+3083,Smartwatch,Electronics,174.21,14
+3084,Smartphone,Electronics,128.64,49
+3085,Whiteboard,Office Supplies,149.54,27
+3086,Football,Sports,236.07,49
+3087,Sneakers,Clothing,484.71,24
+3088,Office Chair,Furniture,308.79,34
+3089,Hoodie,Clothing,146.91,17
+3090,Jeans,Clothing,183.33,40
+3091,Pen,Office Supplies,274.29,21
+3092,Tennis Racket,Sports,477.49,21
+3093,Coffee Table,Furniture,273.74,43
+3094,Smartwatch,Electronics,359.48,50
+3095,Smartwatch,Electronics,372.53,42
+3096,Laptop,Electronics,273.82,35
+3097,Sneakers,Clothing,210.23,34
+3098,Wardrobe,Furniture,116.45,13
+3099,Sofa,Furniture,178.18,10
+3100,Bed,Furniture,279.26,50
+3101,Gym Bag,Sports,8.96,12
+3102,Hat,Clothing,177.98,47
+3103,Office Chair,Furniture,268.2,46
+3104,Ink Cartridge,Office Supplies,400.6,47
+3105,Running Shoes,Sports,312.82,13
+3106,Laptop,Electronics,7.33,20
+3107,Printer Paper,Office Supplies,164.14,15
+3108,Power Bank,Electronics,91.44,23
+3109,TV Stand,Furniture,27.49,15
+3110,Pen,Office Supplies,31.31,38
+3111,Belt,Clothing,73.87,22
+3112,Laptop,Electronics,131.26,11
+3113,Coffee Table,Furniture,146.92,15
+3114,Bed,Furniture,118.51,20
+3115,Whiteboard,Office Supplies,461.2,18
+3116,Coffee Table,Furniture,374.73,30
+3117,Whiteboard,Office Supplies,343.05,11
+3118,Bluetooth Headphones,Electronics,419.25,50
+3119,Sneakers,Clothing,377.08,17
+3120,Digital Camera,Electronics,414.23,31
+3121,Gaming Console,Electronics,15.87,11
+3122,Printer Paper,Office Supplies,330.72,35
+3123,Football,Sports,92.2,44
+3124,Desk Organizer,Office Supplies,364.76,47
+3125,Coffee Table,Furniture,104.35,10
+3126,Power Bank,Electronics,148.58,37
+3127,T-Shirt,Clothing,112.34,44
+3128,Laptop,Electronics,483.28,30
+3129,Power Bank,Electronics,480.98,16
+3130,Hat,Clothing,434.44,41
+3131,Printer Paper,Office Supplies,221.17,29
+3132,Basketball Hoop,Sports,270.45,24
+3133,Stapler,Office Supplies,427.77,48
+3134,Football,Sports,25.66,30
+3135,T-Shirt,Clothing,255.27,14
+3136,Whiteboard,Office Supplies,401.3,32
+3137,Dress,Clothing,288.05,12
+3138,Belt,Clothing,291.02,34
+3139,Wardrobe,Furniture,160.18,20
+3140,Sofa,Furniture,486.48,22
+3141,Sofa,Furniture,355.45,37
+3142,Hoodie,Clothing,329.48,29
+3143,Hoodie,Clothing,424.27,26
+3144,Power Bank,Electronics,413.94,17
+3145,Power Bank,Electronics,131.94,37
+3146,Sneakers,Clothing,205.15,20
+3147,Belt,Clothing,153.77,41
+3148,Coffee Table,Furniture,127.59,21
+3149,Yoga Mat,Sports,148.4,23
+3150,Digital Camera,Electronics,38.05,31
+3151,Hat,Clothing,488.83,38
+3152,Football,Sports,304.43,26
+3153,Tennis Racket,Sports,118.5,39
+3154,File Folder,Office Supplies,276.56,14
+3155,Belt,Clothing,491.28,20
+3156,Digital Camera,Electronics,223.08,40
+3157,Football,Sports,244.98,18
+3158,Coffee Table,Furniture,315.19,47
+3159,Television,Electronics,182.31,33
+3160,Bluetooth Headphones,Electronics,22.61,46
+3161,Power Bank,Electronics,403.79,36
+3162,File Folder,Office Supplies,220.27,10
+3163,Sofa,Furniture,336.74,47
+3164,Pen,Office Supplies,100.53,28
+3165,Printer Paper,Office Supplies,429.62,48
+3166,Notebook,Office Supplies,180.02,35
+3167,Smartphone,Electronics,305.87,25
+3168,Bookshelf,Furniture,66.5,27
+3169,Smartphone,Electronics,439.43,41
+3170,Printer Paper,Office Supplies,310.76,43
+3171,Bluetooth Headphones,Electronics,224.31,32
+3172,TV Stand,Furniture,47.93,46
+3173,Tennis Racket,Sports,57.28,35
+3174,Belt,Clothing,393.94,11
+3175,Bluetooth Headphones,Electronics,469.68,19
+3176,Desk Organizer,Office Supplies,493.62,49
+3177,Gym Bag,Sports,75.89,48
+3178,TV Stand,Furniture,111.58,38
+3179,Jeans,Clothing,436.51,34
+3180,Hoodie,Clothing,370.22,27
+3181,Basketball Hoop,Sports,401.58,25
+3182,Jeans,Clothing,19.38,33
+3183,Yoga Mat,Sports,387.7,41
+3184,Sneakers,Clothing,135.89,47
+3185,Power Bank,Electronics,53,13
+3186,Running Shoes,Sports,70.03,46
+3187,Yoga Mat,Sports,22.81,35
+3188,Office Chair,Furniture,222.96,22
+3189,Desk Organizer,Office Supplies,379.72,34
+3190,T-Shirt,Clothing,440.35,22
+3191,Printer Paper,Office Supplies,299.48,12
+3192,TV Stand,Furniture,300.49,13
+3193,Running Shoes,Sports,451.06,46
+3194,Bed,Furniture,326.09,43
+3195,Notebook,Office Supplies,157.07,42
+3196,Printer Paper,Office Supplies,364.55,33
+3197,Dress,Clothing,207.61,31
+3198,Laptop,Electronics,433.12,21
+3199,Gym Bag,Sports,418.76,35
+3200,Office Chair,Furniture,65.27,17
+3201,Printer Paper,Office Supplies,451.86,29
+3202,Office Chair,Furniture,184.86,24
+3203,Power Bank,Electronics,105.54,16
+3204,T-Shirt,Clothing,219.59,16
+3205,Tennis Racket,Sports,127.97,50
+3206,Dumbbell,Sports,311.06,20
+3207,Dress,Clothing,319.01,42
+3208,Stapler,Office Supplies,110.42,36
+3209,T-Shirt,Clothing,74.62,29
+3210,Bicycle,Sports,283.33,36
+3211,Ink Cartridge,Office Supplies,420.75,35
+3212,Television,Electronics,342.41,50
+3213,Smartphone,Electronics,35.21,20
+3214,Belt,Clothing,96.98,36
+3215,TV Stand,Furniture,332.97,35
+3216,Gaming Console,Electronics,357.68,11
+3217,Dining Table,Furniture,377.99,11
+3218,Printer Paper,Office Supplies,74.68,30
+3219,Notebook,Office Supplies,351.95,46
+3220,Digital Camera,Electronics,462.63,37
+3221,Whiteboard,Office Supplies,491.05,43
+3222,TV Stand,Furniture,478.1,28
+3223,Coffee Table,Furniture,219.33,45
+3224,Printer Paper,Office Supplies,196.14,31
+3225,Gym Bag,Sports,130.88,32
+3226,Yoga Mat,Sports,148.11,17
+3227,Television,Electronics,74.76,17
+3228,Bookshelf,Furniture,41.59,22
+3229,Bed,Furniture,269.34,33
+3230,Jacket,Clothing,271.3,48
+3231,Sneakers,Clothing,274.67,47
+3232,Bicycle,Sports,392.82,25
+3233,Stapler,Office Supplies,120.32,37
+3234,Coffee Table,Furniture,225.53,39
+3235,Notebook,Office Supplies,350.87,43
+3236,Pen,Office Supplies,458.47,45
+3237,T-Shirt,Clothing,57.08,39
+3238,Stapler,Office Supplies,164.45,43
+3239,Digital Camera,Electronics,393.09,35
+3240,Stapler,Office Supplies,91.63,43
+3241,Tennis Racket,Sports,358.23,29
+3242,Pen,Office Supplies,226.36,40
+3243,Yoga Mat,Sports,416.1,28
+3244,Power Bank,Electronics,361.65,48
+3245,Wardrobe,Furniture,458.44,16
+3246,Belt,Clothing,252.63,24
+3247,Bookshelf,Furniture,228.49,13
+3248,Power Bank,Electronics,141.09,49
+3249,Belt,Clothing,480.45,39
+3250,File Folder,Office Supplies,226.78,25
+3251,Smartwatch,Electronics,366.86,15
+3252,Gym Bag,Sports,223.1,22
+3253,Dumbbell,Sports,422.58,13
+3254,Office Chair,Furniture,499.62,21
+3255,Notebook,Office Supplies,175.49,47
+3256,Jeans,Clothing,308.39,13
+3257,Ink Cartridge,Office Supplies,80.96,30
+3258,Jacket,Clothing,455.56,28
+3259,Dress,Clothing,51.57,47
+3260,Dining Table,Furniture,197.18,11
+3261,Bluetooth Headphones,Electronics,254.91,16
+3262,Tennis Racket,Sports,270.24,10
+3263,Pen,Office Supplies,158.54,18
+3264,Pen,Office Supplies,44.83,23
+3265,Belt,Clothing,182.25,41
+3266,Desk Organizer,Office Supplies,244.27,44
+3267,Dining Table,Furniture,168.57,44
+3268,T-Shirt,Clothing,210.62,24
+3269,Dining Table,Furniture,425,35
+3270,Jacket,Clothing,450.9,35
+3271,Coffee Table,Furniture,387.95,27
+3272,Dumbbell,Sports,10.74,26
+3273,Smartwatch,Electronics,309.4,37
+3274,Stapler,Office Supplies,309.14,17
+3275,Television,Electronics,379.72,14
+3276,Bookshelf,Furniture,250.9,35
+3277,Bed,Furniture,277.51,46
+3278,Office Chair,Furniture,262.63,30
+3279,Yoga Mat,Sports,58.79,29
+3280,Basketball Hoop,Sports,232.41,44
+3281,Bed,Furniture,323.84,20
+3282,TV Stand,Furniture,163.54,16
+3283,Power Bank,Electronics,10.42,50
+3284,Sofa,Furniture,138.19,10
+3285,Stapler,Office Supplies,108.16,14
+3286,Gym Bag,Sports,451.52,28
+3287,Football,Sports,401.9,10
+3288,Bluetooth Headphones,Electronics,83.69,24
+3289,Office Chair,Furniture,440.22,22
+3290,Sofa,Furniture,43.16,28
+3291,Football,Sports,154.86,28
+3292,Laptop,Electronics,485.08,10
+3293,Desk Organizer,Office Supplies,438.03,12
+3294,Sneakers,Clothing,234.29,18
+3295,Bluetooth Headphones,Electronics,9.38,26
+3296,Wardrobe,Furniture,398.67,42
+3297,Dining Table,Furniture,473.75,48
+3298,Hoodie,Clothing,275.43,40
+3299,Hat,Clothing,206.84,28
+3300,Pen,Office Supplies,38.33,10
+3301,Bookshelf,Furniture,135.65,42
+3302,Gaming Console,Electronics,19.26,48
+3303,Notebook,Office Supplies,374.46,37
+3304,Smartphone,Electronics,422.66,20
+3305,Television,Electronics,251.47,19
+3306,Gym Bag,Sports,441.89,43
+3307,Dining Table,Furniture,16.13,27
+3308,Bookshelf,Furniture,199.61,24
+3309,Stapler,Office Supplies,338.49,22
+3310,Digital Camera,Electronics,274.12,49
+3311,Dress,Clothing,306.32,20
+3312,Sofa,Furniture,368.66,43
+3313,Digital Camera,Electronics,317.61,12
+3314,TV Stand,Furniture,450.43,10
+3315,Jeans,Clothing,257.73,47
+3316,Sneakers,Clothing,305.11,13
+3317,Football,Sports,346.11,48
+3318,Bookshelf,Furniture,173.37,16
+3319,TV Stand,Furniture,286.65,18
+3320,Bed,Furniture,205.74,36
+3321,Notebook,Office Supplies,458.12,34
+3322,Sofa,Furniture,485.62,37
+3323,Bed,Furniture,399.49,12
+3324,Dining Table,Furniture,97.33,16
+3325,Whiteboard,Office Supplies,173.05,36
+3326,Wardrobe,Furniture,469.79,13
+3327,Pen,Office Supplies,423.65,12
+3328,Bicycle,Sports,302.15,21
+3329,Dumbbell,Sports,298.3,12
+3330,Belt,Clothing,337.82,10
+3331,Running Shoes,Sports,20.07,16
+3332,Ink Cartridge,Office Supplies,435.37,45
+3333,Gym Bag,Sports,449.66,50
+3334,Bed,Furniture,303.89,18
+3335,Digital Camera,Electronics,212.78,27
+3336,Desk Organizer,Office Supplies,370.76,43
+3337,Printer Paper,Office Supplies,208.56,44
+3338,Wardrobe,Furniture,287.19,27
+3339,Printer Paper,Office Supplies,155.23,33
+3340,Bookshelf,Furniture,170.89,27
+3341,Wardrobe,Furniture,439.2,18
+3342,Stapler,Office Supplies,56.09,44
+3343,Smartphone,Electronics,469.22,25
+3344,Jacket,Clothing,479.06,44
+3345,Smartwatch,Electronics,86.11,18
+3346,Gaming Console,Electronics,341.24,43
+3347,Notebook,Office Supplies,262.13,20
+3348,Power Bank,Electronics,462.7,44
+3349,Bed,Furniture,431.39,19
+3350,Office Chair,Furniture,169.18,39
+3351,Running Shoes,Sports,112.93,13
+3352,Bed,Furniture,277.95,30
+3353,Dress,Clothing,106.37,33
+3354,Power Bank,Electronics,85.86,44
+3355,Printer Paper,Office Supplies,196.46,10
+3356,Printer Paper,Office Supplies,332.15,23
+3357,Coffee Table,Furniture,345.73,47
+3358,Dining Table,Furniture,398.83,18
+3359,Ink Cartridge,Office Supplies,161.4,18
+3360,Television,Electronics,369.38,40
+3361,Wardrobe,Furniture,22.58,48
+3362,Notebook,Office Supplies,157.94,38
+3363,Whiteboard,Office Supplies,497.04,48
+3364,Coffee Table,Furniture,419.38,38
+3365,Digital Camera,Electronics,20.41,13
+3366,Hoodie,Clothing,432.63,28
+3367,Hoodie,Clothing,329.39,25
+3368,Dumbbell,Sports,467.2,44
+3369,Bluetooth Headphones,Electronics,492.87,17
+3370,Coffee Table,Furniture,17.91,26
+3371,Dumbbell,Sports,127.02,34
+3372,Whiteboard,Office Supplies,350.6,32
+3373,Sneakers,Clothing,373.05,29
+3374,Coffee Table,Furniture,250.13,26
+3375,Smartphone,Electronics,344.77,17
+3376,Sofa,Furniture,450.98,40
+3377,Digital Camera,Electronics,153.43,30
+3378,Bluetooth Headphones,Electronics,143.05,10
+3379,Whiteboard,Office Supplies,436.71,43
+3380,Desk Organizer,Office Supplies,339.28,10
+3381,Notebook,Office Supplies,138.22,34
+3382,Smartphone,Electronics,314.81,27
+3383,Belt,Clothing,350.42,21
+3384,Sofa,Furniture,189.22,31
+3385,Bed,Furniture,15.28,25
+3386,TV Stand,Furniture,264.67,30
+3387,File Folder,Office Supplies,401.18,17
+3388,Digital Camera,Electronics,361.81,20
+3389,Desk Organizer,Office Supplies,78.05,16
+3390,Bicycle,Sports,488.32,49
+3391,Stapler,Office Supplies,303.84,34
+3392,Dining Table,Furniture,283.53,19
+3393,Power Bank,Electronics,140.74,46
+3394,Coffee Table,Furniture,425.02,23
+3395,Belt,Clothing,299.37,27
+3396,Bookshelf,Furniture,212.26,38
+3397,Tennis Racket,Sports,465.14,15
+3398,Television,Electronics,366.77,42
+3399,Notebook,Office Supplies,54.77,39
+3400,Stapler,Office Supplies,425.51,34
+3401,Gaming Console,Electronics,398.72,16
+3402,Gaming Console,Electronics,300.55,39
+3403,Gym Bag,Sports,60.23,37
+3404,Pen,Office Supplies,257.87,25
+3405,Smartwatch,Electronics,303.74,26
+3406,Smartphone,Electronics,463.15,28
+3407,Bluetooth Headphones,Electronics,398.24,32
+3408,Dumbbell,Sports,158.85,50
+3409,Office Chair,Furniture,117.67,28
+3410,Desk Organizer,Office Supplies,223.52,34
+3411,Coffee Table,Furniture,199.8,44
+3412,Bookshelf,Furniture,213.11,32
+3413,Yoga Mat,Sports,352.9,22
+3414,Bicycle,Sports,193.42,12
+3415,Gaming Console,Electronics,88.16,20
+3416,Hoodie,Clothing,394.2,18
+3417,Tennis Racket,Sports,141.23,12
+3418,Pen,Office Supplies,199.77,21
+3419,Bed,Furniture,215.79,27
+3420,Dining Table,Furniture,220.64,26
+3421,Desk Organizer,Office Supplies,256.07,24
+3422,Digital Camera,Electronics,307.46,35
+3423,Sofa,Furniture,305.11,28
+3424,Stapler,Office Supplies,114.32,41
+3425,Smartphone,Electronics,468.14,36
+3426,Sofa,Furniture,453.48,21
+3427,Printer Paper,Office Supplies,315.9,37
+3428,Tennis Racket,Sports,373.59,46
+3429,Coffee Table,Furniture,305.13,28
+3430,Office Chair,Furniture,44.54,45
+3431,Wardrobe,Furniture,389.73,45
+3432,Smartphone,Electronics,21.31,50
+3433,Digital Camera,Electronics,24.21,16
+3434,Dress,Clothing,280.96,23
+3435,Smartwatch,Electronics,363.81,47
+3436,Desk Organizer,Office Supplies,265.87,36
+3437,Bookshelf,Furniture,157.5,39
+3438,Yoga Mat,Sports,286.62,36
+3439,Running Shoes,Sports,366.57,30
+3440,Pen,Office Supplies,381.61,14
+3441,Yoga Mat,Sports,140.52,28
+3442,Dumbbell,Sports,485.21,32
+3443,Sneakers,Clothing,64.1,37
+3444,Stapler,Office Supplies,91.58,40
+3445,Wardrobe,Furniture,273.69,23
+3446,Sofa,Furniture,410.47,17
+3447,Bluetooth Headphones,Electronics,177.81,36
+3448,Sofa,Furniture,53.42,18
+3449,Whiteboard,Office Supplies,64.93,32
+3450,Yoga Mat,Sports,431.97,28
+3451,Gaming Console,Electronics,473.23,33
+3452,Pen,Office Supplies,488.69,29
+3453,Dress,Clothing,252.26,25
+3454,Notebook,Office Supplies,390.57,49
+3455,Dining Table,Furniture,25.01,44
+3456,Bed,Furniture,183.27,48
+3457,Television,Electronics,483.67,43
+3458,Pen,Office Supplies,340.2,44
+3459,Stapler,Office Supplies,428.03,23
+3460,Bluetooth Headphones,Electronics,407.57,30
+3461,Power Bank,Electronics,336.93,30
+3462,Bluetooth Headphones,Electronics,117.07,33
+3463,Jeans,Clothing,120,36
+3464,Bluetooth Headphones,Electronics,137.97,31
+3465,Notebook,Office Supplies,194.8,18
+3466,Dining Table,Furniture,143.53,27
+3467,Digital Camera,Electronics,138.76,10
+3468,Football,Sports,34.61,37
+3469,Football,Sports,240.35,20
+3470,Sofa,Furniture,318.46,29
+3471,Laptop,Electronics,46.33,48
+3472,Printer Paper,Office Supplies,468.07,49
+3473,Bicycle,Sports,246.23,13
+3474,Running Shoes,Sports,194.38,22
+3475,Hat,Clothing,420.34,26
+3476,Notebook,Office Supplies,138.55,24
+3477,Bed,Furniture,477.62,36
+3478,Gaming Console,Electronics,30.79,44
+3479,Ink Cartridge,Office Supplies,223.62,32
+3480,Notebook,Office Supplies,392.62,18
+3481,Printer Paper,Office Supplies,379,39
+3482,Laptop,Electronics,330.35,41
+3483,Smartwatch,Electronics,56.01,27
+3484,Whiteboard,Office Supplies,440.27,50
+3485,Basketball Hoop,Sports,300.91,30
+3486,Tennis Racket,Sports,237.16,42
+3487,Notebook,Office Supplies,302.07,19
+3488,Whiteboard,Office Supplies,44.26,16
+3489,Yoga Mat,Sports,318.07,48
+3490,Smartphone,Electronics,415.08,30
+3491,Digital Camera,Electronics,90.49,14
+3492,Belt,Clothing,99.62,14
+3493,Jeans,Clothing,78.11,31
+3494,Yoga Mat,Sports,371.44,42
+3495,T-Shirt,Clothing,353.74,41
+3496,Sneakers,Clothing,459.71,38
+3497,Sofa,Furniture,391.04,15
+3498,Power Bank,Electronics,33.07,22
+3499,Belt,Clothing,252.94,46
+3500,Sneakers,Clothing,306.08,19
+3501,Gym Bag,Sports,468.1,36
+3502,Dress,Clothing,172.15,48
+3503,Hoodie,Clothing,424.96,27
+3504,Laptop,Electronics,204.16,48
+3505,Gaming Console,Electronics,76.96,20
+3506,Coffee Table,Furniture,130.06,37
+3507,Jeans,Clothing,397.58,12
+3508,Office Chair,Furniture,399.6,49
+3509,Football,Sports,317.39,38
+3510,Smartphone,Electronics,367.64,28
+3511,Television,Electronics,217.19,22
+3512,File Folder,Office Supplies,112.17,30
+3513,Bed,Furniture,249.99,35
+3514,Hat,Clothing,367.35,24
+3515,TV Stand,Furniture,9.11,45
+3516,Gaming Console,Electronics,428.5,35
+3517,Whiteboard,Office Supplies,335.56,27
+3518,Office Chair,Furniture,365.38,12
+3519,Sneakers,Clothing,114.46,50
+3520,Dress,Clothing,94.99,35
+3521,Printer Paper,Office Supplies,384.81,29
+3522,Notebook,Office Supplies,442.54,37
+3523,Dress,Clothing,272.12,35
+3524,Whiteboard,Office Supplies,178.97,13
+3525,Desk Organizer,Office Supplies,348.82,14
+3526,Gaming Console,Electronics,186.88,40
+3527,Pen,Office Supplies,258.36,29
+3528,Hat,Clothing,9.89,30
+3529,Whiteboard,Office Supplies,108.36,40
+3530,Desk Organizer,Office Supplies,261.12,33
+3531,Bicycle,Sports,16.25,12
+3532,Pen,Office Supplies,483.15,42
+3533,Running Shoes,Sports,412.85,22
+3534,Yoga Mat,Sports,144.33,15
+3535,Dress,Clothing,11.29,28
+3536,Desk Organizer,Office Supplies,447.11,29
+3537,Wardrobe,Furniture,125.43,30
+3538,Wardrobe,Furniture,182.98,44
+3539,Smartphone,Electronics,83.38,38
+3540,Television,Electronics,411.53,30
+3541,Bluetooth Headphones,Electronics,286.69,50
+3542,Wardrobe,Furniture,411.64,38
+3543,TV Stand,Furniture,332.63,26
+3544,Television,Electronics,96.94,17
+3545,Whiteboard,Office Supplies,480.39,24
+3546,Wardrobe,Furniture,253.12,34
+3547,Printer Paper,Office Supplies,166.34,35
+3548,Smartphone,Electronics,157.36,33
+3549,Wardrobe,Furniture,121.76,30
+3550,Whiteboard,Office Supplies,228.3,47
+3551,Coffee Table,Furniture,124.17,44
+3552,Gaming Console,Electronics,84.93,28
+3553,Laptop,Electronics,452.85,37
+3554,Coffee Table,Furniture,401.08,46
+3555,Basketball Hoop,Sports,278.71,30
+3556,Sneakers,Clothing,34.76,29
+3557,Hoodie,Clothing,18.79,35
+3558,Dumbbell,Sports,292.28,11
+3559,Power Bank,Electronics,70.68,28
+3560,Sofa,Furniture,491.66,38
+3561,Bicycle,Sports,141.97,10
+3562,Hat,Clothing,92.33,48
+3563,Basketball Hoop,Sports,294.72,17
+3564,Sneakers,Clothing,372.71,17
+3565,Smartwatch,Electronics,323.65,18
+3566,Hoodie,Clothing,160.25,44
+3567,Printer Paper,Office Supplies,204.18,21
+3568,Printer Paper,Office Supplies,431.84,40
+3569,Whiteboard,Office Supplies,186.39,38
+3570,Smartphone,Electronics,60.76,37
+3571,Hat,Clothing,16.5,40
+3572,Running Shoes,Sports,95.56,49
+3573,Wardrobe,Furniture,439.31,50
+3574,Dumbbell,Sports,26.18,26
+3575,Running Shoes,Sports,285.18,41
+3576,Smartphone,Electronics,405.21,29
+3577,Television,Electronics,344.49,18
+3578,Laptop,Electronics,176.69,47
+3579,Gaming Console,Electronics,375.88,17
+3580,Sneakers,Clothing,59.14,48
+3581,Printer Paper,Office Supplies,415.31,22
+3582,Hoodie,Clothing,59.82,31
+3583,Bicycle,Sports,294.16,44
+3584,Wardrobe,Furniture,475.08,48
+3585,Desk Organizer,Office Supplies,258.05,36
+3586,TV Stand,Furniture,92.05,12
+3587,Running Shoes,Sports,151.51,19
+3588,Hat,Clothing,55.63,27
+3589,Jeans,Clothing,157.5,41
+3590,Bicycle,Sports,199.69,46
+3591,Dining Table,Furniture,77.91,26
+3592,Power Bank,Electronics,449.9,46
+3593,Dumbbell,Sports,122.61,15
+3594,TV Stand,Furniture,191.46,28
+3595,Printer Paper,Office Supplies,167.78,26
+3596,Dumbbell,Sports,101.87,32
+3597,Sofa,Furniture,248.65,32
+3598,Smartphone,Electronics,441.18,11
+3599,Tennis Racket,Sports,332.14,43
+3600,Smartwatch,Electronics,162.79,48
+3601,Laptop,Electronics,46.68,13
+3602,Smartphone,Electronics,265.75,28
+3603,Television,Electronics,226.58,46
+3604,Hat,Clothing,456.76,26
+3605,Television,Electronics,80.31,32
+3606,Bicycle,Sports,258.31,39
+3607,Notebook,Office Supplies,57.36,37
+3608,Sneakers,Clothing,214.09,11
+3609,Hat,Clothing,438.79,30
+3610,Jacket,Clothing,292,32
+3611,Pen,Office Supplies,296.08,22
+3612,Television,Electronics,299.05,24
+3613,Television,Electronics,491.64,39
+3614,Football,Sports,321.91,43
+3615,Stapler,Office Supplies,8.11,28
+3616,Bed,Furniture,121.42,43
+3617,File Folder,Office Supplies,119.42,11
+3618,T-Shirt,Clothing,7.61,29
+3619,Smartphone,Electronics,257.61,32
+3620,Stapler,Office Supplies,235.49,25
+3621,Jacket,Clothing,262.03,10
+3622,Gym Bag,Sports,155.53,38
+3623,Smartwatch,Electronics,449.08,13
+3624,Hat,Clothing,91.59,46
+3625,Laptop,Electronics,75.18,20
+3626,Jacket,Clothing,459.89,41
+3627,Wardrobe,Furniture,281.44,23
+3628,Ink Cartridge,Office Supplies,331.65,47
+3629,Belt,Clothing,288.61,23
+3630,Dress,Clothing,64.81,29
+3631,Television,Electronics,242.88,27
+3632,Laptop,Electronics,287.83,42
+3633,Ink Cartridge,Office Supplies,72.19,32
+3634,Bluetooth Headphones,Electronics,166.78,32
+3635,Jeans,Clothing,373.46,34
+3636,T-Shirt,Clothing,221.44,27
+3637,Bicycle,Sports,217.52,38
+3638,Wardrobe,Furniture,25.26,15
+3639,Belt,Clothing,351.27,41
+3640,Tennis Racket,Sports,212.57,41
+3641,Bed,Furniture,291.85,16
+3642,Gym Bag,Sports,22.32,26
+3643,Coffee Table,Furniture,133.56,38
+3644,Pen,Office Supplies,313.54,41
+3645,Tennis Racket,Sports,233.53,24
+3646,Running Shoes,Sports,413.57,17
+3647,Notebook,Office Supplies,151.96,36
+3648,Gym Bag,Sports,209.11,29
+3649,Ink Cartridge,Office Supplies,248.94,46
+3650,Dumbbell,Sports,348.03,40
+3651,Dress,Clothing,87.16,26
+3652,TV Stand,Furniture,426.59,39
+3653,Bed,Furniture,402.11,49
+3654,Basketball Hoop,Sports,202.23,45
+3655,Power Bank,Electronics,201.25,30
+3656,Jacket,Clothing,388.98,14
+3657,Smartphone,Electronics,491.13,26
+3658,Bluetooth Headphones,Electronics,102.78,42
+3659,Notebook,Office Supplies,100.51,44
+3660,Coffee Table,Furniture,261.37,24
+3661,Bookshelf,Furniture,449.01,15
+3662,Office Chair,Furniture,268.8,30
+3663,Wardrobe,Furniture,354.2,22
+3664,Jacket,Clothing,20.01,49
+3665,Belt,Clothing,190.46,21
+3666,Bookshelf,Furniture,274.22,46
+3667,Ink Cartridge,Office Supplies,239.74,14
+3668,T-Shirt,Clothing,389.75,22
+3669,Wardrobe,Furniture,26.38,10
+3670,Jeans,Clothing,349.64,47
+3671,Dress,Clothing,99.44,31
+3672,Notebook,Office Supplies,156.05,44
+3673,Power Bank,Electronics,28.07,12
+3674,Bicycle,Sports,148.83,34
+3675,Stapler,Office Supplies,56.43,19
+3676,Smartwatch,Electronics,439.69,43
+3677,T-Shirt,Clothing,441.57,15
+3678,Sneakers,Clothing,47.41,44
+3679,File Folder,Office Supplies,40.88,11
+3680,Notebook,Office Supplies,116.32,29
+3681,Notebook,Office Supplies,103.08,10
+3682,Stapler,Office Supplies,137.6,30
+3683,Bookshelf,Furniture,436.24,23
+3684,Jacket,Clothing,378.37,35
+3685,Pen,Office Supplies,392.33,41
+3686,Bluetooth Headphones,Electronics,300.76,19
+3687,Pen,Office Supplies,106.84,31
+3688,Hoodie,Clothing,363.94,48
+3689,Smartwatch,Electronics,442.32,25
+3690,Tennis Racket,Sports,407.09,22
+3691,Basketball Hoop,Sports,14.98,50
+3692,Smartwatch,Electronics,83.61,26
+3693,Whiteboard,Office Supplies,344.22,33
+3694,Ink Cartridge,Office Supplies,370.79,20
+3695,Running Shoes,Sports,134.77,35
+3696,Bookshelf,Furniture,83.72,42
+3697,Hat,Clothing,321.77,25
+3698,Pen,Office Supplies,224.47,47
+3699,Football,Sports,92.27,35
+3700,Stapler,Office Supplies,25.18,37
+3701,Coffee Table,Furniture,420.94,41
+3702,Hat,Clothing,121.42,23
+3703,Bed,Furniture,105.2,18
+3704,Bluetooth Headphones,Electronics,433.71,24
+3705,Smartwatch,Electronics,179.28,27
+3706,Stapler,Office Supplies,8.93,33
+3707,Bed,Furniture,6.29,39
+3708,Bed,Furniture,55.62,20
+3709,Sofa,Furniture,85.32,41
+3710,Bicycle,Sports,466.87,23
+3711,Dress,Clothing,100.32,18
+3712,Bed,Furniture,29.09,41
+3713,Office Chair,Furniture,300.46,16
+3714,Dumbbell,Sports,95.43,13
+3715,Power Bank,Electronics,431.57,39
+3716,Yoga Mat,Sports,440.8,13
+3717,Television,Electronics,312.6,17
+3718,Digital Camera,Electronics,206.85,49
+3719,Television,Electronics,116.7,49
+3720,Gaming Console,Electronics,57.95,14
+3721,Bookshelf,Furniture,87.09,48
+3722,Ink Cartridge,Office Supplies,256.3,17
+3723,Coffee Table,Furniture,342.14,33
+3724,Smartphone,Electronics,165.27,23
+3725,Printer Paper,Office Supplies,332.46,21
+3726,Tennis Racket,Sports,138.44,17
+3727,Gym Bag,Sports,144.65,24
+3728,Bicycle,Sports,321.17,41
+3729,Jacket,Clothing,328.99,39
+3730,Dining Table,Furniture,45.19,12
+3731,Printer Paper,Office Supplies,155.42,30
+3732,Pen,Office Supplies,409.21,44
+3733,Gaming Console,Electronics,386.14,12
+3734,Dumbbell,Sports,404.78,36
+3735,Whiteboard,Office Supplies,91.7,30
+3736,Tennis Racket,Sports,129.46,41
+3737,Hat,Clothing,298.97,34
+3738,Yoga Mat,Sports,152.05,23
+3739,Hoodie,Clothing,369.69,44
+3740,Television,Electronics,151.98,42
+3741,Dining Table,Furniture,229.34,43
+3742,Belt,Clothing,121.35,11
+3743,Laptop,Electronics,256.02,45
+3744,Printer Paper,Office Supplies,323.16,19
+3745,Bluetooth Headphones,Electronics,374.25,43
+3746,Dumbbell,Sports,184.77,48
+3747,Smartphone,Electronics,330.91,38
+3748,Notebook,Office Supplies,131.94,11
+3749,Hat,Clothing,402.91,41
+3750,Dumbbell,Sports,251.49,45
+3751,Printer Paper,Office Supplies,460.66,11
+3752,Yoga Mat,Sports,230.06,14
+3753,Bookshelf,Furniture,488.32,13
+3754,Dumbbell,Sports,313.59,11
+3755,Dumbbell,Sports,251.44,24
+3756,Whiteboard,Office Supplies,300.97,13
+3757,Printer Paper,Office Supplies,445.5,49
+3758,Gaming Console,Electronics,435.31,48
+3759,Office Chair,Furniture,465.14,33
+3760,Stapler,Office Supplies,57.13,26
+3761,Ink Cartridge,Office Supplies,53.09,26
+3762,Gaming Console,Electronics,341.64,45
+3763,Tennis Racket,Sports,281.45,15
+3764,Smartwatch,Electronics,498.19,26
+3765,Belt,Clothing,453.7,50
+3766,Jacket,Clothing,447.14,25
+3767,Jacket,Clothing,333.8,49
+3768,File Folder,Office Supplies,201.18,10
+3769,Stapler,Office Supplies,309.45,24
+3770,Jacket,Clothing,268.52,12
+3771,Hat,Clothing,379.99,22
+3772,Pen,Office Supplies,248.56,32
+3773,Jacket,Clothing,496.08,33
+3774,Bluetooth Headphones,Electronics,321,30
+3775,Bicycle,Sports,453.88,11
+3776,Television,Electronics,211.31,42
+3777,Gym Bag,Sports,215.79,39
+3778,Stapler,Office Supplies,158.72,31
+3779,Gym Bag,Sports,383.49,15
+3780,Dumbbell,Sports,398.17,17
+3781,Stapler,Office Supplies,276.23,10
+3782,Football,Sports,388.3,24
+3783,Dress,Clothing,328.76,37
+3784,Printer Paper,Office Supplies,447.2,23
+3785,Office Chair,Furniture,444.46,29
+3786,Television,Electronics,396.92,44
+3787,Jeans,Clothing,96.6,16
+3788,Hat,Clothing,301.42,12
+3789,Laptop,Electronics,59.71,27
+3790,Bicycle,Sports,322.43,14
+3791,Hat,Clothing,201.87,44
+3792,Yoga Mat,Sports,44.11,31
+3793,Ink Cartridge,Office Supplies,303.29,24
+3794,Coffee Table,Furniture,446.19,16
+3795,Notebook,Office Supplies,53.55,42
+3796,Dumbbell,Sports,402.85,12
+3797,T-Shirt,Clothing,170.79,21
+3798,Gaming Console,Electronics,492.8,21
+3799,Gym Bag,Sports,96.63,30
+3800,Belt,Clothing,28.52,42
+3801,Hoodie,Clothing,354.9,49
+3802,TV Stand,Furniture,33.74,16
+3803,Printer Paper,Office Supplies,394.34,25
+3804,Hoodie,Clothing,255.88,22
+3805,Digital Camera,Electronics,242.21,12
+3806,Hoodie,Clothing,205.3,14
+3807,Television,Electronics,263.51,16
+3808,Jacket,Clothing,204.93,27
+3809,Stapler,Office Supplies,415.63,22
+3810,Whiteboard,Office Supplies,350.34,50
+3811,Tennis Racket,Sports,131.02,37
+3812,Pen,Office Supplies,269.98,38
+3813,Jacket,Clothing,309.06,39
+3814,Dumbbell,Sports,127.24,43
+3815,Pen,Office Supplies,299.61,28
+3816,Bed,Furniture,448.53,44
+3817,Dumbbell,Sports,31.31,47
+3818,Office Chair,Furniture,291.94,18
+3819,Whiteboard,Office Supplies,243.27,19
+3820,Sofa,Furniture,63.99,31
+3821,Gym Bag,Sports,347.54,27
+3822,Bookshelf,Furniture,53.69,45
+3823,File Folder,Office Supplies,334.25,44
+3824,File Folder,Office Supplies,260.24,11
+3825,Ink Cartridge,Office Supplies,395.67,22
+3826,Bookshelf,Furniture,307.35,16
+3827,Coffee Table,Furniture,396.74,19
+3828,Smartwatch,Electronics,447.52,26
+3829,Smartphone,Electronics,338.36,12
+3830,Dumbbell,Sports,340.36,21
+3831,Laptop,Electronics,455.42,38
+3832,Digital Camera,Electronics,115.91,39
+3833,Bluetooth Headphones,Electronics,262.38,34
+3834,Sneakers,Clothing,207.53,38
+3835,Hoodie,Clothing,87.34,29
+3836,Bookshelf,Furniture,5.62,38
+3837,Dress,Clothing,160.81,36
+3838,Football,Sports,153.77,36
+3839,Bicycle,Sports,299.64,41
+3840,Jacket,Clothing,331.04,39
+3841,Laptop,Electronics,326.7,42
+3842,Coffee Table,Furniture,76.33,14
+3843,Digital Camera,Electronics,495.08,45
+3844,Digital Camera,Electronics,265.76,50
+3845,Running Shoes,Sports,18.49,32
+3846,TV Stand,Furniture,499.5,31
+3847,Wardrobe,Furniture,173.27,15
+3848,Jeans,Clothing,183.03,13
+3849,Pen,Office Supplies,106.85,48
+3850,Bed,Furniture,355.64,50
+3851,Running Shoes,Sports,223,48
+3852,Bicycle,Sports,87.29,32
+3853,Desk Organizer,Office Supplies,15.04,50
+3854,Desk Organizer,Office Supplies,318.77,15
+3855,Jeans,Clothing,433.84,30
+3856,Football,Sports,69.64,27
+3857,Gaming Console,Electronics,104.95,47
+3858,Bicycle,Sports,101.6,37
+3859,Hat,Clothing,288.33,28
+3860,Power Bank,Electronics,425.2,40
+3861,Office Chair,Furniture,79.92,33
+3862,T-Shirt,Clothing,235.37,24
+3863,Sofa,Furniture,413.81,35
+3864,Dress,Clothing,188.16,36
+3865,Notebook,Office Supplies,450.04,36
+3866,Jacket,Clothing,228.84,40
+3867,Printer Paper,Office Supplies,456.95,43
+3868,Running Shoes,Sports,493.85,21
+3869,T-Shirt,Clothing,460.3,16
+3870,Gym Bag,Sports,467.95,24
+3871,Bluetooth Headphones,Electronics,479.48,50
+3872,Jeans,Clothing,314.66,10
+3873,Yoga Mat,Sports,366.77,23
+3874,Bicycle,Sports,178.4,33
+3875,Jeans,Clothing,349.56,37
+3876,Digital Camera,Electronics,231.48,11
+3877,Digital Camera,Electronics,36.15,13
+3878,Desk Organizer,Office Supplies,304.69,10
+3879,Office Chair,Furniture,432.48,29
+3880,Pen,Office Supplies,200.11,50
+3881,Running Shoes,Sports,436.96,39
+3882,Bed,Furniture,143.3,50
+3883,Basketball Hoop,Sports,263.18,13
+3884,Football,Sports,356.03,22
+3885,Bed,Furniture,252.35,17
+3886,Power Bank,Electronics,55.31,44
+3887,Bookshelf,Furniture,116.11,14
+3888,Dress,Clothing,284.03,33
+3889,Digital Camera,Electronics,102.01,11
+3890,Smartphone,Electronics,205.18,30
+3891,Bookshelf,Furniture,356.96,35
+3892,Hoodie,Clothing,239,22
+3893,Hat,Clothing,477.63,25
+3894,Dumbbell,Sports,240.32,32
+3895,Hat,Clothing,269.72,37
+3896,Digital Camera,Electronics,140.49,17
+3897,Bookshelf,Furniture,286.51,21
+3898,Coffee Table,Furniture,156.66,13
+3899,Jeans,Clothing,245.66,23
+3900,Hat,Clothing,123.69,21
+3901,Notebook,Office Supplies,289.58,44
+3902,Basketball Hoop,Sports,325.24,19
+3903,Smartwatch,Electronics,80.27,20
+3904,Dumbbell,Sports,186.48,27
+3905,Dumbbell,Sports,162.54,38
+3906,Bicycle,Sports,116.52,21
+3907,Dining Table,Furniture,310.42,42
+3908,File Folder,Office Supplies,431.89,41
+3909,Gym Bag,Sports,141.55,18
+3910,Office Chair,Furniture,25.67,26
+3911,Power Bank,Electronics,432.58,24
+3912,Dining Table,Furniture,425.29,12
+3913,Dress,Clothing,163.25,32
+3914,Office Chair,Furniture,402.91,35
+3915,Bluetooth Headphones,Electronics,98.45,34
+3916,Office Chair,Furniture,333.8,36
+3917,Jeans,Clothing,114.91,50
+3918,Printer Paper,Office Supplies,286.34,24
+3919,Bicycle,Sports,405.48,21
+3920,Television,Electronics,421.34,16
+3921,T-Shirt,Clothing,364.6,11
+3922,Printer Paper,Office Supplies,99.45,32
+3923,Gym Bag,Sports,48.25,43
+3924,Basketball Hoop,Sports,78.48,24
+3925,Gaming Console,Electronics,181.84,50
+3926,Jacket,Clothing,453.99,12
+3927,Gym Bag,Sports,220.52,23
+3928,Desk Organizer,Office Supplies,317.44,34
+3929,Bluetooth Headphones,Electronics,332.4,23
+3930,Stapler,Office Supplies,5.46,50
+3931,Smartphone,Electronics,161.45,43
+3932,Bookshelf,Furniture,105.14,37
+3933,Bluetooth Headphones,Electronics,198.53,22
+3934,Yoga Mat,Sports,56.96,13
+3935,Tennis Racket,Sports,459.62,18
+3936,Bed,Furniture,290.37,39
+3937,Hoodie,Clothing,339.63,19
+3938,Football,Sports,288.5,42
+3939,Pen,Office Supplies,119.73,17
+3940,Whiteboard,Office Supplies,497.32,31
+3941,Stapler,Office Supplies,405.5,14
+3942,T-Shirt,Clothing,176.83,25
+3943,Coffee Table,Furniture,214.19,12
+3944,Hoodie,Clothing,472.3,30
+3945,Running Shoes,Sports,23.94,10
+3946,Gym Bag,Sports,225.05,39
+3947,Bicycle,Sports,255.45,37
+3948,Yoga Mat,Sports,37.44,43
+3949,Wardrobe,Furniture,440.7,14
+3950,Wardrobe,Furniture,160.77,26
+3951,Jacket,Clothing,79.67,43
+3952,Television,Electronics,132.89,41
+3953,Jacket,Clothing,251.33,26
+3954,Basketball Hoop,Sports,124.13,47
+3955,Ink Cartridge,Office Supplies,455.55,34
+3956,Digital Camera,Electronics,161.95,20
+3957,Hat,Clothing,479.61,24
+3958,Bluetooth Headphones,Electronics,235.85,29
+3959,Dining Table,Furniture,439.35,10
+3960,Gaming Console,Electronics,443.21,48
+3961,Jacket,Clothing,475.48,45
+3962,Jeans,Clothing,432.16,41
+3963,Office Chair,Furniture,346.39,10
+3964,Gym Bag,Sports,130.83,24
+3965,Running Shoes,Sports,23.72,13
+3966,Hoodie,Clothing,96.36,36
+3967,Hat,Clothing,373.46,20
+3968,Bookshelf,Furniture,106.85,26
+3969,Jeans,Clothing,350.44,40
+3970,Running Shoes,Sports,497.79,47
+3971,Hoodie,Clothing,392.13,19
+3972,Jacket,Clothing,222.03,25
+3973,Pen,Office Supplies,335.92,37
+3974,Basketball Hoop,Sports,35.3,45
+3975,Bed,Furniture,341.58,19
+3976,Digital Camera,Electronics,478.22,38
+3977,Basketball Hoop,Sports,436.75,45
+3978,Belt,Clothing,262.83,21
+3979,Desk Organizer,Office Supplies,53.56,42
+3980,Dumbbell,Sports,345.28,15
+3981,Smartwatch,Electronics,310.19,34
+3982,Bicycle,Sports,280.07,19
+3983,Yoga Mat,Sports,110.56,34
+3984,Bluetooth Headphones,Electronics,182.66,28
+3985,Belt,Clothing,386.71,30
+3986,Sneakers,Clothing,159.2,50
+3987,Smartphone,Electronics,457.47,32
+3988,File Folder,Office Supplies,270.89,46
+3989,Bed,Furniture,72.08,14
+3990,Wardrobe,Furniture,228.52,11
+3991,Yoga Mat,Sports,152.31,36
+3992,Smartwatch,Electronics,320.17,40
+3993,Hat,Clothing,151.32,37
+3994,Power Bank,Electronics,270,39
+3995,Power Bank,Electronics,418.75,21
+3996,Sofa,Furniture,423.52,19
+3997,Notebook,Office Supplies,444.57,49
+3998,Belt,Clothing,440.56,47
+3999,Bookshelf,Furniture,319.75,17
+4000,Belt,Clothing,100.84,29
+4001,Sneakers,Clothing,425.99,16
+4002,Dining Table,Furniture,169.12,39
+4003,File Folder,Office Supplies,248.5,26
+4004,Basketball Hoop,Sports,477.12,24
+4005,Sofa,Furniture,403.37,25
+4006,Notebook,Office Supplies,108.18,30
+4007,Laptop,Electronics,92.01,14
+4008,Hat,Clothing,165.09,10
+4009,Printer Paper,Office Supplies,130.76,16
+4010,Jeans,Clothing,132.35,35
+4011,Running Shoes,Sports,457.19,19
+4012,Digital Camera,Electronics,470.65,22
+4013,Bicycle,Sports,326.71,20
+4014,Stapler,Office Supplies,387.26,44
+4015,Stapler,Office Supplies,347.19,28
+4016,Jeans,Clothing,363.33,17
+4017,Smartphone,Electronics,379.88,17
+4018,File Folder,Office Supplies,208.71,13
+4019,Pen,Office Supplies,373.79,50
+4020,Dress,Clothing,376.17,31
+4021,Dumbbell,Sports,422.68,46
+4022,T-Shirt,Clothing,23.39,26
+4023,Dumbbell,Sports,177.69,30
+4024,Gym Bag,Sports,120.6,18
+4025,Coffee Table,Furniture,484.91,37
+4026,Dress,Clothing,83.93,48
+4027,TV Stand,Furniture,266.17,10
+4028,Bicycle,Sports,23.28,15
+4029,Sneakers,Clothing,278.13,40
+4030,Dumbbell,Sports,14.4,12
+4031,Bicycle,Sports,47.72,23
+4032,Stapler,Office Supplies,329.07,17
+4033,Television,Electronics,409.25,47
+4034,Television,Electronics,296.05,34
+4035,Desk Organizer,Office Supplies,37,17
+4036,Gaming Console,Electronics,486.65,44
+4037,Bicycle,Sports,24.94,44
+4038,Hoodie,Clothing,301.09,32
+4039,Smartphone,Electronics,411.71,40
+4040,Coffee Table,Furniture,171.6,21
+4041,Dining Table,Furniture,498.77,30
+4042,File Folder,Office Supplies,484.39,45
+4043,Whiteboard,Office Supplies,10.32,27
+4044,Tennis Racket,Sports,323.4,35
+4045,Smartphone,Electronics,385.68,43
+4046,Dumbbell,Sports,335.54,31
+4047,Coffee Table,Furniture,83.21,36
+4048,Pen,Office Supplies,200.95,32
+4049,File Folder,Office Supplies,438.26,35
+4050,Jacket,Clothing,143.61,26
+4051,Stapler,Office Supplies,306.98,20
+4052,Gym Bag,Sports,294.89,39
+4053,Yoga Mat,Sports,473.32,32
+4054,Hoodie,Clothing,315.67,39
+4055,Television,Electronics,392.53,42
+4056,Yoga Mat,Sports,43.12,18
+4057,Bluetooth Headphones,Electronics,218.59,34
+4058,Dining Table,Furniture,202.39,40
+4059,Gym Bag,Sports,268.95,30
+4060,Coffee Table,Furniture,333.31,13
+4061,Stapler,Office Supplies,41.02,30
+4062,Running Shoes,Sports,343.49,49
+4063,Laptop,Electronics,463.93,47
+4064,Sneakers,Clothing,426,16
+4065,Belt,Clothing,351.81,25
+4066,Digital Camera,Electronics,429.08,34
+4067,Dumbbell,Sports,253.15,47
+4068,Hat,Clothing,58.2,49
+4069,Whiteboard,Office Supplies,77.43,40
+4070,Desk Organizer,Office Supplies,53.04,47
+4071,Notebook,Office Supplies,120.24,12
+4072,Hat,Clothing,52.23,12
+4073,Jeans,Clothing,143.74,31
+4074,Dumbbell,Sports,11.21,18
+4075,Dining Table,Furniture,216.5,44
+4076,Hat,Clothing,179.5,37
+4077,Digital Camera,Electronics,271.48,50
+4078,Belt,Clothing,375.68,17
+4079,Laptop,Electronics,344.4,23
+4080,Desk Organizer,Office Supplies,383.89,44
+4081,Smartphone,Electronics,422.39,42
+4082,Coffee Table,Furniture,237.65,26
+4083,Coffee Table,Furniture,367.18,48
+4084,Jeans,Clothing,99.93,20
+4085,Smartphone,Electronics,497.98,21
+4086,Running Shoes,Sports,61.05,23
+4087,T-Shirt,Clothing,219.29,29
+4088,Wardrobe,Furniture,182.76,48
+4089,Digital Camera,Electronics,447.39,23
+4090,Tennis Racket,Sports,488.54,33
+4091,Notebook,Office Supplies,291.57,15
+4092,Power Bank,Electronics,343.35,28
+4093,Basketball Hoop,Sports,372.7,38
+4094,Sneakers,Clothing,410.53,46
+4095,Hat,Clothing,104.59,27
+4096,Ink Cartridge,Office Supplies,192.57,11
+4097,Basketball Hoop,Sports,301.14,43
+4098,Office Chair,Furniture,315.67,30
+4099,Smartphone,Electronics,187.58,20
+4100,Dining Table,Furniture,125.02,34
+4101,Bicycle,Sports,433.48,21
+4102,Dumbbell,Sports,488.69,14
+4103,Whiteboard,Office Supplies,223.88,28
+4104,Whiteboard,Office Supplies,159.41,35
+4105,Running Shoes,Sports,33.18,24
+4106,TV Stand,Furniture,373.48,22
+4107,Bicycle,Sports,282.33,31
+4108,Jeans,Clothing,193.08,23
+4109,Pen,Office Supplies,291.29,15
+4110,Bluetooth Headphones,Electronics,446.1,10
+4111,Dining Table,Furniture,452.06,11
+4112,Yoga Mat,Sports,350.88,23
+4113,Printer Paper,Office Supplies,167.78,35
+4114,Smartwatch,Electronics,443.1,26
+4115,Digital Camera,Electronics,405.61,19
+4116,Sofa,Furniture,34.6,18
+4117,T-Shirt,Clothing,233.99,36
+4118,Jeans,Clothing,111.36,39
+4119,Bicycle,Sports,40.03,16
+4120,Printer Paper,Office Supplies,285.51,31
+4121,Laptop,Electronics,327.72,18
+4122,TV Stand,Furniture,8.43,26
+4123,Wardrobe,Furniture,142.17,37
+4124,Dumbbell,Sports,69.16,41
+4125,Television,Electronics,388.83,20
+4126,Jeans,Clothing,216.56,23
+4127,Yoga Mat,Sports,54.46,36
+4128,Tennis Racket,Sports,9.55,43
+4129,Sneakers,Clothing,336.16,30
+4130,Basketball Hoop,Sports,408.19,24
+4131,Basketball Hoop,Sports,63.04,17
+4132,Yoga Mat,Sports,127.32,43
+4133,Pen,Office Supplies,392.26,27
+4134,Dining Table,Furniture,9.81,12
+4135,Laptop,Electronics,146.53,45
+4136,Gym Bag,Sports,495.05,42
+4137,Bluetooth Headphones,Electronics,174.45,43
+4138,Whiteboard,Office Supplies,308.15,21
+4139,Smartphone,Electronics,140.95,35
+4140,Office Chair,Furniture,148,33
+4141,Wardrobe,Furniture,442.53,25
+4142,Gaming Console,Electronics,464.19,23
+4143,Sneakers,Clothing,244.28,43
+4144,Sneakers,Clothing,468.34,36
+4145,Bluetooth Headphones,Electronics,247.6,28
+4146,Sneakers,Clothing,130.2,26
+4147,T-Shirt,Clothing,493.52,14
+4148,Gym Bag,Sports,194.33,17
+4149,Notebook,Office Supplies,21.45,20
+4150,Digital Camera,Electronics,36.76,19
+4151,Belt,Clothing,79.39,36
+4152,Belt,Clothing,403.15,19
+4153,T-Shirt,Clothing,247.85,37
+4154,Smartphone,Electronics,312.93,28
+4155,Dress,Clothing,218.64,36
+4156,Wardrobe,Furniture,254.19,32
+4157,Football,Sports,216.41,31
+4158,Jacket,Clothing,251.86,44
+4159,Hoodie,Clothing,371.63,10
+4160,TV Stand,Furniture,357.33,44
+4161,Sneakers,Clothing,361.88,14
+4162,Digital Camera,Electronics,472.23,34
+4163,Belt,Clothing,492.77,30
+4164,Ink Cartridge,Office Supplies,130.3,15
+4165,Gym Bag,Sports,148.49,10
+4166,Whiteboard,Office Supplies,497.92,41
+4167,Power Bank,Electronics,223.24,27
+4168,Dining Table,Furniture,472.44,12
+4169,T-Shirt,Clothing,357.8,18
+4170,Desk Organizer,Office Supplies,263.12,49
+4171,Desk Organizer,Office Supplies,417.72,27
+4172,Whiteboard,Office Supplies,156.73,40
+4173,Laptop,Electronics,197.1,31
+4174,Tennis Racket,Sports,382.1,28
+4175,Basketball Hoop,Sports,43.3,50
+4176,Coffee Table,Furniture,150.83,43
+4177,Printer Paper,Office Supplies,371.07,17
+4178,Bicycle,Sports,346.3,31
+4179,TV Stand,Furniture,134.91,30
+4180,Sneakers,Clothing,306.83,14
+4181,Hat,Clothing,291.08,13
+4182,Wardrobe,Furniture,321.28,31
+4183,Power Bank,Electronics,442.78,10
+4184,Tennis Racket,Sports,40.89,35
+4185,Yoga Mat,Sports,239.61,33
+4186,Bed,Furniture,469.7,23
+4187,Bookshelf,Furniture,174.76,36
+4188,Dining Table,Furniture,319.92,48
+4189,Dumbbell,Sports,94.66,19
+4190,Digital Camera,Electronics,472.89,12
+4191,Laptop,Electronics,36.24,13
+4192,Digital Camera,Electronics,482.82,47
+4193,Smartphone,Electronics,360.94,17
+4194,Tennis Racket,Sports,363.24,41
+4195,Television,Electronics,456.99,27
+4196,Dining Table,Furniture,92.78,25
+4197,Tennis Racket,Sports,212.27,48
+4198,Sneakers,Clothing,167.67,50
+4199,Ink Cartridge,Office Supplies,371.21,23
+4200,Hoodie,Clothing,474.88,39
+4201,Dumbbell,Sports,451.62,28
+4202,Dumbbell,Sports,385.98,11
+4203,Office Chair,Furniture,400.01,19
+4204,Bluetooth Headphones,Electronics,209.1,17
+4205,Bicycle,Sports,108.18,37
+4206,Dumbbell,Sports,492.33,20
+4207,Digital Camera,Electronics,181.8,14
+4208,Power Bank,Electronics,260.88,39
+4209,Basketball Hoop,Sports,73.35,50
+4210,Digital Camera,Electronics,460.19,42
+4211,Belt,Clothing,150.68,16
+4212,Bookshelf,Furniture,19.29,19
+4213,T-Shirt,Clothing,323.11,20
+4214,Football,Sports,281.35,16
+4215,Bluetooth Headphones,Electronics,19.78,10
+4216,TV Stand,Furniture,417.17,17
+4217,Yoga Mat,Sports,137.61,10
+4218,Bluetooth Headphones,Electronics,16.87,23
+4219,Notebook,Office Supplies,229.53,50
+4220,Football,Sports,210.42,12
+4221,Pen,Office Supplies,80.48,37
+4222,Dumbbell,Sports,253.87,36
+4223,Stapler,Office Supplies,131.65,30
+4224,Yoga Mat,Sports,96.59,13
+4225,Gaming Console,Electronics,313.87,11
+4226,Office Chair,Furniture,309.61,31
+4227,Tennis Racket,Sports,178.61,18
+4228,Smartwatch,Electronics,456.37,31
+4229,File Folder,Office Supplies,469.62,29
+4230,Digital Camera,Electronics,41.65,42
+4231,Laptop,Electronics,268.39,41
+4232,Dumbbell,Sports,463.72,19
+4233,Belt,Clothing,414.19,25
+4234,Bookshelf,Furniture,241.08,14
+4235,Laptop,Electronics,255.59,43
+4236,TV Stand,Furniture,194.52,32
+4237,Dress,Clothing,117.44,10
+4238,Jacket,Clothing,275.15,20
+4239,File Folder,Office Supplies,14.12,16
+4240,TV Stand,Furniture,464.15,42
+4241,Jeans,Clothing,175.25,49
+4242,Power Bank,Electronics,354.08,27
+4243,Television,Electronics,459.88,15
+4244,Belt,Clothing,468.32,34
+4245,Office Chair,Furniture,425.83,35
+4246,Office Chair,Furniture,394.68,48
+4247,Bicycle,Sports,180.71,47
+4248,Dumbbell,Sports,413.3,14
+4249,Sneakers,Clothing,8.8,32
+4250,Dumbbell,Sports,461.78,10
+4251,Power Bank,Electronics,172.65,17
+4252,Dress,Clothing,82.74,11
+4253,Sofa,Furniture,78.75,29
+4254,Belt,Clothing,255.95,33
+4255,Sofa,Furniture,122.27,40
+4256,Basketball Hoop,Sports,308.04,29
+4257,Wardrobe,Furniture,402.6,36
+4258,Pen,Office Supplies,342.68,10
+4259,Bicycle,Sports,424.79,41
+4260,Jacket,Clothing,472.74,11
+4261,Running Shoes,Sports,169.01,44
+4262,Tennis Racket,Sports,31.19,24
+4263,Power Bank,Electronics,117.45,17
+4264,Notebook,Office Supplies,115.91,48
+4265,Football,Sports,300.72,19
+4266,Office Chair,Furniture,436.99,19
+4267,Office Chair,Furniture,371.58,26
+4268,Wardrobe,Furniture,417.99,13
+4269,Football,Sports,82.07,21
+4270,Pen,Office Supplies,23.63,37
+4271,Belt,Clothing,36.33,50
+4272,Desk Organizer,Office Supplies,474.41,25
+4273,Jeans,Clothing,267.5,42
+4274,Jeans,Clothing,420.55,42
+4275,Television,Electronics,488.22,20
+4276,Smartphone,Electronics,263.31,21
+4277,Power Bank,Electronics,407.35,47
+4278,Sneakers,Clothing,198.53,24
+4279,Jacket,Clothing,489.31,37
+4280,Wardrobe,Furniture,222.92,28
+4281,File Folder,Office Supplies,496.78,23
+4282,Television,Electronics,61.48,11
+4283,Notebook,Office Supplies,256.67,23
+4284,Digital Camera,Electronics,99.17,10
+4285,Hoodie,Clothing,241.33,46
+4286,Ink Cartridge,Office Supplies,473.72,10
+4287,Bed,Furniture,183.02,35
+4288,Hoodie,Clothing,201.75,31
+4289,Pen,Office Supplies,215.37,31
+4290,Bluetooth Headphones,Electronics,458.96,35
+4291,Smartphone,Electronics,19.69,29
+4292,Ink Cartridge,Office Supplies,296.71,50
+4293,Hoodie,Clothing,360.72,33
+4294,Jacket,Clothing,33.43,18
+4295,Basketball Hoop,Sports,122.01,12
+4296,Desk Organizer,Office Supplies,234.01,17
+4297,Hoodie,Clothing,26.38,23
+4298,Printer Paper,Office Supplies,239.3,32
+4299,Smartwatch,Electronics,495.53,30
+4300,Laptop,Electronics,421.88,22
+4301,Bookshelf,Furniture,243.29,22
+4302,TV Stand,Furniture,435.53,25
+4303,Smartwatch,Electronics,229.54,35
+4304,Tennis Racket,Sports,357.73,24
+4305,Jeans,Clothing,164.83,41
+4306,Jacket,Clothing,129.67,42
+4307,Dining Table,Furniture,6.83,25
+4308,Stapler,Office Supplies,427.45,22
+4309,Bicycle,Sports,178.72,29
+4310,Digital Camera,Electronics,232.53,11
+4311,Dining Table,Furniture,333.19,47
+4312,Sneakers,Clothing,100.8,27
+4313,Dumbbell,Sports,471.16,44
+4314,File Folder,Office Supplies,365.67,49
+4315,Television,Electronics,100.14,49
+4316,Basketball Hoop,Sports,315.6,17
+4317,Dumbbell,Sports,105.17,18
+4318,Bed,Furniture,100.87,24
+4319,Ink Cartridge,Office Supplies,440.21,38
+4320,Smartwatch,Electronics,113.85,50
+4321,Smartwatch,Electronics,248.65,17
+4322,Digital Camera,Electronics,386.96,16
+4323,Tennis Racket,Sports,41.62,11
+4324,Yoga Mat,Sports,231.8,31
+4325,Coffee Table,Furniture,336.13,41
+4326,Smartphone,Electronics,452.85,28
+4327,Printer Paper,Office Supplies,135.22,33
+4328,Running Shoes,Sports,422.06,20
+4329,Smartwatch,Electronics,292.98,45
+4330,Desk Organizer,Office Supplies,102.89,23
+4331,Notebook,Office Supplies,454.37,40
+4332,Digital Camera,Electronics,315.33,22
+4333,Dining Table,Furniture,159.33,38
+4334,Notebook,Office Supplies,387,48
+4335,Wardrobe,Furniture,470.54,17
+4336,Dumbbell,Sports,141.01,50
+4337,Jeans,Clothing,398.93,26
+4338,Notebook,Office Supplies,480.34,37
+4339,Bed,Furniture,20.73,36
+4340,T-Shirt,Clothing,272.56,41
+4341,Wardrobe,Furniture,8.38,10
+4342,Wardrobe,Furniture,417.85,30
+4343,Jacket,Clothing,61.37,20
+4344,Laptop,Electronics,60.74,49
+4345,Gym Bag,Sports,95.31,23
+4346,Smartphone,Electronics,260.25,26
+4347,Hat,Clothing,11.82,12
+4348,Smartphone,Electronics,336.81,21
+4349,Football,Sports,48.91,12
+4350,Smartwatch,Electronics,300,26
+4351,Whiteboard,Office Supplies,358.37,47
+4352,TV Stand,Furniture,460.98,34
+4353,Gaming Console,Electronics,32.19,23
+4354,Yoga Mat,Sports,466.02,34
+4355,Smartwatch,Electronics,296.64,44
+4356,Smartwatch,Electronics,208.86,42
+4357,Basketball Hoop,Sports,75.31,46
+4358,Running Shoes,Sports,422.17,47
+4359,Coffee Table,Furniture,365.56,43
+4360,Jeans,Clothing,98.58,23
+4361,Hoodie,Clothing,226.78,20
+4362,Sofa,Furniture,373.06,25
+4363,TV Stand,Furniture,390.59,46
+4364,Ink Cartridge,Office Supplies,386.66,38
+4365,Wardrobe,Furniture,105.28,36
+4366,Tennis Racket,Sports,294.95,47
+4367,Printer Paper,Office Supplies,255.13,47
+4368,Jeans,Clothing,83.39,50
+4369,Bluetooth Headphones,Electronics,449.87,17
+4370,Yoga Mat,Sports,97.18,24
+4371,Tennis Racket,Sports,291.4,17
+4372,Smartwatch,Electronics,443.78,34
+4373,Dumbbell,Sports,198.98,39
+4374,Notebook,Office Supplies,167.79,39
+4375,Sneakers,Clothing,278.11,20
+4376,Hoodie,Clothing,153.16,12
+4377,Tennis Racket,Sports,113.49,35
+4378,Power Bank,Electronics,205.51,43
+4379,Whiteboard,Office Supplies,275.49,15
+4380,File Folder,Office Supplies,58.08,10
+4381,Gaming Console,Electronics,307.34,15
+4382,Yoga Mat,Sports,320.1,19
+4383,Basketball Hoop,Sports,299.2,45
+4384,Bookshelf,Furniture,344.87,25
+4385,Dumbbell,Sports,153.76,21
+4386,Dress,Clothing,377.04,10
+4387,Jacket,Clothing,338.49,50
+4388,Jacket,Clothing,112.25,18
+4389,Dumbbell,Sports,24.43,49
+4390,Bed,Furniture,438.24,20
+4391,File Folder,Office Supplies,104.9,37
+4392,Digital Camera,Electronics,158.79,17
+4393,Tennis Racket,Sports,23.07,35
+4394,Desk Organizer,Office Supplies,193.64,13
+4395,Basketball Hoop,Sports,123.88,16
+4396,Jeans,Clothing,255.69,33
+4397,Smartwatch,Electronics,267.67,26
+4398,Sneakers,Clothing,151.4,46
+4399,Bicycle,Sports,326.86,25
+4400,Belt,Clothing,207.01,48
+4401,Tennis Racket,Sports,158.98,12
+4402,Digital Camera,Electronics,202.01,22
+4403,Football,Sports,205.17,49
+4404,Belt,Clothing,196.33,49
+4405,Office Chair,Furniture,427.2,21
+4406,Sofa,Furniture,472.17,36
+4407,Television,Electronics,180.97,43
+4408,Belt,Clothing,340.42,10
+4409,Television,Electronics,261.72,16
+4410,Dining Table,Furniture,408.79,16
+4411,Gym Bag,Sports,212.18,11
+4412,Digital Camera,Electronics,206.95,40
+4413,Sofa,Furniture,336.07,47
+4414,Television,Electronics,466.2,28
+4415,Power Bank,Electronics,457.69,21
+4416,Wardrobe,Furniture,55.12,46
+4417,Stapler,Office Supplies,39.1,40
+4418,Gaming Console,Electronics,172.64,34
+4419,File Folder,Office Supplies,221.72,36
+4420,Yoga Mat,Sports,288.37,23
+4421,Digital Camera,Electronics,124.76,50
+4422,Belt,Clothing,236.07,10
+4423,Gym Bag,Sports,265.47,27
+4424,Yoga Mat,Sports,310.58,27
+4425,Gaming Console,Electronics,6.31,27
+4426,Smartphone,Electronics,301.65,26
+4427,Laptop,Electronics,72.01,28
+4428,Television,Electronics,206.97,12
+4429,Sofa,Furniture,298.68,16
+4430,Whiteboard,Office Supplies,476.47,16
+4431,T-Shirt,Clothing,275.44,47
+4432,Coffee Table,Furniture,82.65,37
+4433,Printer Paper,Office Supplies,187.92,11
+4434,Laptop,Electronics,456.13,43
+4435,Printer Paper,Office Supplies,405.59,29
+4436,Sofa,Furniture,320.59,49
+4437,Hat,Clothing,125.14,35
+4438,Pen,Office Supplies,28.72,18
+4439,Bicycle,Sports,399.73,10
+4440,Gaming Console,Electronics,401.5,40
+4441,Yoga Mat,Sports,216.53,17
+4442,Dumbbell,Sports,57.39,35
+4443,Sneakers,Clothing,282.18,28
+4444,Basketball Hoop,Sports,361.98,20
+4445,Printer Paper,Office Supplies,451.36,13
+4446,Smartwatch,Electronics,135.66,28
+4447,Bicycle,Sports,142.4,33
+4448,Basketball Hoop,Sports,16.94,19
+4449,Bicycle,Sports,409.92,23
+4450,Smartphone,Electronics,53.73,11
+4451,Power Bank,Electronics,440.64,24
+4452,Hoodie,Clothing,384.43,46
+4453,Jacket,Clothing,496.89,17
+4454,Notebook,Office Supplies,395.02,31
+4455,Printer Paper,Office Supplies,214.57,12
+4456,Dumbbell,Sports,97.25,42
+4457,Hoodie,Clothing,133.35,10
+4458,Belt,Clothing,355.44,10
+4459,Basketball Hoop,Sports,427.2,40
+4460,Power Bank,Electronics,10.06,40
+4461,Dumbbell,Sports,10.99,38
+4462,Sofa,Furniture,192.66,47
+4463,Jeans,Clothing,59.09,24
+4464,Sofa,Furniture,412.23,40
+4465,Football,Sports,350.29,14
+4466,Jeans,Clothing,178.5,24
+4467,Dining Table,Furniture,40.63,38
+4468,Dress,Clothing,130.57,44
+4469,Jacket,Clothing,493.2,26
+4470,Bluetooth Headphones,Electronics,110.43,40
+4471,Tennis Racket,Sports,252.07,22
+4472,Hat,Clothing,473.21,36
+4473,Desk Organizer,Office Supplies,429.79,37
+4474,T-Shirt,Clothing,212.53,28
+4475,T-Shirt,Clothing,7.28,14
+4476,Sneakers,Clothing,184.5,22
+4477,Hat,Clothing,476.9,27
+4478,Yoga Mat,Sports,367.76,28
+4479,Smartphone,Electronics,60.25,40
+4480,Bed,Furniture,188.67,13
+4481,T-Shirt,Clothing,416.78,20
+4482,Television,Electronics,433.59,16
+4483,Wardrobe,Furniture,491.21,18
+4484,Bed,Furniture,27.93,29
+4485,Wardrobe,Furniture,476.58,46
+4486,Gaming Console,Electronics,318.39,32
+4487,Hoodie,Clothing,476.53,11
+4488,Running Shoes,Sports,266.38,29
+4489,Yoga Mat,Sports,28.72,10
+4490,Football,Sports,249.76,19
+4491,Whiteboard,Office Supplies,115.8,36
+4492,Dress,Clothing,408.75,41
+4493,Dress,Clothing,42.02,31
+4494,Power Bank,Electronics,425.81,20
+4495,Wardrobe,Furniture,340.63,47
+4496,Printer Paper,Office Supplies,136.75,50
+4497,Bed,Furniture,186.27,15
+4498,Basketball Hoop,Sports,249.55,36
+4499,Wardrobe,Furniture,226.4,25
+4500,Hat,Clothing,142.56,17
+4501,Hat,Clothing,245.86,38
+4502,Bed,Furniture,363.81,12
+4503,Football,Sports,91.91,37
+4504,Office Chair,Furniture,333.88,34
+4505,Running Shoes,Sports,131.55,26
+4506,TV Stand,Furniture,353.51,34
+4507,Wardrobe,Furniture,233.38,50
+4508,Laptop,Electronics,416.69,12
+4509,Bluetooth Headphones,Electronics,389.46,48
+4510,Football,Sports,27.64,21
+4511,Bookshelf,Furniture,18.72,20
+4512,Bed,Furniture,139.04,24
+4513,Stapler,Office Supplies,245.58,36
+4514,Dining Table,Furniture,460.62,22
+4515,Television,Electronics,58.77,26
+4516,Basketball Hoop,Sports,113.14,23
+4517,Television,Electronics,82.38,37
+4518,Running Shoes,Sports,224.44,31
+4519,Sofa,Furniture,45.78,14
+4520,Power Bank,Electronics,350.1,10
+4521,Coffee Table,Furniture,135.94,48
+4522,Desk Organizer,Office Supplies,239.72,46
+4523,Belt,Clothing,218.07,29
+4524,T-Shirt,Clothing,312,14
+4525,Desk Organizer,Office Supplies,102.27,15
+4526,Power Bank,Electronics,346.39,44
+4527,Smartwatch,Electronics,350.55,23
+4528,Bluetooth Headphones,Electronics,156.58,24
+4529,Jacket,Clothing,272.41,41
+4530,Sofa,Furniture,107.61,14
+4531,Office Chair,Furniture,476.78,20
+4532,Desk Organizer,Office Supplies,187.27,10
+4533,TV Stand,Furniture,254.49,20
+4534,Dress,Clothing,420.83,34
+4535,Bed,Furniture,387.41,13
+4536,File Folder,Office Supplies,30.1,33
+4537,Hoodie,Clothing,223.86,39
+4538,Belt,Clothing,41.73,31
+4539,Hoodie,Clothing,169.12,20
+4540,Sneakers,Clothing,476.78,37
+4541,Desk Organizer,Office Supplies,324.82,34
+4542,Hat,Clothing,298.32,50
+4543,Smartwatch,Electronics,438.94,27
+4544,Dining Table,Furniture,385.97,23
+4545,Stapler,Office Supplies,40.43,36
+4546,Office Chair,Furniture,208.11,23
+4547,File Folder,Office Supplies,412.48,11
+4548,Dining Table,Furniture,91.9,29
+4549,Gaming Console,Electronics,270.23,33
+4550,Dining Table,Furniture,142.85,23
+4551,Tennis Racket,Sports,188.13,24
+4552,Bookshelf,Furniture,96.13,16
+4553,Office Chair,Furniture,449.73,21
+4554,Coffee Table,Furniture,211.27,17
+4555,Bicycle,Sports,191.75,18
+4556,Jeans,Clothing,466.69,48
+4557,Football,Sports,177.28,12
+4558,Sneakers,Clothing,301.85,41
+4559,Power Bank,Electronics,420.54,19
+4560,Smartphone,Electronics,471.18,39
+4561,Wardrobe,Furniture,429.12,22
+4562,Dress,Clothing,426.17,18
+4563,Ink Cartridge,Office Supplies,111.13,24
+4564,Yoga Mat,Sports,429.18,40
+4565,Running Shoes,Sports,365.8,21
+4566,Dumbbell,Sports,159.56,36
+4567,Desk Organizer,Office Supplies,390.07,10
+4568,File Folder,Office Supplies,350.47,34
+4569,Bluetooth Headphones,Electronics,145.51,21
+4570,Gaming Console,Electronics,195.73,28
+4571,Bookshelf,Furniture,378.57,19
+4572,Television,Electronics,164.44,28
+4573,Yoga Mat,Sports,210.03,29
+4574,Smartphone,Electronics,242.38,30
+4575,Yoga Mat,Sports,11.07,49
+4576,Digital Camera,Electronics,291.89,37
+4577,TV Stand,Furniture,21.84,18
+4578,Power Bank,Electronics,98.88,35
+4579,Television,Electronics,142.86,11
+4580,Bed,Furniture,264.98,41
+4581,Tennis Racket,Sports,156.09,31
+4582,Bed,Furniture,177.58,39
+4583,Coffee Table,Furniture,98.63,18
+4584,T-Shirt,Clothing,494.6,22
+4585,Coffee Table,Furniture,103.24,35
+4586,Sofa,Furniture,361.56,33
+4587,Television,Electronics,181.57,41
+4588,Yoga Mat,Sports,460.83,11
+4589,Coffee Table,Furniture,14,23
+4590,Gaming Console,Electronics,240.04,11
+4591,Dumbbell,Sports,109.92,10
+4592,Bluetooth Headphones,Electronics,263.91,20
+4593,Smartwatch,Electronics,22.19,48
+4594,Digital Camera,Electronics,172,24
+4595,TV Stand,Furniture,18.05,12
+4596,Television,Electronics,429.01,29
+4597,Gym Bag,Sports,340.43,27
+4598,Gym Bag,Sports,193.9,25
+4599,Bicycle,Sports,224,25
+4600,Notebook,Office Supplies,429.68,18
+4601,Hat,Clothing,202.29,49
+4602,Bed,Furniture,291.93,17
+4603,Whiteboard,Office Supplies,174.13,11
+4604,Ink Cartridge,Office Supplies,53.92,38
+4605,Television,Electronics,128.83,19
+4606,Television,Electronics,206.83,50
+4607,Wardrobe,Furniture,13.43,12
+4608,Jacket,Clothing,208.57,16
+4609,Smartphone,Electronics,228.93,43
+4610,Office Chair,Furniture,371.19,17
+4611,Whiteboard,Office Supplies,177.09,18
+4612,Basketball Hoop,Sports,365.3,47
+4613,Gaming Console,Electronics,469.75,10
+4614,Laptop,Electronics,54.98,35
+4615,Sofa,Furniture,79.93,28
+4616,Dumbbell,Sports,382.93,11
+4617,File Folder,Office Supplies,480.49,41
+4618,Digital Camera,Electronics,63.66,15
+4619,Jeans,Clothing,142.07,35
+4620,Gaming Console,Electronics,8.98,50
+4621,Whiteboard,Office Supplies,384.45,34
+4622,Power Bank,Electronics,463.51,31
+4623,Sofa,Furniture,54.47,40
+4624,Bluetooth Headphones,Electronics,196.32,13
+4625,Laptop,Electronics,152.63,29
+4626,File Folder,Office Supplies,221.14,28
+4627,Bed,Furniture,71.54,35
+4628,Jeans,Clothing,342.86,21
+4629,Belt,Clothing,128.47,43
+4630,Pen,Office Supplies,130.24,31
+4631,Printer Paper,Office Supplies,47.62,13
+4632,Pen,Office Supplies,412.84,43
+4633,Dress,Clothing,283.03,37
+4634,Gym Bag,Sports,446.3,20
+4635,Wardrobe,Furniture,286.63,47
+4636,Digital Camera,Electronics,255.25,25
+4637,Football,Sports,79.24,43
+4638,Coffee Table,Furniture,368.56,43
+4639,Coffee Table,Furniture,444.34,37
+4640,Power Bank,Electronics,46.87,30
+4641,Office Chair,Furniture,436.33,27
+4642,Basketball Hoop,Sports,209.94,28
+4643,Television,Electronics,234.21,35
+4644,Television,Electronics,150.05,10
+4645,Jacket,Clothing,206.75,21
+4646,Bluetooth Headphones,Electronics,239.48,15
+4647,Power Bank,Electronics,87.79,37
+4648,File Folder,Office Supplies,241.14,19
+4649,Gaming Console,Electronics,394.94,28
+4650,Hoodie,Clothing,255.11,45
+4651,Wardrobe,Furniture,84.18,24
+4652,Jeans,Clothing,204.64,36
+4653,Coffee Table,Furniture,293.13,44
+4654,Coffee Table,Furniture,446.35,35
+4655,Bicycle,Sports,36.7,28
+4656,Notebook,Office Supplies,236.63,33
+4657,Pen,Office Supplies,398.5,35
+4658,Smartwatch,Electronics,173.22,22
+4659,Stapler,Office Supplies,58.38,40
+4660,Power Bank,Electronics,417.94,25
+4661,Hat,Clothing,215.98,25
+4662,Notebook,Office Supplies,355.64,41
+4663,Sofa,Furniture,185.82,48
+4664,Dress,Clothing,369.93,34
+4665,Gym Bag,Sports,116.38,44
+4666,Television,Electronics,291.13,50
+4667,Digital Camera,Electronics,135.32,43
+4668,Sofa,Furniture,168.25,30
+4669,Dining Table,Furniture,292.5,41
+4670,Bed,Furniture,462.43,12
+4671,Ink Cartridge,Office Supplies,484.6,46
+4672,Bookshelf,Furniture,145.66,35
+4673,Jacket,Clothing,116.94,34
+4674,Notebook,Office Supplies,57.42,48
+4675,Laptop,Electronics,72.73,31
+4676,Dining Table,Furniture,257.12,43
+4677,Television,Electronics,350.04,48
+4678,Basketball Hoop,Sports,280.86,12
+4679,Basketball Hoop,Sports,408.58,30
+4680,Desk Organizer,Office Supplies,11.78,22
+4681,Hat,Clothing,164.74,47
+4682,Belt,Clothing,334.36,36
+4683,Notebook,Office Supplies,435.5,13
+4684,Belt,Clothing,184.92,50
+4685,Gaming Console,Electronics,341.29,16
+4686,Digital Camera,Electronics,210.61,23
+4687,Pen,Office Supplies,157.13,40
+4688,Printer Paper,Office Supplies,421.87,27
+4689,Jacket,Clothing,470.29,35
+4690,Notebook,Office Supplies,452.63,33
+4691,Running Shoes,Sports,429.83,33
+4692,File Folder,Office Supplies,65.96,11
+4693,Bookshelf,Furniture,415.43,43
+4694,Gym Bag,Sports,209.39,21
+4695,Television,Electronics,373.13,23
+4696,Stapler,Office Supplies,139.85,43
+4697,Wardrobe,Furniture,74.02,44
+4698,Dining Table,Furniture,231.15,48
+4699,Television,Electronics,474.45,25
+4700,Pen,Office Supplies,201.28,41
+4701,TV Stand,Furniture,55.53,35
+4702,Ink Cartridge,Office Supplies,338.6,31
+4703,Printer Paper,Office Supplies,226.3,10
+4704,Wardrobe,Furniture,84.68,10
+4705,Running Shoes,Sports,35.67,40
+4706,Dress,Clothing,7.94,25
+4707,Wardrobe,Furniture,219.74,32
+4708,Ink Cartridge,Office Supplies,396.68,30
+4709,Running Shoes,Sports,146.46,14
+4710,Hoodie,Clothing,320.63,38
+4711,Dining Table,Furniture,11.25,43
+4712,Bluetooth Headphones,Electronics,207.71,38
+4713,Sneakers,Clothing,466.34,35
+4714,Smartphone,Electronics,253.19,27
+4715,Notebook,Office Supplies,168.68,18
+4716,Whiteboard,Office Supplies,165.92,17
+4717,Television,Electronics,242.98,30
+4718,Laptop,Electronics,424.07,37
+4719,Gym Bag,Sports,461.36,18
+4720,Running Shoes,Sports,276.01,46
+4721,Tennis Racket,Sports,172.02,39
+4722,Whiteboard,Office Supplies,194.86,49
+4723,Desk Organizer,Office Supplies,452.52,38
+4724,Running Shoes,Sports,437.77,43
+4725,Gaming Console,Electronics,144.48,47
+4726,Gym Bag,Sports,407.58,31
+4727,Jacket,Clothing,71.35,21
+4728,Smartphone,Electronics,48,22
+4729,File Folder,Office Supplies,144.57,11
+4730,Stapler,Office Supplies,213.71,26
+4731,Jeans,Clothing,362.92,24
+4732,Printer Paper,Office Supplies,131.32,20
+4733,Tennis Racket,Sports,190.51,16
+4734,Gaming Console,Electronics,452.4,22
+4735,Whiteboard,Office Supplies,389.31,22
+4736,Coffee Table,Furniture,319.87,19
+4737,Smartwatch,Electronics,241.69,39
+4738,Wardrobe,Furniture,494.24,24
+4739,Coffee Table,Furniture,54.71,23
+4740,Belt,Clothing,401.97,16
+4741,Belt,Clothing,449.5,16
+4742,Bicycle,Sports,461.35,49
+4743,Notebook,Office Supplies,324.78,27
+4744,Sofa,Furniture,457.13,45
+4745,Notebook,Office Supplies,153.52,10
+4746,Bookshelf,Furniture,447.58,26
+4747,Bicycle,Sports,33.12,36
+4748,Basketball Hoop,Sports,431.7,29
+4749,Television,Electronics,135.22,14
+4750,Gaming Console,Electronics,483.19,50
+4751,Football,Sports,49.89,39
+4752,Laptop,Electronics,71.64,43
+4753,T-Shirt,Clothing,463.68,11
+4754,Belt,Clothing,376.98,47
+4755,Digital Camera,Electronics,6.71,20
+4756,Tennis Racket,Sports,242.21,49
+4757,Yoga Mat,Sports,53.24,50
+4758,Sofa,Furniture,461.79,29
+4759,T-Shirt,Clothing,395.38,32
+4760,Television,Electronics,133.77,41
+4761,Desk Organizer,Office Supplies,333.3,50
+4762,Running Shoes,Sports,460.83,26
+4763,Yoga Mat,Sports,268.43,35
+4764,Sofa,Furniture,419.12,11
+4765,Pen,Office Supplies,31.69,38
+4766,Bed,Furniture,5.42,30
+4767,Bluetooth Headphones,Electronics,23.46,38
+4768,Bluetooth Headphones,Electronics,35.77,13
+4769,Power Bank,Electronics,246.3,49
+4770,Wardrobe,Furniture,165.68,37
+4771,Digital Camera,Electronics,182.34,47
+4772,Stapler,Office Supplies,192.07,27
+4773,Yoga Mat,Sports,398.17,11
+4774,Pen,Office Supplies,218.38,43
+4775,Gaming Console,Electronics,348.43,46
+4776,Power Bank,Electronics,262.6,43
+4777,Office Chair,Furniture,45.9,20
+4778,Gaming Console,Electronics,265.66,18
+4779,Jacket,Clothing,287.48,17
+4780,Football,Sports,64.06,15
+4781,Dining Table,Furniture,98.37,38
+4782,Hoodie,Clothing,430.46,37
+4783,Basketball Hoop,Sports,325.15,31
+4784,Hoodie,Clothing,236.29,32
+4785,T-Shirt,Clothing,305.63,36
+4786,Laptop,Electronics,416.98,14
+4787,Dress,Clothing,243.84,31
+4788,Pen,Office Supplies,383.2,39
+4789,Smartwatch,Electronics,104.1,14
+4790,Dress,Clothing,237.21,39
+4791,Coffee Table,Furniture,215.59,30
+4792,Hat,Clothing,9.37,46
+4793,T-Shirt,Clothing,5.23,23
+4794,Gaming Console,Electronics,445.07,21
+4795,Bed,Furniture,419.19,31
+4796,Smartphone,Electronics,289.56,42
+4797,T-Shirt,Clothing,483.32,27
+4798,T-Shirt,Clothing,27.07,49
+4799,Television,Electronics,108.84,23
+4800,Digital Camera,Electronics,171.76,49
+4801,Hat,Clothing,132.65,48
+4802,File Folder,Office Supplies,432.2,46
+4803,Smartwatch,Electronics,81.26,18
+4804,Running Shoes,Sports,97.58,19
+4805,Power Bank,Electronics,26.49,14
+4806,Sofa,Furniture,262.78,50
+4807,Gaming Console,Electronics,469.7,12
+4808,Smartphone,Electronics,414.5,50
+4809,Basketball Hoop,Sports,459.3,40
+4810,Laptop,Electronics,450.91,19
+4811,Pen,Office Supplies,276.29,21
+4812,Printer Paper,Office Supplies,424.58,47
+4813,Sofa,Furniture,172.67,27
+4814,Yoga Mat,Sports,185.22,35
+4815,Printer Paper,Office Supplies,435,47
+4816,Desk Organizer,Office Supplies,295.63,47
+4817,Wardrobe,Furniture,464.4,34
+4818,TV Stand,Furniture,297.67,44
+4819,Dumbbell,Sports,116.82,48
+4820,Basketball Hoop,Sports,227.64,41
+4821,Hoodie,Clothing,66.7,45
+4822,Stapler,Office Supplies,496.61,17
+4823,Notebook,Office Supplies,294.95,11
+4824,Hoodie,Clothing,129.95,21
+4825,Gaming Console,Electronics,171.8,40
+4826,T-Shirt,Clothing,85.24,39
+4827,Hat,Clothing,146.3,43
+4828,Gym Bag,Sports,333.85,28
+4829,Tennis Racket,Sports,443.63,35
+4830,Power Bank,Electronics,207.25,38
+4831,Ink Cartridge,Office Supplies,378.45,50
+4832,Sneakers,Clothing,372.61,42
+4833,Pen,Office Supplies,187.58,38
+4834,Bed,Furniture,164.51,18
+4835,Laptop,Electronics,492.96,14
+4836,Bed,Furniture,45.51,31
+4837,Pen,Office Supplies,416.04,46
+4838,Tennis Racket,Sports,452.62,16
+4839,Hoodie,Clothing,244.93,35
+4840,Office Chair,Furniture,499.72,34
+4841,Bed,Furniture,371.95,20
+4842,Dumbbell,Sports,62.62,44
+4843,Dress,Clothing,260.71,50
+4844,Tennis Racket,Sports,323.29,25
+4845,Dumbbell,Sports,497.12,42
+4846,Desk Organizer,Office Supplies,482.37,12
+4847,Tennis Racket,Sports,126.21,35
+4848,Football,Sports,145.73,41
+4849,Belt,Clothing,395.14,29
+4850,Jacket,Clothing,400.76,24
+4851,Desk Organizer,Office Supplies,264.59,12
+4852,Gaming Console,Electronics,276.92,42
+4853,Belt,Clothing,191.05,30
+4854,Bluetooth Headphones,Electronics,104.72,18
+4855,Gym Bag,Sports,491.39,19
+4856,Pen,Office Supplies,256.45,22
+4857,Tennis Racket,Sports,233.32,15
+4858,Television,Electronics,258.99,50
+4859,Gaming Console,Electronics,6.97,50
+4860,Office Chair,Furniture,468.02,26
+4861,Ink Cartridge,Office Supplies,169,37
+4862,Jeans,Clothing,415.99,11
+4863,Laptop,Electronics,208.29,15
+4864,Belt,Clothing,55.17,20
+4865,Bluetooth Headphones,Electronics,338.55,28
+4866,Bed,Furniture,350.25,34
+4867,Laptop,Electronics,253.03,12
+4868,Laptop,Electronics,235.73,11
+4869,Basketball Hoop,Sports,154.85,42
+4870,Yoga Mat,Sports,439.96,12
+4871,Desk Organizer,Office Supplies,462.91,24
+4872,Digital Camera,Electronics,395.93,49
+4873,T-Shirt,Clothing,467.75,19
+4874,Gaming Console,Electronics,493.97,23
+4875,Pen,Office Supplies,257.73,29
+4876,Hoodie,Clothing,98.44,10
+4877,Office Chair,Furniture,447.99,29
+4878,Bed,Furniture,154.58,15
+4879,Gaming Console,Electronics,297.97,19
+4880,Tennis Racket,Sports,40.07,35
+4881,Running Shoes,Sports,56.38,46
+4882,Laptop,Electronics,435.74,25
+4883,Bookshelf,Furniture,430.3,25
+4884,Football,Sports,482.93,14
+4885,Dining Table,Furniture,164.93,39
+4886,Pen,Office Supplies,331.06,36
+4887,Office Chair,Furniture,437.7,31
+4888,TV Stand,Furniture,423.62,31
+4889,Television,Electronics,16.85,45
+4890,File Folder,Office Supplies,246.12,42
+4891,Whiteboard,Office Supplies,70.36,13
+4892,File Folder,Office Supplies,101.76,37
+4893,Smartphone,Electronics,465.15,27
+4894,Bluetooth Headphones,Electronics,236.06,16
+4895,Hoodie,Clothing,142.47,49
+4896,Sofa,Furniture,76.35,11
+4897,Basketball Hoop,Sports,75.35,24
+4898,Ink Cartridge,Office Supplies,486.61,42
+4899,Desk Organizer,Office Supplies,104.6,17
+4900,File Folder,Office Supplies,493.21,11
+4901,Tennis Racket,Sports,173.64,36
+4902,Pen,Office Supplies,53.28,18
+4903,Tennis Racket,Sports,476.18,25
+4904,Running Shoes,Sports,116.81,49
+4905,Pen,Office Supplies,333.43,13
+4906,Digital Camera,Electronics,298.52,13
+4907,Coffee Table,Furniture,221.73,10
+4908,Jacket,Clothing,155.44,33
+4909,Tennis Racket,Sports,360.53,40
+4910,Jeans,Clothing,100.59,13
+4911,Bicycle,Sports,230.69,32
+4912,Bed,Furniture,367.44,25
+4913,Belt,Clothing,410.79,17
+4914,Basketball Hoop,Sports,363.75,21
+4915,Ink Cartridge,Office Supplies,230.62,16
+4916,Bookshelf,Furniture,436.68,13
+4917,Hat,Clothing,253.8,30
+4918,Ink Cartridge,Office Supplies,223.13,21
+4919,Stapler,Office Supplies,76.08,12
+4920,Hoodie,Clothing,422.53,41
+4921,Wardrobe,Furniture,286.72,36
+4922,Ink Cartridge,Office Supplies,464.93,35
+4923,Yoga Mat,Sports,95.44,44
+4924,Gaming Console,Electronics,256.38,41
+4925,Wardrobe,Furniture,361.93,48
+4926,Sofa,Furniture,52.87,11
+4927,Hat,Clothing,157.44,29
+4928,Wardrobe,Furniture,434.9,10
+4929,Yoga Mat,Sports,272.02,13
+4930,Jeans,Clothing,407.03,11
+4931,Bookshelf,Furniture,334.72,19
+4932,Running Shoes,Sports,330.06,11
+4933,Bed,Furniture,229.93,27
+4934,Whiteboard,Office Supplies,344.21,30
+4935,Ink Cartridge,Office Supplies,359.21,19
+4936,Bicycle,Sports,279.61,36
+4937,Bicycle,Sports,28.35,17
+4938,Sofa,Furniture,102.04,17
+4939,Sneakers,Clothing,256.21,34
+4940,File Folder,Office Supplies,466.66,30
+4941,Hoodie,Clothing,23.49,20
+4942,Football,Sports,134.23,29
+4943,Office Chair,Furniture,430.36,40
+4944,Jacket,Clothing,407.65,20
+4945,T-Shirt,Clothing,107.46,23
+4946,Power Bank,Electronics,446.88,23
+4947,Desk Organizer,Office Supplies,413.54,28
+4948,Basketball Hoop,Sports,379.55,39
+4949,Bicycle,Sports,473.94,42
+4950,Sofa,Furniture,75.14,29
+4951,Bicycle,Sports,488.74,11
+4952,Bluetooth Headphones,Electronics,47.4,16
+4953,Printer Paper,Office Supplies,265.81,40
+4954,Tennis Racket,Sports,292.69,42
+4955,Basketball Hoop,Sports,236.02,12
+4956,Dress,Clothing,452.74,42
+4957,Hat,Clothing,436.9,45
+4958,Desk Organizer,Office Supplies,23.38,22
+4959,Smartwatch,Electronics,94.4,37
+4960,Power Bank,Electronics,31.56,21
+4961,Yoga Mat,Sports,79.51,45
+4962,Printer Paper,Office Supplies,482.21,49
+4963,Smartwatch,Electronics,321.39,26
+4964,Basketball Hoop,Sports,32.98,14
+4965,Television,Electronics,449.77,30
+4966,Printer Paper,Office Supplies,237.28,44
+4967,Belt,Clothing,489.39,19
+4968,Jacket,Clothing,281.2,13
+4969,Notebook,Office Supplies,206.83,32
+4970,Sneakers,Clothing,408.18,23
+4971,Tennis Racket,Sports,138.42,31
+4972,Bed,Furniture,259.54,25
+4973,Desk Organizer,Office Supplies,281.05,38
+4974,Ink Cartridge,Office Supplies,434.89,28
+4975,Tennis Racket,Sports,212.19,46
+4976,Bluetooth Headphones,Electronics,154.84,24
+4977,Running Shoes,Sports,498.34,20
+4978,Printer Paper,Office Supplies,419.98,18
+4979,TV Stand,Furniture,459.15,40
+4980,Digital Camera,Electronics,204.09,29
+4981,Notebook,Office Supplies,18.16,37
+4982,Television,Electronics,74.95,19
+4983,Dumbbell,Sports,21.88,20
+4984,Whiteboard,Office Supplies,113.9,25
+4985,Basketball Hoop,Sports,407.62,20
+4986,Whiteboard,Office Supplies,125.16,31
+4987,Football,Sports,95.06,28
+4988,Laptop,Electronics,102.03,36
+4989,Smartwatch,Electronics,482.05,14
+4990,Desk Organizer,Office Supplies,372.82,40
+4991,File Folder,Office Supplies,432.67,24
+4992,Dress,Clothing,388.91,13
+4993,Laptop,Electronics,175.41,38
+4994,Power Bank,Electronics,360.22,20
+4995,Running Shoes,Sports,463.54,38
+4996,Power Bank,Electronics,209.36,31
+4997,Dumbbell,Sports,187.46,20
+4998,Bed,Furniture,277.64,26
+4999,T-Shirt,Clothing,320.9,44
+5000,Wardrobe,Furniture,324.14,15
