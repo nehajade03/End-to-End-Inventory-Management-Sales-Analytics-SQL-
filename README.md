@@ -91,7 +91,7 @@ CREATE TABLE products (
     FOREIGN KEY (supplier_id)
     REFERENCES suppliers(supplier_id)
 );
-```
+
 
 ---
 
@@ -139,7 +139,7 @@ GROUP BY category;
 <img width="281" height="170" alt="image" src="https://github.com/user-attachments/assets/8d856bd5-7d83-49d8-9026-e82c3568b8ea" />
 
 ---
-
+```sql
 -- Total Suppliers by Country
 Select (country) , count(*) As Total_Suppliers from suppliers
 Group by country;
@@ -150,7 +150,7 @@ Group by country;
 
 ## Revenue Generated Per Product
 
-
+```sql
 select 
 p.product_name, 
 count(o.order_id) As Total_Orders
@@ -196,6 +196,7 @@ ON i.product_id = p.product_id;
 <img width="578" height="602" alt="image" src="https://github.com/user-attachments/assets/8b9d28d6-0c98-4c24-9ba3-354c628924d1" />
 
 ---
+```sql
 -- 3. Monthly sales trend
 select Month(order_date) As order_month, sum(quantity_ordered) AS total_quantity
 from orders 
@@ -222,7 +223,9 @@ LIMIT 5;
 <img width="225" height="137" alt="image" src="https://github.com/user-attachments/assets/e71cfe79-409f-4981-b2eb-29bc79041777" />
 
 ---
+```sql
 -- 7. Product performance summary
+```sql
 SELECT
     p.product_name,
     COUNT(DISTINCT o.order_id) AS total_orders,           
@@ -248,7 +251,10 @@ ORDER BY p.product_name;
 
 
 
--- ✅ Step 7: Additional Insights
+--
+ Step 7: Additional Insights
+
+```sql
 -- 8. Out of Stock Products
 select p.product_name
 from products p
@@ -260,6 +266,7 @@ where i.quantity_in_stock = 0 or i.quantity_in_stock is Null ;
 
 
 -- 9. Daily Order Summary
+```sql
 Select order_date , Count(*) as total_orders, sum(quantity_ordered) As Total_items
 from orders
 Group by order_date
@@ -269,6 +276,7 @@ order by order_date desc;
 <img width="362" height="592" alt="image" src="https://github.com/user-attachments/assets/493ff637-e3a4-4829-a68b-06221b3ecefc" />
 
 -- 10. Most Ordered Products (Top 5)
+```sql
 select p.product_name, sum(o.quantity_ordered) As total_quantity
 from orders o
 Join products p on o.product_id = p.product_id
@@ -279,7 +287,7 @@ limit 5 ;
 
 
 -- 11. Average Monthly Orders
-
+```sql
 Select Month(order_date) As Month, Round(Avg(quantity_ordered),0) As avg_order_quantity
 from orders
 Group by month(order_date)
@@ -290,6 +298,7 @@ order by month;
 
 
 -- 12. Highest Revenue Products (Top 5)
+```sql
 Select p.product_name, Round(Sum(o.quantity_ordered*p.price),2) As Total_Revenue
 From products p
 Join orders o On o.product_id = p.product_id
@@ -300,12 +309,14 @@ Limit 5 ;
 <img width="306" height="148" alt="image" src="https://github.com/user-attachments/assets/c91ea1b9-8a40-4918-af44-d8fb641b41f1" />
 
 -- 13. Long Time Since Last Stock Update
+```sql
 Select p.product_name, Datediff(Curdate(), i.last_stocked) AS Days_Since_Stocked
 from inventory i
 right Join products p ON i.product_id = p.product_id
 Order By Days_Since_Stocked Desc;
 
 -- 14. Products with No Orders
+```sql
 Select p.product_name
 from products p
 left Join orders o on p.product_id = o.product_id
@@ -314,6 +325,7 @@ where o.order_id is Null;
 <img width="195" height="141" alt="image" src="https://github.com/user-attachments/assets/ce256386-7cbe-421e-9ddb-067013a59354" />
 
 -- 15. Customers with Frequent Orders (more than 5)
+```sql
 Select customer_id, Count(*) As Total_Orders
 From orders
 Group By customer_id
@@ -321,6 +333,7 @@ Having Total_Orders > 5
 Order By Total_Orders Desc;
 
 -- 16. Category-wise Revenue
+```sql
 SELECT category, Round(SUM(o.quantity_ordered * p.price),2) AS category_revenue
 FROM orders o
 left JOIN products p ON o.product_id = p.product_id
@@ -391,7 +404,8 @@ ORDER BY total_products DESC;
 
 # Conclusion
 
-This project demonstrates real-world supply chain and inventory analysis using SQL and relational database concepts. It highlights business in
+This project demonstrates real-world supply chain and inventory analysis using SQL and relational database concepts. It highlights business intelligence reporting, data cleaning, KPI analysis, and operational insights generation.
+
 
 
 
