@@ -103,7 +103,7 @@ CREATE TABLE products (
 UPDATE products
 SET price = 0
 WHERE price IS NULL;
-```
+
 
 ## Remove Duplicate Products
 
@@ -121,7 +121,7 @@ WHERE product_id NOT IN (
     ) AS sub
     WHERE rn = 1
 );
-```
+
 
 ---
 
@@ -135,7 +135,7 @@ SELECT
     COUNT(*) AS total_products
 FROM products
 GROUP BY category;
-```
+
 <img width="281" height="170" alt="image" src="https://github.com/user-attachments/assets/8d856bd5-7d83-49d8-9026-e82c3568b8ea" />
 
 ---
@@ -171,7 +171,7 @@ ON o.product_id = p.product_id
 WHERE o.status = 'Delivered'
 GROUP BY p.product_name
 ORDER BY total_revenue DESC;
-```
+
 
 ---
 
@@ -192,7 +192,7 @@ SELECT
 FROM inventory i
 RIGHT JOIN products p
 ON i.product_id = p.product_id;
-```
+
 <img width="578" height="602" alt="image" src="https://github.com/user-attachments/assets/8b9d28d6-0c98-4c24-9ba3-354c628924d1" />
 
 ---
@@ -219,11 +219,11 @@ ON o.product_id = p.product_id
 GROUP BY customer_id
 ORDER BY total_spent DESC
 LIMIT 5;
-```
+
 <img width="225" height="137" alt="image" src="https://github.com/user-attachments/assets/e71cfe79-409f-4981-b2eb-29bc79041777" />
 
 ---
-```sql
+
 -- 7. Product performance summary
 ```sql
 SELECT
@@ -356,7 +356,7 @@ LEFT JOIN products p
 ON s.supplier_id = p.supplier_id
 GROUP BY s.supplier_name
 ORDER BY total_products DESC;
-```
+
 
 ---
 
